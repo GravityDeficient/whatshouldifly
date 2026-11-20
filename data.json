@@ -1,0 +1,398 @@
+{
+  "generated_utc": "2026-11-20T18:10:57Z",
+  "event": "IAE 2956",
+  "venue": "Tobin Expo Center, New Babbage, microTech",
+  "active_day": 8,
+  "active_makers": [
+    "Aegis Dynamics"
+  ],
+  "active_window_end_utc": "2026-11-21T16:00:00Z",
+  "finale": false,
+  "total_rentable": 21,
+  "hours_left": 169,
+  "ships": [
+    {
+      "name": "Avenger Titan",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 8,
+      "roles": [
+        "cargo",
+        "starter"
+      ],
+      "buy_auec": 1290370,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 62,
+      "rent_auec": 27165,
+      "verdict": "The default answer for a first ship. 8 SCU, one seat, guns enough to take a starter bounty. Fly it free, then buy it in-game \u2014 it's the cheapest real ship you can own."
+    },
+    {
+      "name": "Reclaimer",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 420,
+      "roles": [
+        "salvage"
+      ],
+      "buy_auec": 30164400,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 413,
+      "rent_auec": null,
+      "verdict": "The big salvage ship: 420 SCU, claw, drones. This is the highest-earning solo industrial loop in the game, and it's slow. Rent it free and run one wreck before you commit."
+    },
+    {
+      "name": "Retaliator",
+      "company": "Aegis Dynamics",
+      "crew": "4,7",
+      "scu": 74,
+      "roles": [
+        "cargo",
+        "military"
+      ],
+      "buy_auec": 7541100,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 187,
+      "rent_auec": null,
+      "verdict": "Torpedo bomber with a modular belly. Big alpha strike, needs a crew to be worth the price."
+    },
+    {
+      "name": "Avenger Stalker",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military",
+        "interdiction"
+      ],
+      "buy_auec": 1508220,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 62,
+      "rent_auec": null,
+      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+    },
+    {
+      "name": "Avenger Titan Renegade",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 8,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 1759590,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 80,
+      "rent_auec": null,
+      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+    },
+    {
+      "name": "Avenger Warlock",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military",
+        "interdiction"
+      ],
+      "buy_auec": 2136640,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 89,
+      "rent_auec": null,
+      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+    },
+    {
+      "name": "Eclipse",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military",
+        "stealth"
+      ],
+      "buy_auec": 7541100,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 321,
+      "rent_auec": null,
+      "verdict": "Torpedo bomber \u2014 one big pass, then leave."
+    },
+    {
+      "name": "Gladius",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 2262330,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 93,
+      "rent_auec": null,
+      "verdict": "The PvP benchmark. Light fighter, agile, no cargo. If combat is your loop, this is the ship you measure every other fighter against."
+    },
+    {
+      "name": "Gladius Valiant",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 2765070,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 114,
+      "rent_auec": null,
+      "verdict": "Same hull as the Gladius with a different loadout and paint. Fly whichever is free; don't pay a premium for the variant."
+    },
+    {
+      "name": "Hammerhead",
+      "company": "Aegis Dynamics",
+      "crew": "2",
+      "scu": 40,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 34466600,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 755,
+      "rent_auec": null,
+      "verdict": "Six turrets, no pilot guns. It exists to be crewed. Renting it solo tells you nothing \u2014 bring friends or skip it."
+    },
+    {
+      "name": "Redeemer",
+      "company": "Aegis Dynamics",
+      "crew": "4",
+      "scu": 2,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 9803430,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 345,
+      "rent_auec": null,
+      "verdict": "Gunship that wants four people. Enormous firepower, terrible solo. Only rent it if you have a crew."
+    },
+    {
+      "name": "Sabre",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 4273290,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 187,
+      "rent_auec": null,
+      "verdict": "Stealth fighter. Lower signature, harder to spot on radar \u2014 good for ambush, worse in a straight brawl than the Gladius."
+    },
+    {
+      "name": "Sabre Comet",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 4650340,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 198,
+      "rent_auec": null,
+      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+    },
+    {
+      "name": "Sabre Firebird",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military",
+        "bomber"
+      ],
+      "buy_auec": 5580410,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 198,
+      "rent_auec": null,
+      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+    },
+    {
+      "name": "Sabre Peregrine",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "racing"
+      ],
+      "buy_auec": 3845960,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 170,
+      "rent_auec": null,
+      "verdict": "Ownable in-game for 3.85M aUEC. Fly it free first, then decide."
+    },
+    {
+      "name": "Sabre Raven EX",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": null,
+      "buy_where": null,
+      "pledge_usd": 165,
+      "rent_auec": null,
+      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+    },
+    {
+      "name": "Tiburon",
+      "company": "Aegis Dynamics",
+      "crew": "1,7",
+      "scu": 64,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 37001700,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 700,
+      "rent_auec": null,
+      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+    },
+    {
+      "name": "Vanguard Harbinger",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 8200400,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 311,
+      "rent_auec": null,
+      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+    },
+    {
+      "name": "Vanguard Hoplite",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 6645250,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 248,
+      "rent_auec": null,
+      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+    },
+    {
+      "name": "Vanguard Sentinel",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military",
+        "interdiction"
+      ],
+      "buy_auec": 7776700,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 295,
+      "rent_auec": null,
+      "verdict": "Vanguard with an EMP and better sensors. Same hull, more utility, less raw damage."
+    },
+    {
+      "name": "Vanguard Warden",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 7354900,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 278,
+      "rent_auec": null,
+      "verdict": "Long-range heavy fighter with interior space. Expensive, tanky, and forgiving \u2014 a good 'I fly alone a lot' combat pick."
+    }
+  ],
+  "still_rentable": [
+    {
+      "name": "ATLS",
+      "buy_auec": 71820
+    },
+    {
+      "name": "ATLS GEO",
+      "buy_auec": 86184
+    },
+    {
+      "name": "CSV-SM",
+      "buy_auec": 359100
+    },
+    {
+      "name": "MOLE",
+      "buy_auec": 8483740
+    },
+    {
+      "name": "MOTH",
+      "buy_auec": 8483740
+    },
+    {
+      "name": "MPUV Cargo",
+      "buy_auec": 314213
+    },
+    {
+      "name": "MPUV Personnel",
+      "buy_auec": 359100
+    },
+    {
+      "name": "MPUV Tractor",
+      "buy_auec": 395010
+    },
+    {
+      "name": "RAFT",
+      "buy_auec": 3366560
+    },
+    {
+      "name": "SRV",
+      "buy_auec": 3770550
+    },
+    {
+      "name": "HoverQuad",
+      "buy_auec": 53865
+    },
+    {
+      "name": "Mustang Alpha",
+      "buy_auec": 610470
+    }
+  ],
+  "next_day": {
+    "day": 9,
+    "makers": [
+      "Aopoa",
+      "Banu Souli",
+      "Esperia",
+      "Gatac Manufacture",
+      "Grey's Market"
+    ]
+  },
+  "stock_limited": [
+    {
+      "date_utc": "2026-11-20",
+      "ships": [
+        "Idris-P",
+        "Javelin"
+      ],
+      "waves_utc": [
+        "16:00",
+        "20:00",
+        "00:00",
+        "04:00",
+        "08:00",
+        "12:00"
+      ]
+    }
+  ],
+  "referral": {
+    "code": "STAR-HRKX-L6ND",
+    "url": "https://robertsspaceindustries.com/enlist?referral=STAR-HRKX-L6ND",
+    "uec": 50000
+  }
+}
