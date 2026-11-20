@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-20T22:40:37Z",
+  "generated_utc": "2026-11-20T23:39:24Z",
   "event": "IAE 2956",
   "venue": "Tobin Expo Center, New Babbage, microTech",
   "active_day": 8,
@@ -10,7 +10,7 @@
   "finale": false,
   "off_season": false,
   "total_rentable": 21,
-  "hours_left": 165,
+  "hours_left": 164,
   "ships": [
     {
       "name": "Avenger Titan",
