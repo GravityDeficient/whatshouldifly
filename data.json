@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-20T22:09:20Z",
+  "generated_utc": "2026-11-20T22:40:37Z",
   "event": "IAE 2956",
   "venue": "Tobin Expo Center, New Babbage, microTech",
   "active_day": 8,
@@ -69,7 +69,7 @@
       "buy_where": "New Deal Lorville",
       "pledge_usd": 62,
       "rent_auec": null,
-      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+      "verdict": "Avenger with prisoner pods. Bounty-hunting variant; the Titan is the better buy."
     },
     {
       "name": "Avenger Titan Renegade",
@@ -83,7 +83,7 @@
       "buy_where": "New Deal Lorville",
       "pledge_usd": 80,
       "rent_auec": null,
-      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+      "verdict": "Titan with a different loadout and paint. Same hull \u2014 don't pay a premium for the variant."
     },
     {
       "name": "Avenger Warlock",
@@ -98,7 +98,7 @@
       "buy_where": "New Deal Lorville",
       "pledge_usd": 89,
       "rent_auec": null,
-      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+      "verdict": "Avenger with an EMP. Disables ships instead of killing them. Niche."
     },
     {
       "name": "Eclipse",
@@ -113,7 +113,7 @@
       "buy_where": "New Deal Lorville",
       "pledge_usd": 321,
       "rent_auec": null,
-      "verdict": "Torpedo bomber \u2014 one big pass, then leave."
+      "verdict": "Torpedo bomber. One pass, one kill, then you leave. Slow to turn and useless in a dogfight; judge it on a single bounty, not a furball."
     },
     {
       "name": "Gladius",
@@ -169,7 +169,7 @@
       "buy_where": "New Deal Lorville",
       "pledge_usd": 198,
       "rent_auec": null,
-      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+      "verdict": "Sabre with a different loadout. Same hull."
     },
     {
       "name": "Sabre Firebird",
@@ -184,7 +184,7 @@
       "buy_where": "New Deal Lorville",
       "pledge_usd": 198,
       "rent_auec": null,
-      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+      "verdict": "Sabre with missiles. More alpha, less agility."
     },
     {
       "name": "Sabre Raven EX",
@@ -198,7 +198,7 @@
       "buy_where": null,
       "pledge_usd": 165,
       "rent_auec": null,
-      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+      "verdict": "Sabre stealth variant with EMP. Rare; judge it on feel."
     },
     {
       "name": "Tiburon",
@@ -212,7 +212,7 @@
       "buy_where": "New Deal Lorville",
       "pledge_usd": 700,
       "rent_auec": null,
-      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+      "verdict": "Aegis's new heavy fighter. Big guns, wants a crew."
     },
     {
       "name": "Vanguard Harbinger",
@@ -226,7 +226,7 @@
       "buy_where": "New Deal Lorville",
       "pledge_usd": 311,
       "rent_auec": null,
-      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+      "verdict": "Vanguard bomber variant. Torpedoes instead of guns."
     },
     {
       "name": "Vanguard Hoplite",
@@ -240,7 +240,7 @@
       "buy_where": "New Deal Lorville",
       "pledge_usd": 248,
       "rent_auec": null,
-      "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
+      "verdict": "Vanguard dropship. Moves troops; niche."
     },
     {
       "name": "Vanguard Sentinel",
@@ -311,7 +311,7 @@
       "buy_where": "New Deal Lorville",
       "pledge_usd": 170,
       "rent_auec": null,
-      "verdict": "Ownable in-game for 3.85M aUEC. Fly it free first, then decide."
+      "verdict": "Sabre racing variant."
     }
   ],
   "still_rentable": [
