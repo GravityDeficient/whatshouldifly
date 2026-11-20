@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-20T18:37:52Z",
+  "generated_utc": "2026-11-20T19:09:50Z",
   "event": "IAE 2956",
   "venue": "Tobin Expo Center, New Babbage, microTech",
   "active_day": 8,
@@ -8,8 +8,9 @@
   ],
   "active_window_end_utc": "2026-11-21T16:00:00Z",
   "finale": false,
+  "off_season": false,
   "total_rentable": 21,
-  "hours_left": 169,
+  "hours_left": 168,
   "ships": [
     {
       "name": "Avenger Titan",
@@ -143,34 +144,6 @@
       "verdict": "Same hull as the Gladius with a different loadout and paint. Fly whichever is free; don't pay a premium for the variant."
     },
     {
-      "name": "Hammerhead",
-      "company": "Aegis Dynamics",
-      "crew": "2",
-      "scu": 40,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 34466600,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 755,
-      "rent_auec": null,
-      "verdict": "Six turrets, no pilot guns. It exists to be crewed. Renting it solo tells you nothing \u2014 bring friends or skip it."
-    },
-    {
-      "name": "Redeemer",
-      "company": "Aegis Dynamics",
-      "crew": "4",
-      "scu": 2,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 9803430,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 345,
-      "rent_auec": null,
-      "verdict": "Gunship that wants four people. Enormous firepower, terrible solo. Only rent it if you have a crew."
-    },
-    {
       "name": "Sabre",
       "company": "Aegis Dynamics",
       "crew": "1",
@@ -212,20 +185,6 @@
       "pledge_usd": 198,
       "rent_auec": null,
       "verdict": "Combat hull. One bounty run tells you more than any stat sheet."
-    },
-    {
-      "name": "Sabre Peregrine",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "racing"
-      ],
-      "buy_auec": 3845960,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 170,
-      "rent_auec": null,
-      "verdict": "Ownable in-game for 3.85M aUEC. Fly it free first, then decide."
     },
     {
       "name": "Sabre Raven EX",
@@ -311,6 +270,48 @@
       "pledge_usd": 278,
       "rent_auec": null,
       "verdict": "Long-range heavy fighter with interior space. Expensive, tanky, and forgiving \u2014 a good 'I fly alone a lot' combat pick."
+    },
+    {
+      "name": "Hammerhead",
+      "company": "Aegis Dynamics",
+      "crew": "2",
+      "scu": 40,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 34466600,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 755,
+      "rent_auec": null,
+      "verdict": "Six turrets, no pilot guns. It exists to be crewed. Renting it solo tells you nothing \u2014 bring friends or skip it."
+    },
+    {
+      "name": "Redeemer",
+      "company": "Aegis Dynamics",
+      "crew": "4",
+      "scu": 2,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 9803430,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 345,
+      "rent_auec": null,
+      "verdict": "Gunship that wants four people. Enormous firepower, terrible solo. Only rent it if you have a crew."
+    },
+    {
+      "name": "Sabre Peregrine",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "racing"
+      ],
+      "buy_auec": 3845960,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 170,
+      "rent_auec": null,
+      "verdict": "Ownable in-game for 3.85M aUEC. Fly it free first, then decide."
     }
   ],
   "still_rentable": [
