@@ -57,7 +57,9 @@ def main():
         parent, base_tree = None, None
 
     entries = []
-    for root, _, files in os.walk(local):
+    SKIP = {"cache", ".git"}  # local data caches aren't part of the published site
+    for root, dirs, files in os.walk(local):
+        dirs[:] = [d for d in dirs if d not in SKIP]
         for name in files:
             full = os.path.join(root, name)
             rel = os.path.relpath(full, local).replace(os.sep, "/")
