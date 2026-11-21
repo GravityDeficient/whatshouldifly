@@ -549,6 +549,7 @@ def render(now, sched, idx, active, previous, stock):
             "day": next_day["day"],
             "makers": next_day["makers"],
         } if next_day else None,
+        "best_in_show": bool(active and "Best in Show" in (active["makers"][0] if active["makers"] else "")),
         "stock_limited": stock,
         "referral": {"code": REFERRAL_CODE, "url": REFERRAL_URL, "uec": 50000},
     }
@@ -760,6 +761,10 @@ def main():
         title = "What should I fly today? — IAE 2956"
         rot_meta = "Rotation flips at 16:00 UTC. Rentals last 48 hours — grab these before the hall changes."
         rot_heading = f"Today: {makers}"
+        if page["best_in_show"]:
+            rot_heading = "Today: Best in Show"
+            directions = ('<div class="meta">The community vote. Four hulls from the whole expo, '
+                          'free to fly through the end of the event.</div>')
         directions = ('<div class="meta">Getting there: New Babbage Interstellar Spaceport, then the '
                       'Metroloop to Tobin Expo Center. Rentals are at the Traveler kiosks in the hall '
                       'before the main floor.</div>')
