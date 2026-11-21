@@ -3,7 +3,7 @@
 and is any of it worth buying."
 
 Data: UEX API 2.0 (public, no key for GET) + local IAE schedule file.
-Output: docs/index.html + docs/data.json (self-contained, no JS deps).
+Output: index.html + data.json at repo root (GitHub Pages serves root) (self-contained, no JS deps).
 
 Run:  python3 build.py            (writes site/)
       python3 build.py --dry      (prints the rotation, no write)
@@ -20,7 +20,7 @@ from datetime import datetime, timedelta, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
-SITE = os.path.join(HERE, "docs")
+SITE = HERE  # GitHub Pages serves this repo root
 
 UEX = "https://api.uexcorp.uk/2.0"
 CACHE = os.path.join(HERE, "cache")
