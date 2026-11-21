@@ -538,6 +538,7 @@ def render(now, sched, idx, active, previous, stock):
                 "pledge_usd": (r.get("pledge") or {}).get("usd"),
                 "rent_auec": (r.get("rent") or {}).get("auec"),
                 "verdict": verdict(r),
+                "stats": r.get("stats"),
             }
             for r in ships
         ],
@@ -596,6 +597,14 @@ HTML = """<!doctype html>
     text-transform:uppercase; color:var(--dim); border:1px solid var(--line);
     border-radius:6px; padding:1px 6px; margin:2px 4px 2px 0; }}
   .call {{ border-left:3px solid var(--warn); padding-left:12px; }}
+  .stats {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr));
+    gap:6px; margin:10px 0 4px; }}
+  .stat {{ background:#0f141c; border:1px solid var(--line); border-radius:8px;
+    padding:7px 9px; }}
+  .stat-k {{ display:block; font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--dim); }}
+  .stat-v {{ display:block; font-size:14px; font-weight:600; color:var(--ink); }}
+  .desc {{ color:var(--dim); font-size:13px; margin:8px 0 0; font-style:italic; }}
   .cta {{ margin-top:28px; padding:20px; border-radius:14px;
     background:linear-gradient(135deg,#132a3d,#0f1a24); border:1px solid #1f3d52; }}
   .cta a {{ color:var(--hot); font-weight:600; text-decoration:none; }}
@@ -657,6 +666,48 @@ def crew_label(v):
     return f"{lo}–{hi} crew"
 
 
+def fmt_range(km):
+    if not km:
+        return "—"
+    if km >= 1_000_000_000:
+        return f"{km/1_000_000_000:.1f}B km"
+    if km >= 1_000_000:
+        return f"{km/1_000_000:.0f}M km"
+    return f"{km:,} km"
+
+
+def stat_rows(s):
+    """Real numbers a player can act on, from the game files."""
+    rows = []
+    if s.get("shield_hp"):
+        rows.append(("Shield HP", f"{s['shield_hp']:,}"))
+    if s.get("shield_regen"):
+        rows.append(("Shield regen/s", f"{s['shield_regen']:,}"))
+    if s.get("dps"):
+        rows.append(("Stock DPS", f"{s['dps']:,.0f}"))
+    if s.get("alpha"):
+        rows.append(("Stock alpha", f"{s['alpha']:,.0f}"))
+    if s.get("missiles"):
+        rows.append(("Missiles", str(s["missiles"])))
+    if s.get("cargo_scu"):
+        rows.append(("Cargo", f"{s['cargo_scu']} SCU"))
+    if s.get("crew"):
+        rows.append(("Crew", str(s["crew"])))
+    if s.get("qt_range_km"):
+        rows.append(("Quantum range", fmt_range(s["qt_range_km"])))
+    if s.get("qt_speed_kms"):
+        rows.append(("QT speed", f"{s['qt_speed_kms']:,} km/s"))
+    if s.get("qt_spool_s"):
+        rows.append(("QT spool", f"{s['qt_spool_s']} s"))
+    if s.get("claim_min"):
+        rows.append(("Claim time", f"{s['claim_min']} min"))
+    if s.get("mass_kg"):
+        rows.append(("Mass", f"{s['mass_kg']:,} kg"))
+    if s.get("length_m"):
+        rows.append(("Size", f"{s['length_m']:g} × {s.get('width_m') or '?'} × {s.get('height_m') or '?'} m"))
+    return rows
+
+
 def card(s):
     tags = "".join(f'<span class="tag">{t}</span>' for t in s["roles"])
     bits = []
@@ -672,11 +723,33 @@ def card(s):
     if s["pledge_usd"]:
         bits.append(f'${s["pledge_usd"]} to pledge')
     meta = " · ".join(bits)
+
+    stats = s.get("stats") or {}
+    rows = stat_rows(stats) if stats else []
+    if rows:
+        cells = "".join(
+            f'<div class="stat"><span class="stat-k">{k}</span>'
+            f'<span class="stat-v">{v}</span></div>' for k, v in rows
+        )
+        stat_block = f'<div class="stats">{cells}</div>'
+    else:
+        stat_block = ""
+
+    guns = stats.get("guns") or []
+    gun_names = ", ".join(g["name"] for g in guns[:5] if g.get("name"))
+    gun_block = f'<div class="meta">Stock loadout: {gun_names}</div>' if gun_names else ""
+
+    desc = (stats.get("description") or "").strip()
+    desc_block = f'<p class="desc">{desc}</p>' if desc and len(desc) > 40 else ""
+
     return f"""  <div class="card">
     <h2>{s['name']}</h2>
     <div class="meta">{s['company'] or ''} {('· ' + meta) if meta else ''}</div>
     <div>{tags}</div>
+    {stat_block}
     <p class="verdict">{s['verdict']}</p>
+    {gun_block}
+    {desc_block}
   </div>"""
 
 
@@ -698,6 +771,20 @@ def main():
     rentals = fetch("vehicles_rentals_prices_all", "/vehicles_rentals_prices_all").get("data") or []
 
     idx = build_index(vehicles, buys, pledges, rentals)
+
+    # real per-hull stats from the game files (see ingest.py), keyed by the
+    # schedule's ship name — that's the name render() looks up.
+    stats_path = os.path.join(DATA, "ship_stats.json")
+    stats = {}
+    if os.path.exists(stats_path):
+        stats = json.load(open(stats_path)).get("ships") or {}
+    for rec in idx.values():
+        rec["stats"] = None
+    for sched_name, rec in stats.items():
+        uex = idx.get(norm(sched_name))
+        if uex is not None:
+            uex["stats"] = rec
+
     active, previous = rotation_for(now, sched)
     stock = [s for s in sched["stock_limited"]
              if abs((datetime.fromisoformat(s["date_utc"] + "T00:00:00+00:00") - now).days) <= 2]

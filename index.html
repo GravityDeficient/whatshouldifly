@@ -39,6 +39,14 @@
     text-transform:uppercase; color:var(--dim); border:1px solid var(--line);
     border-radius:6px; padding:1px 6px; margin:2px 4px 2px 0; }
   .call { border-left:3px solid var(--warn); padding-left:12px; }
+  .stats { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr));
+    gap:6px; margin:10px 0 4px; }
+  .stat { background:#0f141c; border:1px solid var(--line); border-radius:8px;
+    padding:7px 9px; }
+  .stat-k { display:block; font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--dim); }
+  .stat-v { display:block; font-size:14px; font-weight:600; color:var(--ink); }
+  .desc { color:var(--dim); font-size:13px; margin:8px 0 0; font-style:italic; }
   .cta { margin-top:28px; padding:20px; border-radius:14px;
     background:linear-gradient(135deg,#132a3d,#0f1a24); border:1px solid #1f3d52; }
   .cta a { color:var(--hot); font-weight:600; text-decoration:none; }
@@ -58,7 +66,7 @@
 <header><div class="wrap">
   <div class="badge">IAE 2956 · live now</div>
   <h1>What should I fly today?</h1>
-  <div class="sub">Free 48-hour rentals at the Tobin Expo Center, and one honest line on each. <strong>159 hours left</strong> of the free fly.</div>
+  <div class="sub">Free 48-hour rentals at the Tobin Expo Center, and one honest line on each. <strong>158 hours left</strong> of the free fly.</div>
 </div></header>
 <main><div class="wrap">
   <div class="card call">
@@ -72,127 +80,190 @@
     <h2>Avenger Titan</h2>
     <div class="meta">Aegis Dynamics · 1 crew · 8 SCU · own it for <span class="num">1.29M aUEC</span> · $62 to pledge</div>
     <div><span class="tag">cargo</span><span class="tag">starter</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">4,320</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">820</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">2,360</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">501</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">4</span></div><div class="stat"><span class="stat-k">Cargo</span><span class="stat-v">8 SCU</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">1</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">61M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">189,309 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">4.6 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">4.0 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">55,706 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">20 × 15 × 6.5 m</span></div></div>
     <p class="verdict">The default answer for a first ship. 8 SCU, one seat, guns enough to take a starter bounty. Fly it free, then buy it in-game — it's the cheapest real ship you can own.</p>
+    <div class="meta">Stock loadout: Revenant Gatling, Omnisky IX Cannon, Omnisky IX Cannon</div>
+    <p class="desc">Lacking the Prisoner Cells of the Stalker or the EMP Generator of the Warlock, the Titan's hold is free to carry cargo. Couple that available space with the Avenger's tried and true combat abilities and you've got a light cargo hauler that's more than capable of handling itself in a fight.</p>
   </div>
   <div class="card">
     <h2>Reclaimer</h2>
     <div class="meta">Aegis Dynamics · 1 crew · 420 SCU · own it for <span class="num">30.16M aUEC</span> · $413 to pledge</div>
     <div><span class="tag">salvage</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">194,400</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">14,256</span></div><div class="stat"><span class="stat-k">Cargo</span><span class="stat-v">420 SCU</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">5</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">564M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">532,469 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">9.3 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">30.7 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">9,798,032 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">160 × 120 × 55 m</span></div></div>
     <p class="verdict">The big salvage ship: 420 SCU, claw, drones. This is the highest-earning solo industrial loop in the game, and it's slow. Rent it free and run one wreck before you commit.</p>
+    
+    <p class="desc">The Aegis Reclaimer is an industrial salvage ship. Equipped with a reinforced cargo bay, a long-range jump drive and launch pods for unmanned drones, the Reclaimer is an ideal ship for taking advantage of deep space wrecks. Tractor beams, floodlights, scanner options and docking ports round out the tools on this capable, utilitarian spacecraft.</p>
   </div>
   <div class="card">
     <h2>Retaliator</h2>
     <div class="meta">Aegis Dynamics · 4–7 crew · 74 SCU · own it for <span class="num">7.54M aUEC</span> · $187 to pledge</div>
     <div><span class="tag">cargo</span><span class="tag">military</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">21,120</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">1,337.33</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">7</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">338M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">203,194 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">6.6 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">25.7 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">353,662 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">70.5 × 44 × 13.5 m</span></div></div>
     <p class="verdict">Torpedo bomber with a modular belly. Big alpha strike, needs a crew to be worth the price.</p>
+    
+    <p class="desc">This civilian refit of the Retaliator updates the military ship's chassis with unladen space able to be fitted with various modules to suit your needs.</p>
   </div>
   <div class="card">
     <h2>Avenger Stalker</h2>
     <div class="meta">Aegis Dynamics · 1 crew · own it for <span class="num">1.51M aUEC</span> · $62 to pledge</div>
     <div><span class="tag">military</span><span class="tag">interdiction</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">4,488</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">852</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">2,360</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">501</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">4</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">1</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">61M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">189,309 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">4.6 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">4.9 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">55,317 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">20 × 15 × 6.5 m</span></div></div>
     <p class="verdict">Avenger with prisoner pods. Bounty-hunting variant; the Titan is the better buy.</p>
+    <div class="meta">Stock loadout: Revenant Gatling, Omnisky IX Cannon, Omnisky IX Cannon</div>
+    <p class="desc">Initially designed as Aegis' frontline carrier ship for the military, the Avenger Stalker took a different path, ultimately having a long and storied career as the standard patrol craft of the UEE Advocacy. Utilizing its cargo hold for prisoner transport, the Avenger features a sturdy, reliable hull and the capacity for larger-than-expected engine mounts.</p>
   </div>
   <div class="card">
     <h2>Avenger Titan Renegade</h2>
     <div class="meta">Aegis Dynamics · 1 crew · 8 SCU · own it for <span class="num">1.76M aUEC</span> · $80 to pledge</div>
     <div><span class="tag">military</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">4,320</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">820</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">1,549</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">547</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">4</span></div><div class="stat"><span class="stat-k">Cargo</span><span class="stat-v">8 SCU</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">1</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">61M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">189,309 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">4.6 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">4.0 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">55,872 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">20 × 15 × 6.5 m</span></div></div>
     <p class="verdict">Titan with a different loadout and paint. Same hull — don't pay a premium for the variant.</p>
+    <div class="meta">Stock loadout: 11-Series Broadsword Cannon, Omnisky IX Cannon, Omnisky IX Cannon</div>
+    <p class="desc">Created as part of the 'Masters of Flight' series in conjunction with the flight-sim Arena Commander, the Renegade pays tribute to famed pilot Danny Solomon for his notable work with the Advocacy to bring justice to Bremen. This Avenger Titan comes equipped with a specialized dogfighting focused loadout and a custom special edition livery honoring this iconic ship.</p>
   </div>
   <div class="card">
     <h2>Avenger Warlock</h2>
     <div class="meta">Aegis Dynamics · 1 crew · own it for <span class="num">2.14M aUEC</span> · $89 to pledge</div>
     <div><span class="tag">military</span><span class="tag">interdiction</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">4,488</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">852</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">2,360</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">501</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">4</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">1</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">61M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">189,309 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">4.6 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">4.9 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">59,448 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">20 × 15 × 6.5 m</span></div></div>
     <p class="verdict">Avenger with an EMP. Disables ships instead of killing them. Niche.</p>
+    <div class="meta">Stock loadout: Revenant Gatling, Omnisky IX Cannon, Omnisky IX Cannon</div>
+    <p class="desc">The Avenger Warlock was built towards a single design philosophy: stop ships, don't destroy them. Probably the closest to a non-lethal fighter, the Warlock is outfitted with a Behring REP-8 EMP Generator, capable of emitting a powerful electromagnetic wave to disable any electronics unfortunate enough to be within the blast radius.</p>
   </div>
   <div class="card">
     <h2>Eclipse</h2>
     <div class="meta">Aegis Dynamics · 1 crew · own it for <span class="num">7.54M aUEC</span> · $321 to pledge</div>
     <div><span class="tag">military</span><span class="tag">stealth</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">4,488</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">898</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">656</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">52</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">3</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">1</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">54M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">167,389 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">4.9 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">16.5 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">58,598 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">24.5 × 24.5 × 5 m</span></div></div>
     <p class="verdict">Torpedo bomber. One pass, one kill, then you leave. Slow to turn and useless in a dogfight; judge it on a single bounty, not a furball.</p>
+    <div class="meta">Stock loadout: CF-227 Badger Repeater, CF-227 Badger Repeater</div>
+    <p class="desc">The Aegis Eclipse is a bomber designed to get in and strike before it's ever even spotted. After extensive service with the UEE, this high-tech military equipment made its civilian market debut in 2947.</p>
   </div>
   <div class="card">
     <h2>Gladius</h2>
     <div class="meta">Aegis Dynamics · 1 crew · own it for <span class="num">2.26M aUEC</span> · $93 to pledge</div>
     <div><span class="tag">military</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">6,336</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">1,204</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">1,944</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">119</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">6</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">1</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">32M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">161,411 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">4.4 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">5.8 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">55,646 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">21 × 17.5 × 5.5 m</span></div></div>
     <p class="verdict">The PvP benchmark. Light fighter, agile, no cargo. If combat is your loop, this is the ship you measure every other fighter against.</p>
+    <div class="meta">Stock loadout: CF-337 Panther Repeater, CF-337 Panther Repeater, Mantis GT-220 Gatling</div>
+    <p class="desc">The Gladius is an older design which has been updated over the years to keep up with modern technology. In military circles, the Gladius is beloved for its performance and its simplicity. A fast, light fighter with a laser-focus on dogfighting, the Gladius is an ideal interceptor or escort ship.</p>
   </div>
   <div class="card">
     <h2>Gladius Valiant</h2>
     <div class="meta">Aegis Dynamics · 1 crew · own it for <span class="num">2.77M aUEC</span> · $114 to pledge</div>
     <div><span class="tag">military</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">6,336</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">1,204</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">1,639</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">481</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">10</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">1</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">32M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">161,411 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">4.4 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">5.8 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">9,142 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">21 × 17.5 × 5.5 m</span></div></div>
     <p class="verdict">Same hull as the Gladius with a different loadout and paint. Fly whichever is free; don't pay a premium for the variant.</p>
+    <div class="meta">Stock loadout: Omnisky IX Cannon, Omnisky IX Cannon, CF-337 Panther Repeater</div>
+    <p class="desc">Created as part of the 'Masters of Flight' series in conjunction with the flight-sim Arena Commander, the Valiant pays tribute to famed defense pilot Condi Hillard for being the first Human on record to defeat a Vanduul in combat. This Gladius comes equipped with a specialized dogfighting focused loadout and a custom special edition livery honoring her iconic ship.</p>
   </div>
   <div class="card">
     <h2>Sabre</h2>
     <div class="meta">Aegis Dynamics · 1 crew · own it for <span class="num">4.27M aUEC</span> · $187 to pledge</div>
     <div><span class="tag">military</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">4,488</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">852</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">2,182</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">175</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">4</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">1</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">54M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">167,389 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">4.9 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">9.4 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">90,414 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">24.5 × 24.5 × 5 m</span></div></div>
     <p class="verdict">Stealth fighter. Lower signature, harder to spot on radar — good for ambush, worse in a straight brawl than the Gladius.</p>
+    <div class="meta">Stock loadout: CF-337 Panther Repeater, CF-337 Panther Repeater, CF-337 Panther Repeater, CF-337 Panther Repeater</div>
+    <p class="desc">Part of Aegis Dynamics' Phase Two of new ship models, the Sabre was designed as a space superiority fighter for those situations where you need to leave a lighter footprint. Designed to be a rapid responder, the Sabre is more than capable of establishing battlefield dominance for any number of combat scenarios.</p>
   </div>
   <div class="card">
     <h2>Sabre Comet</h2>
     <div class="meta">Aegis Dynamics · 1 crew · own it for <span class="num">4.65M aUEC</span> · $198 to pledge</div>
     <div><span class="tag">military</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">4,488</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">852</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">2,018</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">1,229</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">4</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">1</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">54M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">167,389 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">4.9 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">9.4 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">92,314 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">24.5 × 24.5 × 5 m</span></div></div>
     <p class="verdict">Sabre with a different loadout. Same hull.</p>
+    <div class="meta">Stock loadout: Omnisky IX Cannon, Omnisky IX Cannon, PyroBurst Scattergun, PyroBurst Scattergun</div>
+    <p class="desc">Created as part of the 'Masters of Flight' series in conjunction with the flight-sim Arena Commander, the Comet pays tribute to famed pilot Captain Kamur Dalion for his work with Aegis to usher in a new era of combat ship design. This Sabre comes equipped with a specialized dogfighting focused loadout and a custom special edition livery honoring this iconic ship.</p>
   </div>
   <div class="card">
     <h2>Sabre Firebird</h2>
     <div class="meta">Aegis Dynamics · 1 crew · own it for <span class="num">5.58M aUEC</span> · $198 to pledge</div>
     <div><span class="tag">military</span><span class="tag">bomber</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">4,488</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">852</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">1,707</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">64</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">24</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">1</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">54M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">167,389 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">4.9 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">7.6 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">81,585 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">24.5 × 24.5 × 5 m</span></div></div>
     <p class="verdict">Sabre with missiles. More alpha, less agility.</p>
+    <div class="meta">Stock loadout: Mantis GT-220 Gatling, Mantis GT-220 Gatling</div>
+    <p class="desc">When frontline skirmishes call for a swift and decisive offensive, the Sabre Firebird is the ideal medium fighter for any arsenal. Taking the already battle proven Sabre Raven, Aegis has designed the Firebird variant with an enhanced missile launcher capable of engaging with a wide array of threats.</p>
   </div>
   <div class="card">
     <h2>Sabre Raven EX</h2>
     <div class="meta">Aegis Dynamics · 1 crew · $165 to pledge</div>
     <div><span class="tag">military</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">6,336</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">1,204</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">2,185</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">525</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">4</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">1</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">48M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">161,411 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">4.4 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">7.6 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">76,829 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">24.5 × 24.5 × 5 m</span></div></div>
     <p class="verdict">Sabre stealth variant with EMP. Rare; judge it on feel.</p>
+    <div class="meta">Stock loadout: CF-337 Panther Repeater, CF-337 Panther Repeater, Omnisky IX Cannon, Omnisky IX Cannon</div>
+    <p class="desc">Aegis Dynamics have raised the bar yet again with their Raven variant. Nearing the speed and maneuverability of its Sabre forebearer but with a lower ship signature, the Raven is a fast, stealthy infiltrator. This special EX model reincorporates some of the offensive capabilities of the original Sabre while introducing a Quantum Dampener on the spine of the ship to help ensure enemies won't escape.</p>
   </div>
   <div class="card">
     <h2>Tiburon</h2>
     <div class="meta">Aegis Dynamics · 1–7 crew · 64 SCU · own it for <span class="num">37.00M aUEC</span> · $700 to pledge</div>
     <div><span class="tag">military</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">211,200</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">40,128</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">10,733</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">18,400</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">32</span></div><div class="stat"><span class="stat-k">Cargo</span><span class="stat-v">64 SCU</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">7</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">155M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">392,091 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">7.7 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">48.6 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">5,439,367 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">121 × 68 × 20 m</span></div></div>
     <p class="verdict">Aegis's new heavy fighter. Big guns, wants a crew.</p>
+    <div class="meta">Stock loadout: C-07T Cannon, C-07T Cannon, C-07T Cannon, C-07T Cannon</div>
+    <p class="desc">An evolution of a proven Aegis design, the Tiburon's anti-capital ship configuration comprises a spine mounted forward facing beam weapon, supplemented by side mounted turrets.</p>
   </div>
   <div class="card">
     <h2>Vanguard Harbinger</h2>
     <div class="meta">Aegis Dynamics · 1 crew · own it for <span class="num">8.20M aUEC</span> · $311 to pledge</div>
     <div><span class="tag">military</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">21,120</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">3,802</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">3,203</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">1,598</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">15</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">2</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">240M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">223,514 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">6 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">16.4 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">249,604 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">48 × 40 × 9.5 m</span></div></div>
     <p class="verdict">Vanguard bomber variant. Torpedoes instead of guns.</p>
+    <div class="meta">Stock loadout: Deadbolt V Cannon, CVSA Cannon, CVSA Cannon, CVSA Cannon, CVSA Cannon</div>
+    <p class="desc">The Vanguard Harbinger is Earth's standard fighter/bomber, converting the standard Warden's escape pod into a potent bomb bay. The extended range of the Vanguard and the relatively small profile mean that it can go where carrier-based ships or larger strategic bombers don't, strike hard, and then make it back to base.</p>
   </div>
   <div class="card">
     <h2>Vanguard Hoplite</h2>
     <div class="meta">Aegis Dynamics · 1 crew · own it for <span class="num">6.65M aUEC</span> · $248 to pledge</div>
     <div><span class="tag">military</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">21,120</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">4,012</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">3,383</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">1,166</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">8</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">2</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">246M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">203,194 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">6.6 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">13.2 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">245,290 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">48 × 40 × 9.5 m</span></div></div>
     <p class="verdict">Vanguard dropship. Moves troops; niche.</p>
+    <div class="meta">Stock loadout: Deadbolt V Cannon, BRVS Repeater, BRVS Repeater, BRVS Repeater, BRVS Repeater</div>
+    <p class="desc">The Vanguard Hoplite is a cross between the winning Vanguard deep space fighter and a dedicated boarding ship. Adapted from proven assault ship designs, the Hoplite is the perfect tool for inserting an armored strike team with enough firepower to get them out again.</p>
   </div>
   <div class="card">
     <h2>Vanguard Sentinel</h2>
     <div class="meta">Aegis Dynamics · 1 crew · own it for <span class="num">7.78M aUEC</span> · $295 to pledge</div>
     <div><span class="tag">military</span><span class="tag">interdiction</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">14,960</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">2,992</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">1,775</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">258</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">12</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">2</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">297M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">210,720 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">7.3 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">18.2 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">188,009 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">48 × 40 × 9.5 m</span></div></div>
     <p class="verdict">Vanguard with an EMP and better sensors. Same hull, more utility, less raw damage.</p>
+    <div class="meta">Stock loadout: Attrition-5 Repeater, ATVS Repeater, ATVS Repeater, ATVS Repeater, ATVS Repeater</div>
+    <p class="desc">The Vanguard Sentinel is a ship that's designed to fight smart instead of taking enemies head on. The conversion features an AR cockpit, an external e-War pod, decoy missiles and a set of EMP charges. Vanguard Sentinels often provide necessary combat support for combined operations. A lone Sentinel is frequently paired with Harbinger bombers and Warden escorts for large attack missions.</p>
   </div>
   <div class="card">
     <h2>Vanguard Warden</h2>
     <div class="meta">Aegis Dynamics · 1 crew · own it for <span class="num">7.35M aUEC</span> · $278 to pledge</div>
     <div><span class="tag">military</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">21,120</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">4,012</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">3,403</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">2,042</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">12</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">2</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">266M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">203,194 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">6.6 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">18.2 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">256,316 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">48 × 40 × 9.5 m</span></div></div>
     <p class="verdict">Long-range heavy fighter with interior space. Expensive, tanky, and forgiving — a good 'I fly alone a lot' combat pick.</p>
+    <div class="meta">Stock loadout: Deadbolt V Cannon, MVSA Cannon, MVSA Cannon, MVSA Cannon, MVSA Cannon</div>
+    <p class="desc">A hard-charging bulldog of a fighter which features extensive forward-mounted weaponry designed to tear through the shields and armor of other spacecraft. So-named because their multiple-jump range allows them to form the vanguard of any military expedition, Vanguards have seen extensive service against the Vanduul.</p>
   </div>
   <div class="card">
     <h2>Hammerhead</h2>
     <div class="meta">Aegis Dynamics · 2 crew · 40 SCU · own it for <span class="num">34.47M aUEC</span> · $755 to pledge</div>
     <div><span class="tag">military</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">211,200</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">40,128</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">32</span></div><div class="stat"><span class="stat-k">Cargo</span><span class="stat-v">64 SCU</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">8</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">155M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">392,091 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">7.7 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">48.6 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">4,653,042 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">120 × 72 × 16 m</span></div></div>
     <p class="verdict">Six turrets, no pilot guns. It exists to be crewed. Renting it solo tells you nothing — bring friends or skip it.</p>
+    
+    <p class="desc">A fast patrol ship with multiple turrets designed to combat fighters, the Hammerhead is equally suited to support larger capital ships in a fleet or act as a flagship for fighter groups.</p>
   </div>
   <div class="card">
     <h2>Redeemer</h2>
     <div class="meta">Aegis Dynamics · 4 crew · 2 SCU · own it for <span class="num">9.80M aUEC</span> · $345 to pledge</div>
     <div><span class="tag">military</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">21,120</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">1,337.33</span></div><div class="stat"><span class="stat-k">Stock DPS</span><span class="stat-v">1,625</span></div><div class="stat"><span class="stat-k">Stock alpha</span><span class="stat-v">1,950</span></div><div class="stat"><span class="stat-k">Missiles</span><span class="stat-v">16</span></div><div class="stat"><span class="stat-k">Cargo</span><span class="stat-v">2 SCU</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">4</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">304M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">203,194 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">6.6 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">28.4 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">466,340 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">51 × 25 × 14 m</span></div></div>
     <p class="verdict">Gunship that wants four people. Enormous firepower, terrible solo. Only rent it if you have a crew.</p>
+    <div class="meta">Stock loadout: C-788 Cannon, C-788 Cannon</div>
+    <p class="desc">Designed by Aegis Dynamics, the Redeemer is a powerful fighting ship capable of holding its own in combat with a powerful weapons payload. Dotted with turrets and missiles, the Redeemer also doubles as an armored landing craft capable of delivering soldiers to the frontlines.</p>
   </div>
   <div class="card">
     <h2>Sabre Peregrine</h2>
     <div class="meta">Aegis Dynamics · 1 crew · own it for <span class="num">3.85M aUEC</span> · $170 to pledge</div>
     <div><span class="tag">racing</span></div>
+    <div class="stats"><div class="stat"><span class="stat-k">Shield HP</span><span class="stat-v">4,488</span></div><div class="stat"><span class="stat-k">Shield regen/s</span><span class="stat-v">852</span></div><div class="stat"><span class="stat-k">Crew</span><span class="stat-v">1</span></div><div class="stat"><span class="stat-k">Quantum range</span><span class="stat-v">54M km</span></div><div class="stat"><span class="stat-k">QT speed</span><span class="stat-v">167,389 km/s</span></div><div class="stat"><span class="stat-k">QT spool</span><span class="stat-v">4.9 s</span></div><div class="stat"><span class="stat-k">Claim time</span><span class="stat-v">7.6 min</span></div><div class="stat"><span class="stat-k">Mass</span><span class="stat-v">78,259 kg</span></div><div class="stat"><span class="stat-k">Size</span><span class="stat-v">24.5 × 24.5 × 5 m</span></div></div>
     <p class="verdict">Sabre racing variant.</p>
+    
+    <p class="desc">After seeing what fans of the Sabre Raven were able to accomplish with the fighter on the racetrack, the design team at Aegis Dynamics were inspired to craft an official racing variant for the agile ship. Enter the Sabre Peregrine. Streamlined and featuring additional thruster boosts, this nimble bird is ready to fly across the finish line.</p>
   </div>
   <div class="card"><h2>Still flyable from earlier days</h2><div class="meta">Rented on the previous rotation — a 48-hour rental outlives the hall, so these should still be in your hangar.</div><div>ATLS, ATLS GEO, CSV-SM, MOLE, MOTH, MPUV Cargo, MPUV Personnel, MPUV Tractor, RAFT, SRV, HoverQuad, Mustang Alpha</div></div>
   <div class="cta">
@@ -206,7 +277,7 @@
 </div></main>
 <footer><div class="wrap">
   Rental, purchase and pledge figures from the <a href="https://uexcorp.space">UEX Corp</a> community API
-  (2026-11-21T04:09:53Z) — crowdsourced, so treat prices as a guide, not a promise.
+  (2026-11-21T05:10:52Z) — crowdsourced, so treat prices as a guide, not a promise.
   Schedule from RSI's published IAE 2956 rotation. Not affiliated with CIG.
 </div></footer>
 </body>
