@@ -1,0 +1,30 @@
+{
+  "event": "IAE 2956",
+  "venue": "Tobin Expo Center, New Babbage, microTech",
+  "free_fly": {
+    "start_utc": "2026-11-13T16:00:00Z",
+    "end_utc": "2026-11-27T20:00:00Z",
+    "loaner": "RSI Aurora Mk II"
+  },
+  "rotation_utc_hour": 16,
+  "rental_hours": 48,
+  "days": [
+    {"day": 1, "start_utc": "2026-11-13T16:00:00Z", "end_utc": "2026-11-14T16:00:00Z", "makers": ["Roberts Space Industries"], "ships": ["Galaxy", "Skylark", "Apollo Medivac", "Apollo Triage", "Aurora Mk II", "Constellation Andromeda", "Constellation Aquila", "Constellation Phoenix", "Constellation Taurus", "Hermes", "Lynx", "Mantis", "Meteor", "Perseus", "Polaris", "Salvation", "Scorpius", "Scorpius Antares", "Ursa", "Ursa Medivac", "Zeus Mk II CL", "Zeus Mk II ES"]},
+    {"day": 2, "start_utc": "2026-11-14T16:00:00Z", "end_utc": "2026-11-15T16:00:00Z", "makers": ["Origin Jumpworks"], "ships": ["85x", "100i", "125a", "135c", "300i", "315p", "325a", "350r", "400i", "600i Explorer", "600i Touring", "890 Jump", "M50", "M80", "X1", "X1 Force", "X1 Velocity"]},
+    {"day": 3, "start_utc": "2026-11-15T16:00:00Z", "end_utc": "2026-11-16T16:00:00Z", "makers": ["Anvil Aerospace"], "ships": ["Arrow", "Asgard", "Ballista", "C8R Pisces", "C8X Pisces Expedition", "Carrack", "Centurion", "F7C Hornet Mk II", "F7C-M Super Hornet Mk II", "F7C-R Hornet Tracker Mk II", "F7C-S Hornet Ghost Mk II", "F8C Lightning", "Gladiator", "Hawk", "Hurricane", "Paladin", "Spartan", "Terrapin", "Terrapin Medic", "Valkyrie"]},
+    {"day": 4, "start_utc": "2026-11-16T16:00:00Z", "end_utc": "2026-11-17T16:00:00Z", "makers": ["Crusader Industries", "Tumbril Land Systems"], "ships": ["A1 Spirit", "A2 Hercules", "Ares Ion", "Ares Inferno", "C1 Spirit", "C2 Hercules", "Intrepid", "M2 Hercules", "Mercury Star Runner", "Cyclone", "Cyclone AA", "Cyclone MT", "Cyclone RC", "Cyclone RN", "Cyclone TR", "Nova", "Storm", "Storm AA"]},
+    {"day": 5, "start_utc": "2026-11-17T16:00:00Z", "end_utc": "2026-11-18T16:00:00Z", "makers": ["Drake Interplanetary"], "ships": ["Buccaneer", "Caterpillar", "Clipper", "Corsair", "Cutlass Black", "Cutlass Blue", "Cutlass Red", "Cutlass Steel", "Cutter", "Cutter Rambler", "Cutter Scout", "Dragonfly Black", "Golem", "Golem OX", "Herald", "Ironclad", "Ironclad Assault", "Mule", "Pitbull", "Vulture"]},
+    {"day": 6, "start_utc": "2026-11-18T16:00:00Z", "end_utc": "2026-11-19T16:00:00Z", "makers": ["Argo Astronautics", "Consolidated Outland", "Greycat Industrial", "Grey's Market"], "ships": ["ATLS", "ATLS GEO", "CSV-SM", "MOLE", "MOTH", "MPUV Cargo", "MPUV Personnel", "MPUV Tractor", "RAFT", "SRV", "HoverQuad", "Mustang Alpha", "Mustang Beta", "Mustang Gamma", "Mustang Delta", "Nomad", "MDC", "MTC", "PTV", "ROC", "ROC-DS", "STV", "UTV", "Basher", "Shiv"]},
+    {"day": 7, "start_utc": "2026-11-19T16:00:00Z", "end_utc": "2026-11-20T16:00:00Z", "makers": ["Kruger Intergalactic", "Mirai", "Musashi Industrial and Starflight Concern"], "ships": ["Fortune", "Freelancer", "Freelancer DUR", "Freelancer MAX", "Freelancer MIS", "Hull A", "Hull B", "Hull C", "Prospector", "Reliant Kore", "Reliant Mako", "Reliant Sen", "Reliant Tana", "Starfarer", "Starfarer Gemini", "Starlancer MAX", "Starlancer TAC", "Starlite", "Fury", "Fury LX", "Fury MX", "Guardian", "Guardian QI", "Guardian MX", "Pulse", "Pulse LX", "Razor", "Razor EX", "Razor LX", "L-21 Wolf", "L-22 Alpha Wolf", "P-52 Merlin", "P-72 Archimedes", "S-65 Stingray"]},
+    {"day": 8, "start_utc": "2026-11-20T16:00:00Z", "end_utc": "2026-11-21T16:00:00Z", "makers": ["Aegis Dynamics"], "ships": ["Avenger Stalker", "Avenger Titan", "Avenger Titan Renegade", "Avenger Warlock", "Eclipse", "Gladius", "Gladius Valiant", "Hammerhead", "Reclaimer", "Redeemer", "Retaliator", "Sabre", "Sabre Comet", "Sabre Firebird", "Sabre Peregrine", "Sabre Raven EX", "Tiburon", "Vanguard Harbinger", "Vanguard Hoplite", "Vanguard Sentinel", "Vanguard Warden"]},
+    {"day": 9, "start_utc": "2026-11-21T16:00:00Z", "end_utc": "2026-11-22T16:00:00Z", "makers": ["Aopoa", "Banu Souli", "Esperia", "Gatac Manufacture", "Grey's Market"], "ships": ["Khartu-al", "Nox", "San'tok.yāi", "Defender", "Blade", "Glaive", "Prowler", "Prowler Utility", "Stinger", "Talon", "Talon Shrike", "Railen", "Syulen", "Tyilui"]},
+    {"day": 10, "start_utc": "2026-11-22T16:00:00Z", "end_utc": "2026-11-23T16:00:00Z", "makers": ["Best in Show"], "ships": ["Perseus", "Ironclad Assault", "Corsair", "M80"]},
+    {"day": 11, "start_utc": "2026-11-23T16:00:00Z", "end_utc": "2026-11-27T20:00:00Z", "makers": ["Finale — every IAE vehicle"], "ships": ["__ALL__"]}
+  ],
+  "stock_limited": [
+    {"date_utc": "2026-11-14", "ships": ["890 Jump"], "waves_utc": ["16:00", "20:00", "00:00", "04:00", "08:00", "12:00"]},
+    {"date_utc": "2026-11-17", "ships": ["Kraken", "Kraken Privateer"], "waves_utc": ["16:00", "20:00", "00:00", "04:00", "08:00", "12:00"]},
+    {"date_utc": "2026-11-18", "ships": ["Pioneer"], "waves_utc": ["16:00", "20:00", "00:00", "04:00", "08:00", "12:00"]},
+    {"date_utc": "2026-11-20", "ships": ["Idris-P", "Javelin"], "waves_utc": ["16:00", "20:00", "00:00", "04:00", "08:00", "12:00"]}
+  ]
+}
