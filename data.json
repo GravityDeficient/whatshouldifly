@@ -1,424 +1,289 @@
 {
-  "generated_utc": "2026-11-21T05:10:52Z",
+  "generated_utc": "2026-11-21T21:00:22Z",
   "event": "IAE 2956",
   "venue": "Tobin Expo Center, New Babbage, microTech",
-  "active_day": 8,
+  "active_day": 9,
   "active_makers": [
-    "Aegis Dynamics"
+    "Aopoa",
+    "Banu Souli",
+    "Esperia",
+    "Gatac Manufacture",
+    "Grey's Market"
   ],
-  "active_window_end_utc": "2026-11-21T16:00:00Z",
+  "active_window_end_utc": "2026-11-22T16:00:00Z",
   "finale": false,
   "off_season": false,
-  "total_rentable": 21,
-  "hours_left": 158,
+  "total_rentable": 14,
+  "hours_left": 142,
   "ships": [
     {
-      "name": "Avenger Titan",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 8,
+      "name": "Prowler Utility",
+      "company": "Esperia Incorporation",
+      "crew": "2",
+      "scu": 32,
       "roles": [
-        "cargo",
-        "starter"
+        "cargo"
       ],
-      "buy_auec": 1290370,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 62,
-      "rent_auec": 27165,
-      "verdict": "The default answer for a first ship. 8 SCU, one seat, guns enough to take a starter bounty. Fly it free, then buy it in-game \u2014 it's the cheapest real ship you can own.",
+      "buy_auec": 16839000,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 275,
+      "rent_auec": 336780,
+      "verdict": "Prowler as a utility hull. Dropship without the troops.",
       "stats": {
-        "name": "Aegis Avenger Titan",
+        "name": "Esperia Prowler Utility",
         "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
+          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
+          "Code": "ESPR",
+          "Name": "Esperia"
         },
         "role": "Light Freight",
         "career": "Transporter",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 8,
-        "shield_hp": 4320,
-        "shield_regen": 820,
-        "dps": 2359.6,
-        "alpha": 500.7,
-        "missiles": 4,
+        "crew": 2,
+        "seats": 2,
+        "cargo_scu": 32,
+        "shield_hp": 14960,
+        "shield_regen": 1421,
+        "dps": 2136.6,
+        "alpha": 783.2,
+        "missiles": null,
         "guns": [
           {
-            "name": "Revenant Gatling",
-            "dps": 1266
+            "name": "Deadbolt III Cannon",
+            "dps": 375.7
           },
           {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
+            "name": "Deadbolt III Cannon",
+            "dps": 375.7
           },
           {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
+            "name": "Lightstrike IV Cannon",
+            "dps": 692.6
+          },
+          {
+            "name": "Lightstrike IV Cannon",
+            "dps": 692.6
           }
         ],
-        "qt_range_km": 61224490,
-        "qt_speed_kms": 189309,
-        "qt_spool_s": 4.6,
-        "claim_min": 4.0,
-        "mass_kg": 55706,
-        "length_m": 20,
-        "width_m": 15,
-        "height_m": 6.5,
-        "h2_fuel": 1600,
+        "qt_range_km": 404749056,
+        "qt_speed_kms": 210720,
+        "qt_spool_s": 7.3,
+        "claim_min": 21,
+        "mass_kg": 217946,
+        "length_m": 34,
+        "width_m": 32,
+        "height_m": 15,
+        "h2_fuel": 7800,
         "is_spaceship": true,
         "is_vehicle": false,
         "is_power_suit": false,
-        "description": "Lacking the Prisoner Cells of the Stalker or the EMP Generator of the Warlock, the Titan's hold is free to carry cargo. Couple that available space with the Avenger's tried and true combat abilities and you've got a light cargo hauler that's more than capable of handling itself in a fight."
+        "description": "While no known Tevarin-made examples of this historical ship exist, historians at Esperia studied contemporary UPE military field reports to reconstruct this modified Prowler. Used by the Tevarin military to deliver urgently needed supplies to the frontlines, the Prowler Utility pairs a tractor beam with a fully accessible hold, alongside the warship's still significant armaments, to make the transfer of cargo in battlefield conditions a precision operation."
       }
     },
     {
-      "name": "Reclaimer",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 420,
+      "name": "Railen",
+      "company": "Gatac Manufacture",
+      "crew": "4",
+      "scu": 640,
       "roles": [
-        "salvage"
+        "cargo"
       ],
-      "buy_auec": 30164400,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 413,
+      "buy_auec": null,
+      "buy_where": null,
+      "pledge_usd": 376,
       "rent_auec": null,
-      "verdict": "The big salvage ship: 420 SCU, claw, drones. This is the highest-earning solo industrial loop in the game, and it's slow. Rent it free and run one wreck before you commit.",
+      "verdict": "Banu cargo hauler. Alien design, real capacity.",
       "stats": {
-        "name": "Aegis Reclaimer",
+        "name": "Gatac Railen",
         "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
+          "UUID": "31907472-a884-4ebc-86db-cd4f7797e514",
+          "Code": "GAMA",
+          "Name": "Gatac Manufacture"
         },
-        "role": "Heavy Salvage",
-        "career": "Industrial",
-        "crew": 5,
-        "seats": 12,
-        "cargo_scu": 420,
-        "shield_hp": 194400,
-        "shield_regen": 14256,
-        "dps": null,
-        "alpha": null,
-        "missiles": null,
-        "guns": [],
-        "qt_range_km": 564182195,
-        "qt_speed_kms": 532469,
-        "qt_spool_s": 9.3,
-        "claim_min": 30.7,
-        "mass_kg": 9798032,
-        "length_m": 160,
-        "width_m": 120,
-        "height_m": 55,
-        "h2_fuel": 57600,
+        "role": "Medium Freight",
+        "career": "Transporter",
+        "crew": 4,
+        "seats": 6,
+        "cargo_scu": 640,
+        "shield_hp": 144000,
+        "shield_regen": 27360,
+        "dps": 3271.6,
+        "alpha": 261.6,
+        "missiles": 20,
+        "guns": [
+          {
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
+          },
+          {
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
+          },
+          {
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
+          },
+          {
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
+          }
+        ],
+        "qt_range_km": 1345565749,
+        "qt_speed_kms": 275943,
+        "qt_spool_s": 8,
+        "claim_min": 17,
+        "mass_kg": 1518179,
+        "length_m": 67,
+        "width_m": 53,
+        "height_m": 52,
+        "h2_fuel": 18500,
         "is_spaceship": true,
         "is_vehicle": false,
         "is_power_suit": false,
-        "description": "The Aegis Reclaimer is an industrial salvage ship. Equipped with a reinforced cargo bay, a long-range jump drive and launch pods for unmanned drones, the Reclaimer is an ideal ship for taking advantage of deep space wrecks. Tractor beams, floodlights, scanner options and docking ports round out the tools on this capable, utilitarian spacecraft."
+        "description": "Gatac's first foray into the Human market, the Railen is an elegant interspecies vessel perfect for any Human or Xi'an pilot looking for a safe, reliable solution for commercial-grade medium cargo hauling, and is a prime example of why the Xi'an Empire has trusted House Gatac with production of its industrial vessels for centuries."
       }
     },
     {
-      "name": "Retaliator",
-      "company": "Aegis Dynamics",
-      "crew": "4,7",
-      "scu": 74,
+      "name": "Syulen",
+      "company": "Gatac Manufacture",
+      "crew": "1",
+      "scu": 6,
+      "roles": [
+        "cargo"
+      ],
+      "buy_auec": 2082500,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 72,
+      "rent_auec": null,
+      "verdict": "Gatac's alien starter. Genuinely different design; worth flying once.",
+      "stats": {
+        "name": "Gatac Syulen",
+        "manufacturer": {
+          "UUID": "31907472-a884-4ebc-86db-cd4f7797e514",
+          "Code": "GAMA",
+          "Name": "Gatac Manufacture"
+        },
+        "role": "Starter / Pathfinder",
+        "career": "Multi-Role",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 6,
+        "shield_hp": 4320,
+        "shield_regen": 864,
+        "dps": 1636.8,
+        "alpha": 131.1,
+        "missiles": 12,
+        "guns": [
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          }
+        ],
+        "qt_range_km": 153061224,
+        "qt_speed_kms": 263040,
+        "qt_spool_s": 4.8,
+        "claim_min": 3.0,
+        "mass_kg": 93599,
+        "length_m": 28,
+        "width_m": 25,
+        "height_m": 16,
+        "h2_fuel": 2000,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "The Syulen cargo vessel has been artfully crafted by the renowned House Gatac to be well suited for both Human and Xi'an pilots. With a refined agile frame, the Syulen lends itself to ferrying important deliveries across the universe, or as the ideal ship for those making their transport career debut."
+      }
+    },
+    {
+      "name": "Tyilui",
+      "company": "Gatac Manufacture",
+      "crew": "1,4",
+      "scu": 96,
       "roles": [
         "cargo",
         "military"
       ],
-      "buy_auec": 7541100,
-      "buy_where": "New Deal Lorville",
+      "buy_auec": 9436330,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 402,
+      "rent_auec": null,
+      "verdict": "Gatac's new alien hull.",
+      "stats": {
+        "name": "Gatac Tyilui",
+        "manufacturer": {
+          "UUID": "31907472-a884-4ebc-86db-cd4f7797e514",
+          "Code": "GAMA",
+          "Name": "Gatac Manufacture"
+        },
+        "role": "Snub Carrier",
+        "career": "Transporter",
+        "crew": 4,
+        "seats": 6,
+        "cargo_scu": 96,
+        "shield_hp": 144000,
+        "shield_regen": 27360,
+        "dps": 3271.6,
+        "alpha": 261.6,
+        "missiles": 20,
+        "guns": [
+          {
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
+          },
+          {
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
+          },
+          {
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
+          },
+          {
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
+          }
+        ],
+        "qt_range_km": 1406727829,
+        "qt_speed_kms": 275943,
+        "qt_spool_s": 8,
+        "claim_min": 17.3,
+        "mass_kg": 1394074,
+        "length_m": 67.25,
+        "width_m": 58.75,
+        "height_m": 52,
+        "h2_fuel": 21300,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "True to the nature of the Xi'an, the Tyilui takes innovation to the next level with Gatac's most ambitious ship yet. In addition to hosting several turrets, the mini-carrier's rear-facing hangar is capable of storing multiple snub ships, providing greater operational flexibility in combat scenarios and beyond."
+      }
+    },
+    {
+      "name": "Khartu-al",
+      "company": "Aopoa",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 7229250,
+      "buy_where": "Astro Armada",
       "pledge_usd": 187,
       "rent_auec": null,
-      "verdict": "Torpedo bomber with a modular belly. Big alpha strike, needs a crew to be worth the price.",
+      "verdict": "Alien light fighter. Fast, twitchy, no cargo. A taste of Xi'an engineering.",
       "stats": {
-        "name": "Aegis Retaliator",
+        "name": "Aopoa Khartu-al",
         "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Modular",
-        "career": "Combat",
-        "crew": 7,
-        "seats": 12,
-        "cargo_scu": 0,
-        "shield_hp": 21120,
-        "shield_regen": 1337.33,
-        "dps": null,
-        "alpha": null,
-        "missiles": null,
-        "guns": [],
-        "qt_range_km": 338000966,
-        "qt_speed_kms": 203194,
-        "qt_spool_s": 6.6,
-        "claim_min": 25.7,
-        "mass_kg": 353662,
-        "length_m": 70.5,
-        "width_m": 44,
-        "height_m": 13.5,
-        "h2_fuel": 17200,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "This civilian refit of the Retaliator updates the military ship's chassis with unladen space able to be fitted with various modules to suit your needs."
-      }
-    },
-    {
-      "name": "Avenger Stalker",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military",
-        "interdiction"
-      ],
-      "buy_auec": 1508220,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 62,
-      "rent_auec": null,
-      "verdict": "Avenger with prisoner pods. Bounty-hunting variant; the Titan is the better buy.",
-      "stats": {
-        "name": "Aegis Avenger Stalker",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Interceptor",
-        "career": "Combat",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 4488,
-        "shield_regen": 852,
-        "dps": 2359.6,
-        "alpha": 500.7,
-        "missiles": 4,
-        "guns": [
-          {
-            "name": "Revenant Gatling",
-            "dps": 1266
-          },
-          {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
-          },
-          {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
-          }
-        ],
-        "qt_range_km": 61224490,
-        "qt_speed_kms": 189309,
-        "qt_spool_s": 4.6,
-        "claim_min": 4.9,
-        "mass_kg": 55317,
-        "length_m": 20,
-        "width_m": 15,
-        "height_m": 6.5,
-        "h2_fuel": 1200,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "Initially designed as Aegis' frontline carrier ship for the military, the Avenger Stalker took a different path, ultimately having a long and storied career as the standard patrol craft of the UEE Advocacy. Utilizing its cargo hold for prisoner transport, the Avenger features a sturdy, reliable hull and the capacity for larger-than-expected engine mounts."
-      }
-    },
-    {
-      "name": "Avenger Titan Renegade",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 8,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 1759590,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 80,
-      "rent_auec": null,
-      "verdict": "Titan with a different loadout and paint. Same hull \u2014 don't pay a premium for the variant.",
-      "stats": {
-        "name": "Aegis Avenger Titan Renegade",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Light Freight",
-        "career": "Transporter",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 8,
-        "shield_hp": 4320,
-        "shield_regen": 820,
-        "dps": 1548.9,
-        "alpha": 546.7,
-        "missiles": 4,
-        "guns": [
-          {
-            "name": "11-Series Broadsword Cannon",
-            "dps": 455.3
-          },
-          {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
-          },
-          {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
-          }
-        ],
-        "qt_range_km": 61224490,
-        "qt_speed_kms": 189309,
-        "qt_spool_s": 4.6,
-        "claim_min": 4.0,
-        "mass_kg": 55872,
-        "length_m": 20,
-        "width_m": 15,
-        "height_m": 6.5,
-        "h2_fuel": 1600,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "Created as part of the 'Masters of Flight' series in conjunction with the flight-sim Arena Commander, the Renegade pays tribute to famed pilot Danny Solomon for his notable work with the Advocacy to bring justice to Bremen. This Avenger Titan comes equipped with a specialized dogfighting focused loadout and a custom special edition livery honoring this iconic ship."
-      }
-    },
-    {
-      "name": "Avenger Warlock",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military",
-        "interdiction"
-      ],
-      "buy_auec": 2136640,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 89,
-      "rent_auec": null,
-      "verdict": "Avenger with an EMP. Disables ships instead of killing them. Niche.",
-      "stats": {
-        "name": "Aegis Avenger Warlock",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Interdiction",
-        "career": "Combat",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 4488,
-        "shield_regen": 852,
-        "dps": 2359.6,
-        "alpha": 500.7,
-        "missiles": 4,
-        "guns": [
-          {
-            "name": "Revenant Gatling",
-            "dps": 1266
-          },
-          {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
-          },
-          {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
-          }
-        ],
-        "qt_range_km": 61224490,
-        "qt_speed_kms": 189309,
-        "qt_spool_s": 4.6,
-        "claim_min": 4.9,
-        "mass_kg": 59448,
-        "length_m": 20,
-        "width_m": 15,
-        "height_m": 6.5,
-        "h2_fuel": 1600,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "The Avenger Warlock was built towards a single design philosophy: stop ships, don't destroy them. Probably the closest to a non-lethal fighter, the Warlock is outfitted with a Behring REP-8 EMP Generator, capable of emitting a powerful electromagnetic wave to disable any electronics unfortunate enough to be within the blast radius."
-      }
-    },
-    {
-      "name": "Eclipse",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military",
-        "stealth"
-      ],
-      "buy_auec": 7541100,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 321,
-      "rent_auec": null,
-      "verdict": "Torpedo bomber. One pass, one kill, then you leave. Slow to turn and useless in a dogfight; judge it on a single bounty, not a furball.",
-      "stats": {
-        "name": "Aegis Eclipse",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Stealth Bomber",
-        "career": "Combat",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 4488,
-        "shield_regen": 898,
-        "dps": 656.2,
-        "alpha": 52.4,
-        "missiles": 3,
-        "guns": [
-          {
-            "name": "CF-227 Badger Repeater",
-            "dps": 328.1
-          },
-          {
-            "name": "CF-227 Badger Repeater",
-            "dps": 328.1
-          }
-        ],
-        "qt_range_km": 54021609,
-        "qt_speed_kms": 167389,
-        "qt_spool_s": 4.9,
-        "claim_min": 16.5,
-        "mass_kg": 58598,
-        "length_m": 24.5,
-        "width_m": 24.5,
-        "height_m": 5,
-        "h2_fuel": 1200,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "The Aegis Eclipse is a bomber designed to get in and strike before it's ever even spotted. After extensive service with the UEE, this high-tech military equipment made its civilian market debut in 2947."
-      }
-    },
-    {
-      "name": "Gladius",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 2262330,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 93,
-      "rent_auec": null,
-      "verdict": "The PvP benchmark. Light fighter, agile, no cargo. If combat is your loop, this is the ship you measure every other fighter against.",
-      "stats": {
-        "name": "Aegis Gladius",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
+          "UUID": "70ac7035-10a0-4bbb-90b0-9bddf047b504",
+          "Code": "XNAA",
+          "Name": "Aopoa"
         },
         "role": "Light Fighter",
         "career": "Combat",
@@ -426,283 +291,227 @@
         "seats": 1,
         "cargo_scu": 0,
         "shield_hp": 6336,
-        "shield_regen": 1204,
-        "dps": 1944.5,
-        "alpha": 119.4,
-        "missiles": 6,
+        "shield_regen": 1268,
+        "dps": 1635.8,
+        "alpha": 130.8,
+        "missiles": null,
         "guns": [
           {
-            "name": "CF-337 Panther Repeater",
-            "dps": 545.6
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
           },
           {
-            "name": "CF-337 Panther Repeater",
-            "dps": 545.6
-          },
-          {
-            "name": "Mantis GT-220 Gatling",
-            "dps": 853.3
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
           }
         ],
-        "qt_range_km": 32223416,
-        "qt_speed_kms": 161411,
-        "qt_spool_s": 4.4,
-        "claim_min": 5.8,
-        "mass_kg": 55646,
-        "length_m": 21,
-        "width_m": 17.5,
-        "height_m": 5.5,
+        "qt_range_km": 65832785,
+        "qt_speed_kms": 199273,
+        "qt_spool_s": 5.1,
+        "claim_min": 5.1,
+        "mass_kg": 75550,
+        "length_m": 32,
+        "width_m": 13.5,
+        "height_m": 8.75,
         "h2_fuel": 1600,
         "is_spaceship": true,
         "is_vehicle": false,
         "is_power_suit": false,
-        "description": "The Gladius is an older design which has been updated over the years to keep up with modern technology. In military circles, the Gladius is beloved for its performance and its simplicity. A fast, light fighter with a laser-focus on dogfighting, the Gladius is an ideal interceptor or escort ship."
+        "description": "The Xi'an Aopoa corporation manufactures an export model of the Qhire Khartu, the Khartu-al, for sale to human civilians as a dedicated scout/explorer. The export model features the same Xi'an maneuvering rig, but control surfaces modified for Human use and a more limited armament."
       }
     },
     {
-      "name": "Gladius Valiant",
-      "company": "Aegis Dynamics",
+      "name": "San'tok.y\u0101i",
+      "company": "Aopoa",
       "crew": "1",
       "scu": 0,
       "roles": [
         "military"
       ],
-      "buy_auec": 2765070,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 114,
+      "buy_auec": 9355500,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 257,
       "rent_auec": null,
-      "verdict": "Same hull as the Gladius with a different loadout and paint. Fly whichever is free; don't pay a premium for the variant.",
+      "verdict": "Aopoa heavy fighter. Alien, agile, expensive.",
       "stats": {
-        "name": "Aegis Gladius Valiant",
+        "name": "Aopoa San'tok.y\u0101i",
         "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
+          "UUID": "70ac7035-10a0-4bbb-90b0-9bddf047b504",
+          "Code": "XNAA",
+          "Name": "Aopoa"
         },
-        "role": "Light Fighter",
+        "role": "Medium Fighter",
         "career": "Combat",
         "crew": 1,
         "seats": 1,
         "cargo_scu": 0,
-        "shield_hp": 6336,
-        "shield_regen": 1204,
-        "dps": 1639.2,
-        "alpha": 481.1,
-        "missiles": 10,
+        "shield_hp": 10560,
+        "shield_regen": 2006,
+        "dps": 2050,
+        "alpha": 164,
+        "missiles": 8,
         "guns": [
           {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
+            "name": "Yeng\u2019tu Repeater",
+            "dps": 512.5
           },
           {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
+            "name": "Yeng\u2019tu Repeater",
+            "dps": 512.5
           },
           {
-            "name": "CF-337 Panther Repeater",
-            "dps": 545.6
+            "name": "Yeng\u2019tu Repeater",
+            "dps": 512.5
+          },
+          {
+            "name": "Yeng\u2019tu Repeater",
+            "dps": 512.5
           }
         ],
-        "qt_range_km": 32223416,
+        "qt_range_km": 48335124,
         "qt_speed_kms": 161411,
         "qt_spool_s": 4.4,
-        "claim_min": 5.8,
-        "mass_kg": 9142,
-        "length_m": 21,
-        "width_m": 17.5,
-        "height_m": 5.5,
-        "h2_fuel": 1600,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "Created as part of the 'Masters of Flight' series in conjunction with the flight-sim Arena Commander, the Valiant pays tribute to famed defense pilot Condi Hillard for being the first Human on record to defeat a Vanduul in combat. This Gladius comes equipped with a specialized dogfighting focused loadout and a custom special edition livery honoring her iconic ship."
-      }
-    },
-    {
-      "name": "Sabre",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 4273290,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 187,
-      "rent_auec": null,
-      "verdict": "Stealth fighter. Lower signature, harder to spot on radar \u2014 good for ambush, worse in a straight brawl than the Gladius.",
-      "stats": {
-        "name": "Aegis Sabre",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Stealth Fighter",
-        "career": "Combat",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 4488,
-        "shield_regen": 852,
-        "dps": 2182.4,
-        "alpha": 174.8,
-        "missiles": 4,
-        "guns": [
-          {
-            "name": "CF-337 Panther Repeater",
-            "dps": 545.6
-          },
-          {
-            "name": "CF-337 Panther Repeater",
-            "dps": 545.6
-          },
-          {
-            "name": "CF-337 Panther Repeater",
-            "dps": 545.6
-          },
-          {
-            "name": "CF-337 Panther Repeater",
-            "dps": 545.6
-          }
-        ],
-        "qt_range_km": 54021609,
-        "qt_speed_kms": 167389,
-        "qt_spool_s": 4.9,
-        "claim_min": 9.4,
-        "mass_kg": 90414,
-        "length_m": 24.5,
-        "width_m": 24.5,
-        "height_m": 5,
-        "h2_fuel": 2600,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "Part of Aegis Dynamics' Phase Two of new ship models, the Sabre was designed as a space superiority fighter for those situations where you need to leave a lighter footprint. Designed to be a rapid responder, the Sabre is more than capable of establishing battlefield dominance for any number of combat scenarios."
-      }
-    },
-    {
-      "name": "Sabre Comet",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 4650340,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 198,
-      "rent_auec": null,
-      "verdict": "Sabre with a different loadout. Same hull.",
-      "stats": {
-        "name": "Aegis Sabre Comet",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Stealth Fighter",
-        "career": "Combat",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 4488,
-        "shield_regen": 852,
-        "dps": 2017.6,
-        "alpha": 1229.4,
-        "missiles": 4,
-        "guns": [
-          {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
-          },
-          {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
-          },
-          {
-            "name": "PyroBurst Scattergun",
-            "dps": 462
-          },
-          {
-            "name": "PyroBurst Scattergun",
-            "dps": 462
-          }
-        ],
-        "qt_range_km": 54021609,
-        "qt_speed_kms": 167389,
-        "qt_spool_s": 4.9,
-        "claim_min": 9.4,
-        "mass_kg": 92314,
-        "length_m": 24.5,
-        "width_m": 24.5,
-        "height_m": 5,
-        "h2_fuel": 2600,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "Created as part of the 'Masters of Flight' series in conjunction with the flight-sim Arena Commander, the Comet pays tribute to famed pilot Captain Kamur Dalion for his work with Aegis to usher in a new era of combat ship design. This Sabre comes equipped with a specialized dogfighting focused loadout and a custom special edition livery honoring this iconic ship."
-      }
-    },
-    {
-      "name": "Sabre Firebird",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military",
-        "bomber"
-      ],
-      "buy_auec": 5580410,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 198,
-      "rent_auec": null,
-      "verdict": "Sabre with missiles. More alpha, less agility.",
-      "stats": {
-        "name": "Aegis Sabre Firebird",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Stealth Fighter",
-        "career": "Combat",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 4488,
-        "shield_regen": 852,
-        "dps": 1706.6,
-        "alpha": 64,
-        "missiles": 24,
-        "guns": [
-          {
-            "name": "Mantis GT-220 Gatling",
-            "dps": 853.3
-          },
-          {
-            "name": "Mantis GT-220 Gatling",
-            "dps": 853.3
-          }
-        ],
-        "qt_range_km": 54021609,
-        "qt_speed_kms": 167389,
-        "qt_spool_s": 4.9,
-        "claim_min": 7.6,
-        "mass_kg": 81585,
-        "length_m": 24.5,
-        "width_m": 24.5,
-        "height_m": 5,
+        "claim_min": 7.5,
+        "mass_kg": 95404,
+        "length_m": 24,
+        "width_m": 23,
+        "height_m": 23,
         "h2_fuel": 3800,
         "is_spaceship": true,
         "is_vehicle": false,
         "is_power_suit": false,
-        "description": "When frontline skirmishes call for a swift and decisive offensive, the Sabre Firebird is the ideal medium fighter for any arsenal. Taking the already battle proven Sabre Raven, Aegis has designed the Firebird variant with an enhanced missile launcher capable of engaging with a wide array of threats."
+        "description": "Harnessing the power of next-generation Xi'an flight systems, upgraded dual-vector thrusters, and a daunting weapons package, Aopoa has crafted a fighter that retains the nimble dexterity and tight handling the brand is known for."
       }
     },
     {
-      "name": "Sabre Raven EX",
-      "company": "Aegis Dynamics",
+      "name": "Defender",
+      "company": "Banu Souli",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 6237000,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 236,
+      "rent_auec": 155925,
+      "verdict": "Banu multi-crew fighter with interior space. Unusual and capable; needs a second seat to shine.",
+      "stats": {
+        "name": "Banu Defender",
+        "manufacturer": {
+          "UUID": "2b5ba252-e826-4356-ac0d-8d88007ea386",
+          "Code": "BANU",
+          "Name": "Banu Souli"
+        },
+        "role": "Light Fighter",
+        "career": "Combat",
+        "crew": 2,
+        "seats": 2,
+        "cargo_scu": 0,
+        "shield_hp": 7680,
+        "shield_regen": 1459,
+        "dps": 1620,
+        "alpha": 4050,
+        "missiles": 6,
+        "guns": [
+          {
+            "name": "Singe Cannon (S3)",
+            "dps": 405
+          },
+          {
+            "name": "Singe Cannon (S3)",
+            "dps": 405
+          },
+          {
+            "name": "Singe Cannon (S3)",
+            "dps": 405
+          },
+          {
+            "name": "Singe Cannon (S3)",
+            "dps": 405
+          }
+        ],
+        "qt_range_km": 59076262,
+        "qt_speed_kms": 161411,
+        "qt_spool_s": 4.4,
+        "claim_min": 13.6,
+        "mass_kg": 130707,
+        "length_m": 24.5,
+        "width_m": 24.5,
+        "height_m": 5,
+        "h2_fuel": 4000,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Meet the Banu Defender, a multi-crew fighter whose patchwork design highlights technology from a variety of species. Featuring modest accommodations for its crew and easy access to components, the Defender gets its name from the role it serves: the first line of defense against enemy attacks. That's why the Defender makes the ideal companion to the Merchantman: one to do the heavy hauling and the other to perform the deadly dogfighting."
+      }
+    },
+    {
+      "name": "Blade",
+      "company": "Esperia Incorporation",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 7796250,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 295,
+      "rent_auec": null,
+      "verdict": "Esperia light fighter, Vanduul-derived.",
+      "stats": {
+        "name": "Esperia Blade",
+        "manufacturer": {
+          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
+          "Code": "ESPR",
+          "Name": "Esperia"
+        },
+        "role": "Light Fighter",
+        "career": "Combat",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 0,
+        "shield_hp": 6336,
+        "shield_regen": 1204,
+        "dps": 2665.4,
+        "alpha": 1599.2,
+        "missiles": 8,
+        "guns": [
+          {
+            "name": "'WARLORD' Cannon",
+            "dps": 877.5
+          },
+          {
+            "name": "'WARLORD' Cannon",
+            "dps": 877.5
+          },
+          {
+            "name": "'WHIP' Cannon",
+            "dps": 455.2
+          },
+          {
+            "name": "'WHIP' Cannon",
+            "dps": 455.2
+          }
+        ],
+        "qt_range_km": 56169257,
+        "qt_speed_kms": 209236,
+        "qt_spool_s": 4.9,
+        "claim_min": 10.3,
+        "mass_kg": 31480,
+        "length_m": 20.5,
+        "width_m": 16.5,
+        "height_m": 5.5,
+        "h2_fuel": 1600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "These light fighters, designation 'Blade', are often used by Vanduul as scouts and first wave assault crafts. They have also served well as skirmisher units due to their speed allowing them to chase down any ships attempting to flee the area. For some decades, United Empire of Earth aggressor squadrons have operated replica Blade fighters produced under exclusive contract by Esperia, Inc."
+      }
+    },
+    {
+      "name": "Glaive",
+      "company": "Esperia Incorporation",
       "crew": "1",
       "scu": 0,
       "roles": [
@@ -710,15 +519,15 @@
       ],
       "buy_auec": null,
       "buy_where": null,
-      "pledge_usd": 165,
+      "pledge_usd": 375,
       "rent_auec": null,
-      "verdict": "Sabre stealth variant with EMP. Rare; judge it on feel.",
+      "verdict": "Esperia heavy fighter, Vanduul-derived.",
       "stats": {
-        "name": "Aegis Sabre Raven EX",
+        "name": "Esperia Glaive",
         "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
+          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
+          "Code": "ESPR",
+          "Name": "Esperia"
         },
         "role": "Medium Fighter",
         "career": "Combat",
@@ -727,580 +536,401 @@
         "cargo_scu": 0,
         "shield_hp": 6336,
         "shield_regen": 1204,
-        "dps": 2184.8,
-        "alpha": 524.8,
-        "missiles": 4,
+        "dps": 2200,
+        "alpha": 2040,
+        "missiles": 8,
         "guns": [
           {
-            "name": "CF-337 Panther Repeater",
-            "dps": 545.6
+            "name": "'WRATH' Cannon",
+            "dps": 808.3
           },
           {
-            "name": "CF-337 Panther Repeater",
-            "dps": 545.6
+            "name": "'WRATH' Cannon",
+            "dps": 808.3
           },
           {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
+            "name": "'WEAK' Repeater",
+            "dps": 291.7
           },
           {
-            "name": "Omnisky IX Cannon",
-            "dps": 546.8
+            "name": "'WEAK' Repeater",
+            "dps": 291.7
           }
         ],
         "qt_range_km": 48335124,
         "qt_speed_kms": 161411,
         "qt_spool_s": 4.4,
         "claim_min": 7.6,
-        "mass_kg": 76829,
-        "length_m": 24.5,
-        "width_m": 24.5,
-        "height_m": 5,
-        "h2_fuel": 2600,
+        "mass_kg": 92253,
+        "length_m": 33,
+        "width_m": 24,
+        "height_m": 9,
+        "h2_fuel": 3800,
         "is_spaceship": true,
         "is_vehicle": false,
         "is_power_suit": false,
-        "description": "Aegis Dynamics have raised the bar yet again with their Raven variant. Nearing the speed and maneuverability of its Sabre forebearer but with a lower ship signature, the Raven is a fast, stealthy infiltrator. This special EX model reincorporates some of the offensive capabilities of the original Sabre while introducing a Quantum Dampener on the spine of the ship to help ensure enemies won't escape."
+        "description": "The Glaive is a symmetrical version of the Scythe. Generally flown by Vanduul with more combat experience, they are better armed and have two huge blades/wings as opposed to one on the standard Scythe."
       }
     },
     {
-      "name": "Tiburon",
-      "company": "Aegis Dynamics",
-      "crew": "1,7",
-      "scu": 64,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 37001700,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 700,
-      "rent_auec": null,
-      "verdict": "Aegis's new heavy fighter. Big guns, wants a crew.",
-      "stats": {
-        "name": "Aegis Tiburon",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Heavy Gunship",
-        "career": "Combat",
-        "crew": 7,
-        "seats": 7,
-        "cargo_scu": 64,
-        "shield_hp": 211200,
-        "shield_regen": 40128,
-        "dps": 10733.2,
-        "alpha": 18400,
-        "missiles": 32,
-        "guns": [
-          {
-            "name": "C-07T Cannon",
-            "dps": 2683.3
-          },
-          {
-            "name": "C-07T Cannon",
-            "dps": 2683.3
-          },
-          {
-            "name": "C-07T Cannon",
-            "dps": 2683.3
-          },
-          {
-            "name": "C-07T Cannon",
-            "dps": 2683.3
-          }
-        ],
-        "qt_range_km": 155279503,
-        "qt_speed_kms": 392091,
-        "qt_spool_s": 7.7,
-        "claim_min": 48.6,
-        "mass_kg": 5439367,
-        "length_m": 121,
-        "width_m": 68,
-        "height_m": 20,
-        "h2_fuel": 37000,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "An evolution of a proven Aegis design, the Tiburon's anti-capital ship configuration comprises a spine mounted forward facing beam weapon, supplemented by side mounted turrets."
-      }
-    },
-    {
-      "name": "Vanguard Harbinger",
-      "company": "Aegis Dynamics",
+      "name": "Stinger",
+      "company": "Esperia Incorporation",
       "crew": "1",
       "scu": 0,
       "roles": [
         "military"
       ],
-      "buy_auec": 8200400,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 311,
+      "buy_auec": 8930250,
+      "buy_where": "Teach's Levski",
+      "pledge_usd": 290,
       "rent_auec": null,
-      "verdict": "Vanguard bomber variant. Torpedoes instead of guns.",
+      "verdict": "Esperia medium fighter.",
       "stats": {
-        "name": "Aegis Vanguard Harbinger",
+        "name": "Esperia Stinger",
         "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Heavy Fighter / Bomber",
-        "career": "Combat",
-        "crew": 2,
-        "seats": 4,
-        "cargo_scu": 0,
-        "shield_hp": 21120,
-        "shield_regen": 3802,
-        "dps": 3203.3,
-        "alpha": 1598,
-        "missiles": 15,
-        "guns": [
-          {
-            "name": "Deadbolt V Cannon",
-            "dps": 1583.3
-          },
-          {
-            "name": "CVSA Cannon",
-            "dps": 405
-          },
-          {
-            "name": "CVSA Cannon",
-            "dps": 405
-          },
-          {
-            "name": "CVSA Cannon",
-            "dps": 405
-          },
-          {
-            "name": "CVSA Cannon",
-            "dps": 405
-          }
-        ],
-        "qt_range_km": 240279598,
-        "qt_speed_kms": 223514,
-        "qt_spool_s": 6,
-        "claim_min": 16.4,
-        "mass_kg": 249604,
-        "length_m": 48,
-        "width_m": 40,
-        "height_m": 9.5,
-        "h2_fuel": 7800,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "The Vanguard Harbinger is Earth's standard fighter/bomber, converting the standard Warden's escape pod into a potent bomb bay. The extended range of the Vanguard and the relatively small profile mean that it can go where carrier-based ships or larger strategic bombers don't, strike hard, and then make it back to base."
-      }
-    },
-    {
-      "name": "Vanguard Hoplite",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 6645250,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 248,
-      "rent_auec": null,
-      "verdict": "Vanguard dropship. Moves troops; niche.",
-      "stats": {
-        "name": "Aegis Vanguard Hoplite",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Dropship",
-        "career": "Combat",
-        "crew": 2,
-        "seats": 2,
-        "cargo_scu": 0,
-        "shield_hp": 21120,
-        "shield_regen": 4012,
-        "dps": 3383.3,
-        "alpha": 1166,
-        "missiles": 8,
-        "guns": [
-          {
-            "name": "Deadbolt V Cannon",
-            "dps": 1583.3
-          },
-          {
-            "name": "BRVS Repeater",
-            "dps": 450
-          },
-          {
-            "name": "BRVS Repeater",
-            "dps": 450
-          },
-          {
-            "name": "BRVS Repeater",
-            "dps": 450
-          },
-          {
-            "name": "BRVS Repeater",
-            "dps": 450
-          }
-        ],
-        "qt_range_km": 246257846,
-        "qt_speed_kms": 203194,
-        "qt_spool_s": 6.6,
-        "claim_min": 13.2,
-        "mass_kg": 245290,
-        "length_m": 48,
-        "width_m": 40,
-        "height_m": 9.5,
-        "h2_fuel": 7800,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "The Vanguard Hoplite is a cross between the winning Vanguard deep space fighter and a dedicated boarding ship. Adapted from proven assault ship designs, the Hoplite is the perfect tool for inserting an armored strike team with enough firepower to get them out again."
-      }
-    },
-    {
-      "name": "Vanguard Sentinel",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military",
-        "interdiction"
-      ],
-      "buy_auec": 7776700,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 295,
-      "rent_auec": null,
-      "verdict": "Vanguard with an EMP and better sensors. Same hull, more utility, less raw damage.",
-      "stats": {
-        "name": "Aegis Vanguard Sentinel",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Heavy Fighter / Bomber",
-        "career": "Combat",
-        "crew": 2,
-        "seats": 5,
-        "cargo_scu": 0,
-        "shield_hp": 14960,
-        "shield_regen": 2992,
-        "dps": 1775,
-        "alpha": 258,
-        "missiles": 12,
-        "guns": [
-          {
-            "name": "Attrition-5 Repeater",
-            "dps": 875
-          },
-          {
-            "name": "ATVS Repeater",
-            "dps": 225
-          },
-          {
-            "name": "ATVS Repeater",
-            "dps": 225
-          },
-          {
-            "name": "ATVS Repeater",
-            "dps": 225
-          },
-          {
-            "name": "ATVS Repeater",
-            "dps": 225
-          }
-        ],
-        "qt_range_km": 296815974,
-        "qt_speed_kms": 210720,
-        "qt_spool_s": 7.3,
-        "claim_min": 18.2,
-        "mass_kg": 188009,
-        "length_m": 48,
-        "width_m": 40,
-        "height_m": 9.5,
-        "h2_fuel": 7800,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "The Vanguard Sentinel is a ship that's designed to fight smart instead of taking enemies head on. The conversion features an AR cockpit, an external e-War pod, decoy missiles and a set of EMP charges. Vanguard Sentinels often provide necessary combat support for combined operations. A lone Sentinel is frequently paired with Harbinger bombers and Warden escorts for large attack missions."
-      }
-    },
-    {
-      "name": "Vanguard Warden",
-      "company": "Aegis Dynamics",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 7354900,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 278,
-      "rent_auec": null,
-      "verdict": "Long-range heavy fighter with interior space. Expensive, tanky, and forgiving \u2014 a good 'I fly alone a lot' combat pick.",
-      "stats": {
-        "name": "Aegis Vanguard Warden",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
+          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
+          "Code": "ESPR",
+          "Name": "Esperia"
         },
         "role": "Heavy Fighter",
         "career": "Combat",
-        "crew": 2,
-        "seats": 5,
+        "crew": 1,
+        "seats": 1,
         "cargo_scu": 0,
         "shield_hp": 21120,
         "shield_regen": 4012,
-        "dps": 3403.3,
-        "alpha": 2042,
-        "missiles": 12,
+        "dps": 4197.4,
+        "alpha": 1784.8,
+        "missiles": 16,
         "guns": [
           {
-            "name": "Deadbolt V Cannon",
-            "dps": 1583.3
+            "name": "'WRATH' Cannon",
+            "dps": 810
           },
           {
-            "name": "MVSA Cannon",
-            "dps": 455
+            "name": "Lightstrike IV Cannon",
+            "dps": 692.6
           },
           {
-            "name": "MVSA Cannon",
-            "dps": 455
+            "name": "Lightstrike IV Cannon",
+            "dps": 692.6
           },
           {
-            "name": "MVSA Cannon",
-            "dps": 455
+            "name": "Lightstrike IV Cannon",
+            "dps": 692.6
           },
           {
-            "name": "MVSA Cannon",
-            "dps": 455
+            "name": "Lightstrike IV Cannon",
+            "dps": 692.6
+          },
+          {
+            "name": "Lightstrike II Cannon",
+            "dps": 308.5
+          },
+          {
+            "name": "Lightstrike II Cannon",
+            "dps": 308.5
           }
         ],
-        "qt_range_km": 265572187,
-        "qt_speed_kms": 203194,
-        "qt_spool_s": 6.6,
-        "claim_min": 18.2,
-        "mass_kg": 256316,
-        "length_m": 48,
-        "width_m": 40,
-        "height_m": 9.5,
+        "qt_range_km": 703363914,
+        "qt_speed_kms": 275943,
+        "qt_spool_s": 8,
+        "claim_min": 25.3,
+        "mass_kg": 268027,
+        "length_m": 36,
+        "width_m": 32,
+        "height_m": 11,
         "h2_fuel": 7800,
         "is_spaceship": true,
         "is_vehicle": false,
         "is_power_suit": false,
-        "description": "A hard-charging bulldog of a fighter which features extensive forward-mounted weaponry designed to tear through the shields and armor of other spacecraft. So-named because their multiple-jump range allows them to form the vanguard of any military expedition, Vanguards have seen extensive service against the Vanduul."
+        "description": "Wreaking havoc along Humanity's border systems, this Vanduul heavy fighter, designated 'Stinger' by the UEE Navy, has earned itself a blood-stained legacy as a major threat to pilots and capital ships alike. Originally intended for training aggressor squadrons, Esperia is now making their detailed replica available to the broader civilian population."
       }
     },
     {
-      "name": "Hammerhead",
-      "company": "Aegis Dynamics",
-      "crew": "2",
-      "scu": 40,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 34466600,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 755,
-      "rent_auec": null,
-      "verdict": "Six turrets, no pilot guns. It exists to be crewed. Renting it solo tells you nothing \u2014 bring friends or skip it.",
-      "stats": {
-        "name": "Aegis Hammerhead",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Heavy Gunship",
-        "career": "Combat",
-        "crew": 8,
-        "seats": 8,
-        "cargo_scu": 64,
-        "shield_hp": 211200,
-        "shield_regen": 40128,
-        "dps": null,
-        "alpha": null,
-        "missiles": 32,
-        "guns": [],
-        "qt_range_km": 155279503,
-        "qt_speed_kms": 392091,
-        "qt_spool_s": 7.7,
-        "claim_min": 48.6,
-        "mass_kg": 4653042,
-        "length_m": 120,
-        "width_m": 72,
-        "height_m": 16,
-        "h2_fuel": 37000,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "A fast patrol ship with multiple turrets designed to combat fighters, the Hammerhead is equally suited to support larger capital ships in a fleet or act as a flagship for fighter groups."
-      }
-    },
-    {
-      "name": "Redeemer",
-      "company": "Aegis Dynamics",
-      "crew": "4",
-      "scu": 2,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 9803430,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 345,
-      "rent_auec": null,
-      "verdict": "Gunship that wants four people. Enormous firepower, terrible solo. Only rent it if you have a crew.",
-      "stats": {
-        "name": "Aegis Redeemer",
-        "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
-        },
-        "role": "Gunship",
-        "career": "Combat",
-        "crew": 4,
-        "seats": 13,
-        "cargo_scu": 2,
-        "shield_hp": 21120,
-        "shield_regen": 1337.33,
-        "dps": 1625,
-        "alpha": 1950,
-        "missiles": 16,
-        "guns": [
-          {
-            "name": "C-788 Cannon",
-            "dps": 812.5
-          },
-          {
-            "name": "C-788 Cannon",
-            "dps": 812.5
-          }
-        ],
-        "qt_range_km": 304200869,
-        "qt_speed_kms": 203194,
-        "qt_spool_s": 6.6,
-        "claim_min": 28.4,
-        "mass_kg": 466340,
-        "length_m": 51,
-        "width_m": 25,
-        "height_m": 14,
-        "h2_fuel": 15600,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "Designed by Aegis Dynamics, the Redeemer is a powerful fighting ship capable of holding its own in combat with a powerful weapons payload. Dotted with turrets and missiles, the Redeemer also doubles as an armored landing craft capable of delivering soldiers to the frontlines."
-      }
-    },
-    {
-      "name": "Sabre Peregrine",
-      "company": "Aegis Dynamics",
+      "name": "Talon",
+      "company": "Esperia Incorporation",
       "crew": "1",
       "scu": 0,
       "roles": [
-        "racing"
+        "military"
       ],
-      "buy_auec": 3845960,
-      "buy_where": "New Deal Lorville",
-      "pledge_usd": 170,
+      "buy_auec": 3260250,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 119,
       "rent_auec": null,
-      "verdict": "Sabre racing variant.",
+      "verdict": "Esperia light fighter. Cheap alien fighter; fun, not optimal.",
       "stats": {
-        "name": "Aegis Sabre Peregrine",
+        "name": "Esperia Talon",
         "manufacturer": {
-          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
-          "Code": "AEGS",
-          "Name": "Aegis Dynamics"
+          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
+          "Code": "ESPR",
+          "Name": "Esperia"
+        },
+        "role": "Light Fighter",
+        "career": "Combat",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 0,
+        "shield_hp": 4488,
+        "shield_regen": 852,
+        "dps": 1385.2,
+        "alpha": 332.4,
+        "missiles": 4,
+        "guns": [
+          {
+            "name": "Lightstrike IV Cannon",
+            "dps": 692.6
+          },
+          {
+            "name": "Lightstrike IV Cannon",
+            "dps": 692.6
+          }
+        ],
+        "qt_range_km": 36014406,
+        "qt_speed_kms": 167389,
+        "qt_spool_s": 4.9,
+        "claim_min": 11.3,
+        "mass_kg": 60243,
+        "length_m": 24,
+        "width_m": 15,
+        "height_m": 8,
+        "h2_fuel": 1600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "The Talon represents Esperia's continuing effort to preserve historically significant Tevarin ship designs. A maneuverable single-seat combat ship with light armor but powerful, directional \"Phalanx\" shields, the Talon is made to strike first and strike hard before using the shields to cover its escape."
+      }
+    },
+    {
+      "name": "Talon Shrike",
+      "company": "Esperia Incorporation",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 3260250,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 123,
+      "rent_auec": null,
+      "verdict": "Talon with missiles. Esperia light fighter variant.",
+      "stats": {
+        "name": "Esperia Talon Shrike",
+        "manufacturer": {
+          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
+          "Code": "ESPR",
+          "Name": "Esperia"
+        },
+        "role": "Light Fighter",
+        "career": "Combat",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 0,
+        "shield_hp": 4488,
+        "shield_regen": 852,
+        "dps": 617,
+        "alpha": 148,
+        "missiles": 24,
+        "guns": [
+          {
+            "name": "Lightstrike II Cannon",
+            "dps": 308.5
+          },
+          {
+            "name": "Lightstrike II Cannon",
+            "dps": 308.5
+          }
+        ],
+        "qt_range_km": 36014406,
+        "qt_speed_kms": 167389,
+        "qt_spool_s": 4.9,
+        "claim_min": 11.3,
+        "mass_kg": 59905,
+        "length_m": 24,
+        "width_m": 15,
+        "height_m": 8,
+        "h2_fuel": 1600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "The Talon represents Esperia's continuing effort to preserve historically significant Tevarin ship designs. A maneuverable single-seat combat ship with light armor but powerful, directional \"Phalanx\" shields, the Talon is made to strike first and strike hard before using the shields to cover its escape. The infamous Shrike variant model is armed with additional internal missile racks."
+      }
+    },
+    {
+      "name": "Nox",
+      "company": "Aopoa",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "racing",
+        "ground_vehicle"
+      ],
+      "buy_auec": 722925,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 48,
+      "rent_auec": null,
+      "verdict": "Aopoa hover bike. Fast, alien, no cargo.",
+      "stats": {
+        "name": "Aopoa Nox",
+        "manufacturer": {
+          "UUID": "70ac7035-10a0-4bbb-90b0-9bddf047b504",
+          "Code": "XNAA",
+          "Name": "Aopoa"
         },
         "role": "Racing",
         "career": "Competition",
         "crew": 1,
         "seats": 1,
         "cargo_scu": 0,
-        "shield_hp": 4488,
-        "shield_regen": 852,
-        "dps": null,
-        "alpha": null,
+        "shield_hp": 0,
+        "shield_regen": null,
+        "dps": 437.4,
+        "alpha": 35,
         "missiles": null,
-        "guns": [],
-        "qt_range_km": 54021609,
-        "qt_speed_kms": 167389,
-        "qt_spool_s": 4.9,
-        "claim_min": 7.6,
-        "mass_kg": 78259,
-        "length_m": 24.5,
-        "width_m": 24.5,
-        "height_m": 5,
-        "h2_fuel": 4200,
+        "guns": [
+          {
+            "name": "CF-117 Bulldog Repeater",
+            "dps": 218.7
+          },
+          {
+            "name": "CF-117 Bulldog Repeater",
+            "dps": 218.7
+          }
+        ],
+        "qt_range_km": null,
+        "qt_speed_kms": null,
+        "qt_spool_s": null,
+        "claim_min": 0.1,
+        "mass_kg": 4968,
+        "length_m": 5.15,
+        "width_m": 1.45,
+        "height_m": 1.32,
+        "h2_fuel": 1500,
+        "is_spaceship": false,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Hit the skids with the 2947 Nox. This speedy and maneuverable open-canopy racer from Aopoa is capable of zipping along planet surfaces or deep space. Available for the first time in Human space, the Nox has been specifically redesigned for Human pilots and is ready to race."
+      }
+    },
+    {
+      "name": "Prowler",
+      "company": "Esperia Incorporation",
+      "crew": "2",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 18711000,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 454,
+      "rent_auec": null,
+      "verdict": "Esperia dropship. Boarding and insertion; niche but cool.",
+      "stats": {
+        "name": "Esperia Prowler",
+        "manufacturer": {
+          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
+          "Code": "ESPR",
+          "Name": "Esperia"
+        },
+        "role": "Dropship",
+        "career": "Combat",
+        "crew": 2,
+        "seats": 2,
+        "cargo_scu": 0,
+        "shield_hp": 14960,
+        "shield_regen": 1421,
+        "dps": 4090,
+        "alpha": 2121.6,
+        "missiles": null,
+        "guns": [
+          {
+            "name": "Lightstrike III Cannon",
+            "dps": 461.7
+          },
+          {
+            "name": "Lightstrike III Cannon",
+            "dps": 461.7
+          },
+          {
+            "name": "Deadbolt V Cannon",
+            "dps": 1583.3
+          },
+          {
+            "name": "Deadbolt V Cannon",
+            "dps": 1583.3
+          }
+        ],
+        "qt_range_km": 388559093,
+        "qt_speed_kms": 210720,
+        "qt_spool_s": 7.3,
+        "claim_min": 23.2,
+        "mass_kg": 199705,
+        "length_m": 34,
+        "width_m": 32,
+        "height_m": 15,
+        "h2_fuel": 7800,
         "is_spaceship": true,
         "is_vehicle": false,
         "is_power_suit": false,
-        "description": "After seeing what fans of the Sabre Raven were able to accomplish with the fighter on the racetrack, the design team at Aegis Dynamics were inspired to craft an official racing variant for the agile ship. Enter the Sabre Peregrine. Streamlined and featuring additional thruster boosts, this nimble bird is ready to fly across the finish line."
+        "description": "Named after the UPE military designation, the Prowler is a modernized version of the infamous Tevarin boarding craft from the First Tevarin War. The Prowler's effectiveness as a rapid personnel deployment vehicle was mainly due to its silence. With the Prowler, you will find the perfect fusion of two cultures: the elegance and effectiveness of the Tevarin war machine combined with the reliability of modern UEE technology."
       }
     }
   ],
   "still_rentable": [
     {
-      "name": "ATLS",
-      "buy_auec": 71820
+      "name": "Fortune",
+      "buy_auec": 1795500
     },
     {
-      "name": "ATLS GEO",
-      "buy_auec": 86184
+      "name": "Freelancer",
+      "buy_auec": 2962580
     },
     {
-      "name": "CSV-SM",
-      "buy_auec": 359100
+      "name": "Freelancer DUR",
+      "buy_auec": 3151100
     },
     {
-      "name": "MOLE",
-      "buy_auec": 8483740
+      "name": "Freelancer MAX",
+      "buy_auec": 4039880
     },
     {
-      "name": "MOTH",
-      "buy_auec": 8483740
+      "name": "Freelancer MIS",
+      "buy_auec": 4713190
     },
     {
-      "name": "MPUV Cargo",
-      "buy_auec": 314213
+      "name": "Hull A",
+      "buy_auec": 1615950
     },
     {
-      "name": "MPUV Personnel",
-      "buy_auec": 359100
+      "name": "Hull B",
+      "buy_auec": 7541100
     },
     {
-      "name": "MPUV Tractor",
-      "buy_auec": 395010
+      "name": "Hull C",
+      "buy_auec": 15710600
     },
     {
-      "name": "RAFT",
-      "buy_auec": 3366560
+      "name": "Prospector",
+      "buy_auec": 2783020
     },
     {
-      "name": "SRV",
-      "buy_auec": 3770550
+      "name": "Reliant Kore",
+      "buy_auec": 1633900
     },
     {
-      "name": "HoverQuad",
-      "buy_auec": 53865
+      "name": "Reliant Mako",
+      "buy_auec": 2388020
     },
     {
-      "name": "Mustang Alpha",
-      "buy_auec": 610470
+      "name": "Reliant Sen",
+      "buy_auec": 2136640
     }
   ],
   "next_day": {
-    "day": 9,
+    "day": 10,
     "makers": [
-      "Aopoa",
-      "Banu Souli",
-      "Esperia",
-      "Gatac Manufacture",
-      "Grey's Market"
+      "Best in Show"
     ]
   },
   "best_in_show": false,
