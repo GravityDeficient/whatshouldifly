@@ -1,956 +1,313 @@
 {
-  "generated_utc": "2026-11-21T21:00:22Z",
+  "generated_utc": "2026-11-22T21:00:22Z",
   "event": "IAE 2956",
   "venue": "Tobin Expo Center, New Babbage, microTech",
-  "active_day": 9,
+  "active_day": 10,
   "active_makers": [
-    "Aopoa",
-    "Banu Souli",
-    "Esperia",
-    "Gatac Manufacture",
-    "Grey's Market"
+    "Best in Show"
   ],
-  "active_window_end_utc": "2026-11-22T16:00:00Z",
+  "active_window_end_utc": "2026-11-23T16:00:00Z",
   "finale": false,
   "off_season": false,
-  "total_rentable": 14,
-  "hours_left": 142,
+  "total_rentable": 4,
+  "hours_left": 118,
   "ships": [
     {
-      "name": "Prowler Utility",
-      "company": "Esperia Incorporation",
-      "crew": "2",
-      "scu": 32,
+      "name": "Ironclad Assault",
+      "company": "Drake Interplanetary",
+      "crew": "9",
+      "scu": 1440,
       "roles": [
-        "cargo"
+        "cargo",
+        "refuel",
+        "repair"
       ],
-      "buy_auec": 16839000,
-      "buy_where": "Astro Armada",
-      "pledge_usd": 275,
-      "rent_auec": 336780,
-      "verdict": "Prowler as a utility hull. Dropship without the troops.",
-      "stats": {
-        "name": "Esperia Prowler Utility",
-        "manufacturer": {
-          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
-          "Code": "ESPR",
-          "Name": "Esperia"
-        },
-        "role": "Light Freight",
-        "career": "Transporter",
-        "crew": 2,
-        "seats": 2,
-        "cargo_scu": 32,
-        "shield_hp": 14960,
-        "shield_regen": 1421,
-        "dps": 2136.6,
-        "alpha": 783.2,
-        "missiles": null,
-        "guns": [
-          {
-            "name": "Deadbolt III Cannon",
-            "dps": 375.7
-          },
-          {
-            "name": "Deadbolt III Cannon",
-            "dps": 375.7
-          },
-          {
-            "name": "Lightstrike IV Cannon",
-            "dps": 692.6
-          },
-          {
-            "name": "Lightstrike IV Cannon",
-            "dps": 692.6
-          }
-        ],
-        "qt_range_km": 404749056,
-        "qt_speed_kms": 210720,
-        "qt_spool_s": 7.3,
-        "claim_min": 21,
-        "mass_kg": 217946,
-        "length_m": 34,
-        "width_m": 32,
-        "height_m": 15,
-        "h2_fuel": 7800,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "While no known Tevarin-made examples of this historical ship exist, historians at Esperia studied contemporary UPE military field reports to reconstruct this modified Prowler. Used by the Tevarin military to deliver urgently needed supplies to the frontlines, the Prowler Utility pairs a tractor beam with a fully accessible hold, alongside the warship's still significant armaments, to make the transfer of cargo in battlefield conditions a precision operation."
-      }
-    },
-    {
-      "name": "Railen",
-      "company": "Gatac Manufacture",
-      "crew": "4",
-      "scu": 640,
-      "roles": [
-        "cargo"
-      ],
-      "buy_auec": null,
-      "buy_where": null,
-      "pledge_usd": 376,
+      "buy_auec": 42880200,
+      "buy_where": "Buy and Fly Orbituary",
+      "pledge_usd": 684,
       "rent_auec": null,
-      "verdict": "Banu cargo hauler. Alien design, real capacity.",
+      "verdict": "Drake's armored hauler. Best in Show finalist \u2014 cargo with guns.",
       "stats": {
-        "name": "Gatac Railen",
+        "name": "Drake Ironclad Assault",
         "manufacturer": {
-          "UUID": "31907472-a884-4ebc-86db-cd4f7797e514",
-          "Code": "GAMA",
-          "Name": "Gatac Manufacture"
+          "UUID": "6116471c-891d-4830-8968-650b6deafc00",
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
         },
-        "role": "Medium Freight",
-        "career": "Transporter",
-        "crew": 4,
-        "seats": 6,
-        "cargo_scu": 640,
+        "role": "Heavy Dropship",
+        "career": "Combat",
+        "crew": 7,
+        "seats": 8,
+        "cargo_scu": 1440,
         "shield_hp": 144000,
-        "shield_regen": 27360,
-        "dps": 3271.6,
-        "alpha": 261.6,
-        "missiles": 20,
-        "guns": [
-          {
-            "name": "CF-447 Rhino Repeater",
-            "dps": 817.9
-          },
-          {
-            "name": "CF-447 Rhino Repeater",
-            "dps": 817.9
-          },
-          {
-            "name": "CF-447 Rhino Repeater",
-            "dps": 817.9
-          },
-          {
-            "name": "CF-447 Rhino Repeater",
-            "dps": 817.9
-          }
-        ],
-        "qt_range_km": 1345565749,
-        "qt_speed_kms": 275943,
-        "qt_spool_s": 8,
-        "claim_min": 17,
-        "mass_kg": 1518179,
-        "length_m": 67,
-        "width_m": 53,
-        "height_m": 52,
-        "h2_fuel": 18500,
+        "shield_regen": 13680,
+        "dps": null,
+        "alpha": null,
+        "missiles": 10,
+        "guns": [],
+        "qt_range_km": 540890269,
+        "qt_speed_kms": 532469,
+        "qt_spool_s": 9.3,
+        "claim_min": 18,
+        "mass_kg": 981281,
+        "length_m": 117,
+        "width_m": 50,
+        "height_m": 25,
+        "h2_fuel": 37600,
         "is_spaceship": true,
         "is_vehicle": false,
         "is_power_suit": false,
-        "description": "Gatac's first foray into the Human market, the Railen is an elegant interspecies vessel perfect for any Human or Xi'an pilot looking for a safe, reliable solution for commercial-grade medium cargo hauling, and is a prime example of why the Xi'an Empire has trusted House Gatac with production of its industrial vessels for centuries."
+        "description": "When the special delivery you have to make is a full-blown incursion, you need the Drake Ironclad Assault. Not only can it fit multiple ground vehicles into its hold, it has turrets along its underside to clear the way for landing, and even a fabrication bay for emergency repairs."
       }
     },
     {
-      "name": "Syulen",
-      "company": "Gatac Manufacture",
+      "name": "M80",
+      "company": "Origin Jumpworks",
       "crew": "1",
-      "scu": 6,
-      "roles": [
-        "cargo"
-      ],
-      "buy_auec": 2082500,
-      "buy_where": "Astro Armada",
-      "pledge_usd": 72,
-      "rent_auec": null,
-      "verdict": "Gatac's alien starter. Genuinely different design; worth flying once.",
-      "stats": {
-        "name": "Gatac Syulen",
-        "manufacturer": {
-          "UUID": "31907472-a884-4ebc-86db-cd4f7797e514",
-          "Code": "GAMA",
-          "Name": "Gatac Manufacture"
-        },
-        "role": "Starter / Pathfinder",
-        "career": "Multi-Role",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 6,
-        "shield_hp": 4320,
-        "shield_regen": 864,
-        "dps": 1636.8,
-        "alpha": 131.1,
-        "missiles": 12,
-        "guns": [
-          {
-            "name": "CF-337 Panther Repeater",
-            "dps": 545.6
-          },
-          {
-            "name": "CF-337 Panther Repeater",
-            "dps": 545.6
-          },
-          {
-            "name": "CF-337 Panther Repeater",
-            "dps": 545.6
-          }
-        ],
-        "qt_range_km": 153061224,
-        "qt_speed_kms": 263040,
-        "qt_spool_s": 4.8,
-        "claim_min": 3.0,
-        "mass_kg": 93599,
-        "length_m": 28,
-        "width_m": 25,
-        "height_m": 16,
-        "h2_fuel": 2000,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "The Syulen cargo vessel has been artfully crafted by the renowned House Gatac to be well suited for both Human and Xi'an pilots. With a refined agile frame, the Syulen lends itself to ferrying important deliveries across the universe, or as the ideal ship for those making their transport career debut."
-      }
-    },
-    {
-      "name": "Tyilui",
-      "company": "Gatac Manufacture",
-      "crew": "1,4",
-      "scu": 96,
+      "scu": 2,
       "roles": [
         "cargo",
         "military"
       ],
-      "buy_auec": 9436330,
+      "buy_auec": 7938000,
       "buy_where": "Astro Armada",
-      "pledge_usd": 402,
+      "pledge_usd": 275,
       "rent_auec": null,
-      "verdict": "Gatac's new alien hull.",
+      "verdict": "Origin's new mid-size. Best in Show finalist \u2014 fast, expensive, and stylish. Judge it on looks, because the stats won't win you over.",
       "stats": {
-        "name": "Gatac Tyilui",
+        "name": "Origin M80",
         "manufacturer": {
-          "UUID": "31907472-a884-4ebc-86db-cd4f7797e514",
-          "Code": "GAMA",
-          "Name": "Gatac Manufacture"
-        },
-        "role": "Snub Carrier",
-        "career": "Transporter",
-        "crew": 4,
-        "seats": 6,
-        "cargo_scu": 96,
-        "shield_hp": 144000,
-        "shield_regen": 27360,
-        "dps": 3271.6,
-        "alpha": 261.6,
-        "missiles": 20,
-        "guns": [
-          {
-            "name": "CF-447 Rhino Repeater",
-            "dps": 817.9
-          },
-          {
-            "name": "CF-447 Rhino Repeater",
-            "dps": 817.9
-          },
-          {
-            "name": "CF-447 Rhino Repeater",
-            "dps": 817.9
-          },
-          {
-            "name": "CF-447 Rhino Repeater",
-            "dps": 817.9
-          }
-        ],
-        "qt_range_km": 1406727829,
-        "qt_speed_kms": 275943,
-        "qt_spool_s": 8,
-        "claim_min": 17.3,
-        "mass_kg": 1394074,
-        "length_m": 67.25,
-        "width_m": 58.75,
-        "height_m": 52,
-        "h2_fuel": 21300,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "True to the nature of the Xi'an, the Tyilui takes innovation to the next level with Gatac's most ambitious ship yet. In addition to hosting several turrets, the mini-carrier's rear-facing hangar is capable of storing multiple snub ships, providing greater operational flexibility in combat scenarios and beyond."
-      }
-    },
-    {
-      "name": "Khartu-al",
-      "company": "Aopoa",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 7229250,
-      "buy_where": "Astro Armada",
-      "pledge_usd": 187,
-      "rent_auec": null,
-      "verdict": "Alien light fighter. Fast, twitchy, no cargo. A taste of Xi'an engineering.",
-      "stats": {
-        "name": "Aopoa Khartu-al",
-        "manufacturer": {
-          "UUID": "70ac7035-10a0-4bbb-90b0-9bddf047b504",
-          "Code": "XNAA",
-          "Name": "Aopoa"
-        },
-        "role": "Light Fighter",
-        "career": "Combat",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 6336,
-        "shield_regen": 1268,
-        "dps": 1635.8,
-        "alpha": 130.8,
-        "missiles": null,
-        "guns": [
-          {
-            "name": "CF-447 Rhino Repeater",
-            "dps": 817.9
-          },
-          {
-            "name": "CF-447 Rhino Repeater",
-            "dps": 817.9
-          }
-        ],
-        "qt_range_km": 65832785,
-        "qt_speed_kms": 199273,
-        "qt_spool_s": 5.1,
-        "claim_min": 5.1,
-        "mass_kg": 75550,
-        "length_m": 32,
-        "width_m": 13.5,
-        "height_m": 8.75,
-        "h2_fuel": 1600,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "The Xi'an Aopoa corporation manufactures an export model of the Qhire Khartu, the Khartu-al, for sale to human civilians as a dedicated scout/explorer. The export model features the same Xi'an maneuvering rig, but control surfaces modified for Human use and a more limited armament."
-      }
-    },
-    {
-      "name": "San'tok.y\u0101i",
-      "company": "Aopoa",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 9355500,
-      "buy_where": "Astro Armada",
-      "pledge_usd": 257,
-      "rent_auec": null,
-      "verdict": "Aopoa heavy fighter. Alien, agile, expensive.",
-      "stats": {
-        "name": "Aopoa San'tok.y\u0101i",
-        "manufacturer": {
-          "UUID": "70ac7035-10a0-4bbb-90b0-9bddf047b504",
-          "Code": "XNAA",
-          "Name": "Aopoa"
-        },
-        "role": "Medium Fighter",
-        "career": "Combat",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 10560,
-        "shield_regen": 2006,
-        "dps": 2050,
-        "alpha": 164,
-        "missiles": 8,
-        "guns": [
-          {
-            "name": "Yeng\u2019tu Repeater",
-            "dps": 512.5
-          },
-          {
-            "name": "Yeng\u2019tu Repeater",
-            "dps": 512.5
-          },
-          {
-            "name": "Yeng\u2019tu Repeater",
-            "dps": 512.5
-          },
-          {
-            "name": "Yeng\u2019tu Repeater",
-            "dps": 512.5
-          }
-        ],
-        "qt_range_km": 48335124,
-        "qt_speed_kms": 161411,
-        "qt_spool_s": 4.4,
-        "claim_min": 7.5,
-        "mass_kg": 95404,
-        "length_m": 24,
-        "width_m": 23,
-        "height_m": 23,
-        "h2_fuel": 3800,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "Harnessing the power of next-generation Xi'an flight systems, upgraded dual-vector thrusters, and a daunting weapons package, Aopoa has crafted a fighter that retains the nimble dexterity and tight handling the brand is known for."
-      }
-    },
-    {
-      "name": "Defender",
-      "company": "Banu Souli",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 6237000,
-      "buy_where": "Astro Armada",
-      "pledge_usd": 236,
-      "rent_auec": 155925,
-      "verdict": "Banu multi-crew fighter with interior space. Unusual and capable; needs a second seat to shine.",
-      "stats": {
-        "name": "Banu Defender",
-        "manufacturer": {
-          "UUID": "2b5ba252-e826-4356-ac0d-8d88007ea386",
-          "Code": "BANU",
-          "Name": "Banu Souli"
-        },
-        "role": "Light Fighter",
-        "career": "Combat",
-        "crew": 2,
-        "seats": 2,
-        "cargo_scu": 0,
-        "shield_hp": 7680,
-        "shield_regen": 1459,
-        "dps": 1620,
-        "alpha": 4050,
-        "missiles": 6,
-        "guns": [
-          {
-            "name": "Singe Cannon (S3)",
-            "dps": 405
-          },
-          {
-            "name": "Singe Cannon (S3)",
-            "dps": 405
-          },
-          {
-            "name": "Singe Cannon (S3)",
-            "dps": 405
-          },
-          {
-            "name": "Singe Cannon (S3)",
-            "dps": 405
-          }
-        ],
-        "qt_range_km": 59076262,
-        "qt_speed_kms": 161411,
-        "qt_spool_s": 4.4,
-        "claim_min": 13.6,
-        "mass_kg": 130707,
-        "length_m": 24.5,
-        "width_m": 24.5,
-        "height_m": 5,
-        "h2_fuel": 4000,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "Meet the Banu Defender, a multi-crew fighter whose patchwork design highlights technology from a variety of species. Featuring modest accommodations for its crew and easy access to components, the Defender gets its name from the role it serves: the first line of defense against enemy attacks. That's why the Defender makes the ideal companion to the Merchantman: one to do the heavy hauling and the other to perform the deadly dogfighting."
-      }
-    },
-    {
-      "name": "Blade",
-      "company": "Esperia Incorporation",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 7796250,
-      "buy_where": "Astro Armada",
-      "pledge_usd": 295,
-      "rent_auec": null,
-      "verdict": "Esperia light fighter, Vanduul-derived.",
-      "stats": {
-        "name": "Esperia Blade",
-        "manufacturer": {
-          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
-          "Code": "ESPR",
-          "Name": "Esperia"
-        },
-        "role": "Light Fighter",
-        "career": "Combat",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 6336,
-        "shield_regen": 1204,
-        "dps": 2665.4,
-        "alpha": 1599.2,
-        "missiles": 8,
-        "guns": [
-          {
-            "name": "'WARLORD' Cannon",
-            "dps": 877.5
-          },
-          {
-            "name": "'WARLORD' Cannon",
-            "dps": 877.5
-          },
-          {
-            "name": "'WHIP' Cannon",
-            "dps": 455.2
-          },
-          {
-            "name": "'WHIP' Cannon",
-            "dps": 455.2
-          }
-        ],
-        "qt_range_km": 56169257,
-        "qt_speed_kms": 209236,
-        "qt_spool_s": 4.9,
-        "claim_min": 10.3,
-        "mass_kg": 31480,
-        "length_m": 20.5,
-        "width_m": 16.5,
-        "height_m": 5.5,
-        "h2_fuel": 1600,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "These light fighters, designation 'Blade', are often used by Vanduul as scouts and first wave assault crafts. They have also served well as skirmisher units due to their speed allowing them to chase down any ships attempting to flee the area. For some decades, United Empire of Earth aggressor squadrons have operated replica Blade fighters produced under exclusive contract by Esperia, Inc."
-      }
-    },
-    {
-      "name": "Glaive",
-      "company": "Esperia Incorporation",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": null,
-      "buy_where": null,
-      "pledge_usd": 375,
-      "rent_auec": null,
-      "verdict": "Esperia heavy fighter, Vanduul-derived.",
-      "stats": {
-        "name": "Esperia Glaive",
-        "manufacturer": {
-          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
-          "Code": "ESPR",
-          "Name": "Esperia"
-        },
-        "role": "Medium Fighter",
-        "career": "Combat",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 6336,
-        "shield_regen": 1204,
-        "dps": 2200,
-        "alpha": 2040,
-        "missiles": 8,
-        "guns": [
-          {
-            "name": "'WRATH' Cannon",
-            "dps": 808.3
-          },
-          {
-            "name": "'WRATH' Cannon",
-            "dps": 808.3
-          },
-          {
-            "name": "'WEAK' Repeater",
-            "dps": 291.7
-          },
-          {
-            "name": "'WEAK' Repeater",
-            "dps": 291.7
-          }
-        ],
-        "qt_range_km": 48335124,
-        "qt_speed_kms": 161411,
-        "qt_spool_s": 4.4,
-        "claim_min": 7.6,
-        "mass_kg": 92253,
-        "length_m": 33,
-        "width_m": 24,
-        "height_m": 9,
-        "h2_fuel": 3800,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "The Glaive is a symmetrical version of the Scythe. Generally flown by Vanduul with more combat experience, they are better armed and have two huge blades/wings as opposed to one on the standard Scythe."
-      }
-    },
-    {
-      "name": "Stinger",
-      "company": "Esperia Incorporation",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 8930250,
-      "buy_where": "Teach's Levski",
-      "pledge_usd": 290,
-      "rent_auec": null,
-      "verdict": "Esperia medium fighter.",
-      "stats": {
-        "name": "Esperia Stinger",
-        "manufacturer": {
-          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
-          "Code": "ESPR",
-          "Name": "Esperia"
+          "UUID": "1e47a9ec-a3f0-431d-be0e-377712e1ed84",
+          "Code": "ORIG",
+          "Name": "Origin Jumpworks"
         },
         "role": "Heavy Fighter",
         "career": "Combat",
         "crew": 1,
         "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 21120,
-        "shield_regen": 4012,
-        "dps": 4197.4,
-        "alpha": 1784.8,
-        "missiles": 16,
+        "cargo_scu": 2,
+        "shield_hp": 20000,
+        "shield_regen": 3800,
+        "dps": 4090.6,
+        "alpha": 327.2,
+        "missiles": 20,
         "guns": [
           {
-            "name": "'WRATH' Cannon",
-            "dps": 810
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
           },
           {
-            "name": "Lightstrike IV Cannon",
-            "dps": 692.6
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
           },
           {
-            "name": "Lightstrike IV Cannon",
-            "dps": 692.6
+            "name": "CF-557 Galdereen Repeater",
+            "dps": 1227.4
           },
           {
-            "name": "Lightstrike IV Cannon",
-            "dps": 692.6
-          },
-          {
-            "name": "Lightstrike IV Cannon",
-            "dps": 692.6
-          },
-          {
-            "name": "Lightstrike II Cannon",
-            "dps": 308.5
-          },
-          {
-            "name": "Lightstrike II Cannon",
-            "dps": 308.5
+            "name": "CF-557 Galdereen Repeater",
+            "dps": 1227.4
           }
         ],
-        "qt_range_km": 703363914,
-        "qt_speed_kms": 275943,
-        "qt_spool_s": 8,
-        "claim_min": 25.3,
-        "mass_kg": 268027,
-        "length_m": 36,
-        "width_m": 32,
-        "height_m": 11,
-        "h2_fuel": 7800,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "Wreaking havoc along Humanity's border systems, this Vanduul heavy fighter, designated 'Stinger' by the UEE Navy, has earned itself a blood-stained legacy as a major threat to pilots and capital ships alike. Originally intended for training aggressor squadrons, Esperia is now making their detailed replica available to the broader civilian population."
-      }
-    },
-    {
-      "name": "Talon",
-      "company": "Esperia Incorporation",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 3260250,
-      "buy_where": "Astro Armada",
-      "pledge_usd": 119,
-      "rent_auec": null,
-      "verdict": "Esperia light fighter. Cheap alien fighter; fun, not optimal.",
-      "stats": {
-        "name": "Esperia Talon",
-        "manufacturer": {
-          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
-          "Code": "ESPR",
-          "Name": "Esperia"
-        },
-        "role": "Light Fighter",
-        "career": "Combat",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 4488,
-        "shield_regen": 852,
-        "dps": 1385.2,
-        "alpha": 332.4,
-        "missiles": 4,
-        "guns": [
-          {
-            "name": "Lightstrike IV Cannon",
-            "dps": 692.6
-          },
-          {
-            "name": "Lightstrike IV Cannon",
-            "dps": 692.6
-          }
-        ],
-        "qt_range_km": 36014406,
-        "qt_speed_kms": 167389,
-        "qt_spool_s": 4.9,
-        "claim_min": 11.3,
-        "mass_kg": 60243,
-        "length_m": 24,
-        "width_m": 15,
-        "height_m": 8,
-        "h2_fuel": 1600,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "The Talon represents Esperia's continuing effort to preserve historically significant Tevarin ship designs. A maneuverable single-seat combat ship with light armor but powerful, directional \"Phalanx\" shields, the Talon is made to strike first and strike hard before using the shields to cover its escape."
-      }
-    },
-    {
-      "name": "Talon Shrike",
-      "company": "Esperia Incorporation",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 3260250,
-      "buy_where": "Astro Armada",
-      "pledge_usd": 123,
-      "rent_auec": null,
-      "verdict": "Talon with missiles. Esperia light fighter variant.",
-      "stats": {
-        "name": "Esperia Talon Shrike",
-        "manufacturer": {
-          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
-          "Code": "ESPR",
-          "Name": "Esperia"
-        },
-        "role": "Light Fighter",
-        "career": "Combat",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 4488,
-        "shield_regen": 852,
-        "dps": 617,
-        "alpha": 148,
-        "missiles": 24,
-        "guns": [
-          {
-            "name": "Lightstrike II Cannon",
-            "dps": 308.5
-          },
-          {
-            "name": "Lightstrike II Cannon",
-            "dps": 308.5
-          }
-        ],
-        "qt_range_km": 36014406,
-        "qt_speed_kms": 167389,
-        "qt_spool_s": 4.9,
-        "claim_min": 11.3,
-        "mass_kg": 59905,
-        "length_m": 24,
-        "width_m": 15,
-        "height_m": 8,
-        "h2_fuel": 1600,
-        "is_spaceship": true,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "The Talon represents Esperia's continuing effort to preserve historically significant Tevarin ship designs. A maneuverable single-seat combat ship with light armor but powerful, directional \"Phalanx\" shields, the Talon is made to strike first and strike hard before using the shields to cover its escape. The infamous Shrike variant model is armed with additional internal missile racks."
-      }
-    },
-    {
-      "name": "Nox",
-      "company": "Aopoa",
-      "crew": "1",
-      "scu": 0,
-      "roles": [
-        "racing",
-        "ground_vehicle"
-      ],
-      "buy_auec": 722925,
-      "buy_where": "Astro Armada",
-      "pledge_usd": 48,
-      "rent_auec": null,
-      "verdict": "Aopoa hover bike. Fast, alien, no cargo.",
-      "stats": {
-        "name": "Aopoa Nox",
-        "manufacturer": {
-          "UUID": "70ac7035-10a0-4bbb-90b0-9bddf047b504",
-          "Code": "XNAA",
-          "Name": "Aopoa"
-        },
-        "role": "Racing",
-        "career": "Competition",
-        "crew": 1,
-        "seats": 1,
-        "cargo_scu": 0,
-        "shield_hp": 0,
-        "shield_regen": null,
-        "dps": 437.4,
-        "alpha": 35,
-        "missiles": null,
-        "guns": [
-          {
-            "name": "CF-117 Bulldog Repeater",
-            "dps": 218.7
-          },
-          {
-            "name": "CF-117 Bulldog Repeater",
-            "dps": 218.7
-          }
-        ],
-        "qt_range_km": null,
-        "qt_speed_kms": null,
-        "qt_spool_s": null,
-        "claim_min": 0.1,
-        "mass_kg": 4968,
-        "length_m": 5.15,
-        "width_m": 1.45,
-        "height_m": 1.32,
-        "h2_fuel": 1500,
-        "is_spaceship": false,
-        "is_vehicle": false,
-        "is_power_suit": false,
-        "description": "Hit the skids with the 2947 Nox. This speedy and maneuverable open-canopy racer from Aopoa is capable of zipping along planet surfaces or deep space. Available for the first time in Human space, the Nox has been specifically redesigned for Human pilots and is ready to race."
-      }
-    },
-    {
-      "name": "Prowler",
-      "company": "Esperia Incorporation",
-      "crew": "2",
-      "scu": 0,
-      "roles": [
-        "military"
-      ],
-      "buy_auec": 18711000,
-      "buy_where": "Astro Armada",
-      "pledge_usd": 454,
-      "rent_auec": null,
-      "verdict": "Esperia dropship. Boarding and insertion; niche but cool.",
-      "stats": {
-        "name": "Esperia Prowler",
-        "manufacturer": {
-          "UUID": "4ecc1a24-d228-4dd5-8857-21ba6145a1d3",
-          "Code": "ESPR",
-          "Name": "Esperia"
-        },
-        "role": "Dropship",
-        "career": "Combat",
-        "crew": 2,
-        "seats": 2,
-        "cargo_scu": 0,
-        "shield_hp": 14960,
-        "shield_regen": 1421,
-        "dps": 4090,
-        "alpha": 2121.6,
-        "missiles": null,
-        "guns": [
-          {
-            "name": "Lightstrike III Cannon",
-            "dps": 461.7
-          },
-          {
-            "name": "Lightstrike III Cannon",
-            "dps": 461.7
-          },
-          {
-            "name": "Deadbolt V Cannon",
-            "dps": 1583.3
-          },
-          {
-            "name": "Deadbolt V Cannon",
-            "dps": 1583.3
-          }
-        ],
-        "qt_range_km": 388559093,
-        "qt_speed_kms": 210720,
+        "qt_range_km": 387172797,
+        "qt_speed_kms": 263400,
         "qt_spool_s": 7.3,
-        "claim_min": 23.2,
-        "mass_kg": 199705,
-        "length_m": 34,
-        "width_m": 32,
-        "height_m": 15,
-        "h2_fuel": 7800,
+        "claim_min": 11.7,
+        "mass_kg": 150669,
+        "length_m": 11.5,
+        "width_m": 11,
+        "height_m": 3.5,
+        "h2_fuel": 7200,
         "is_spaceship": true,
         "is_vehicle": false,
         "is_power_suit": false,
-        "description": "Named after the UPE military designation, the Prowler is a modernized version of the infamous Tevarin boarding craft from the First Tevarin War. The Prowler's effectiveness as a rapid personnel deployment vehicle was mainly due to its silence. With the Prowler, you will find the perfect fusion of two cultures: the elegance and effectiveness of the Tevarin war machine combined with the reliability of modern UEE technology."
+        "description": "Embrace elegance without compromising defense with the M80. Featuring Origin's famous sleek and sophisticated design, the ship's hull slyly hides an aggressive weapons systems that can be unfurled and unleashed on assailants at a moment's notice."
+      }
+    },
+    {
+      "name": "Perseus",
+      "company": "Roberts Space Industries",
+      "crew": "7",
+      "scu": 96,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 39690000,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 723,
+      "rent_auec": null,
+      "verdict": "Best in Show winner. Heavy gunship; the community voted it the ship of the year.",
+      "stats": {
+        "name": "RSI Perseus",
+        "manufacturer": {
+          "UUID": "093e6eba-93fa-4dad-b3dd-38966934e34e",
+          "Code": "RSI",
+          "Name": "Roberts Space Industries"
+        },
+        "role": "Heavy Gunship",
+        "career": "Combat",
+        "crew": 6,
+        "seats": 6,
+        "cargo_scu": 96,
+        "shield_hp": 211200,
+        "shield_regen": 40128,
+        "dps": null,
+        "alpha": null,
+        "missiles": 20,
+        "guns": [],
+        "qt_range_km": 161817587,
+        "qt_speed_kms": 392091,
+        "qt_spool_s": 7.7,
+        "claim_min": 38,
+        "mass_kg": 4178080,
+        "length_m": 100,
+        "width_m": 50,
+        "height_m": 25,
+        "h2_fuel": 54600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "When RSI set out to make the definitive modern statement in persuasive prevention, they looked into their own past, to the historic gunships designated Perseus. Capable of shredding sub-capital class goliaths, the mere presence of a Perseus gunship in a blockade or patrol squad is enough to make your most aggressive enemies think twice before engaging, just like its vintage namesake."
+      }
+    },
+    {
+      "name": "Corsair",
+      "company": "Drake Interplanetary",
+      "crew": "4",
+      "scu": 72,
+      "roles": [
+        "exploration"
+      ],
+      "buy_auec": 6224400,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 268,
+      "rent_auec": 155610,
+      "verdict": "Drake's armed explorer. Lots of guns, decent cargo, crew of four. Popular because it does everything adequately.",
+      "stats": {
+        "name": "Drake Corsair",
+        "manufacturer": {
+          "UUID": "6116471c-891d-4830-8968-650b6deafc00",
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "role": "Expedition",
+        "career": "Exploration",
+        "crew": 4,
+        "seats": 4,
+        "cargo_scu": 72,
+        "shield_hp": 100000,
+        "shield_regen": 19000,
+        "dps": 7830.8,
+        "alpha": 4357.2,
+        "missiles": 8,
+        "guns": [
+          {
+            "name": "M6A Cannon",
+            "dps": 1025.5
+          },
+          {
+            "name": "M6A Cannon",
+            "dps": 1025.5
+          },
+          {
+            "name": "M6A Cannon",
+            "dps": 1025.5
+          },
+          {
+            "name": "M6A Cannon",
+            "dps": 1025.5
+          },
+          {
+            "name": "CF-227 Badger Repeater",
+            "dps": 328.1
+          },
+          {
+            "name": "CF-227 Badger Repeater",
+            "dps": 328.1
+          },
+          {
+            "name": "M7A Cannon",
+            "dps": 1536.3
+          },
+          {
+            "name": "M7A Cannon",
+            "dps": 1536.3
+          }
+        ],
+        "qt_range_km": 681760795,
+        "qt_speed_kms": 263400,
+        "qt_spool_s": 7.3,
+        "claim_min": 17.0,
+        "mass_kg": 473611,
+        "length_m": 53,
+        "width_m": 30,
+        "height_m": 25,
+        "h2_fuel": 20600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Heed the call of uncharted space and harness the spirit of exploration with the Drake Corsair. Utilizing a unique asymmetrical hull design, this versatile explorer can go wherever the winds of adventure may steer you."
       }
     }
   ],
   "still_rentable": [
     {
-      "name": "Fortune",
-      "buy_auec": 1795500
+      "name": "Avenger Stalker",
+      "buy_auec": 1508220
     },
     {
-      "name": "Freelancer",
-      "buy_auec": 2962580
+      "name": "Avenger Titan",
+      "buy_auec": 1290370
     },
     {
-      "name": "Freelancer DUR",
-      "buy_auec": 3151100
+      "name": "Avenger Titan Renegade",
+      "buy_auec": 1759590
     },
     {
-      "name": "Freelancer MAX",
-      "buy_auec": 4039880
+      "name": "Avenger Warlock",
+      "buy_auec": 2136640
     },
     {
-      "name": "Freelancer MIS",
-      "buy_auec": 4713190
-    },
-    {
-      "name": "Hull A",
-      "buy_auec": 1615950
-    },
-    {
-      "name": "Hull B",
+      "name": "Eclipse",
       "buy_auec": 7541100
     },
     {
-      "name": "Hull C",
-      "buy_auec": 15710600
+      "name": "Gladius",
+      "buy_auec": 2262330
     },
     {
-      "name": "Prospector",
-      "buy_auec": 2783020
+      "name": "Gladius Valiant",
+      "buy_auec": 2765070
     },
     {
-      "name": "Reliant Kore",
-      "buy_auec": 1633900
+      "name": "Hammerhead",
+      "buy_auec": 34466600
     },
     {
-      "name": "Reliant Mako",
-      "buy_auec": 2388020
+      "name": "Reclaimer",
+      "buy_auec": 30164400
     },
     {
-      "name": "Reliant Sen",
-      "buy_auec": 2136640
+      "name": "Redeemer",
+      "buy_auec": 9803430
+    },
+    {
+      "name": "Retaliator",
+      "buy_auec": 7541100
+    },
+    {
+      "name": "Sabre",
+      "buy_auec": 4273290
     }
   ],
   "next_day": {
-    "day": 10,
+    "day": 11,
     "makers": [
-      "Best in Show"
+      "Finale \u2014 every IAE vehicle"
     ]
   },
-  "best_in_show": false,
-  "stock_limited": [
-    {
-      "date_utc": "2026-11-20",
-      "ships": [
-        "Idris-P",
-        "Javelin"
-      ],
-      "waves_utc": [
-        "16:00",
-        "20:00",
-        "00:00",
-        "04:00",
-        "08:00",
-        "12:00"
-      ]
-    }
-  ],
+  "best_in_show": true,
+  "stock_limited": [],
   "referral": {
     "code": "STAR-HRKX-L6ND",
     "url": "https://robertsspaceindustries.com/enlist?referral=STAR-HRKX-L6ND",
