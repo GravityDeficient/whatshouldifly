@@ -1,96 +1,1379 @@
 {
-  "generated_utc": "2026-11-22T21:00:22Z",
+  "generated_utc": "2026-11-23T21:00:22Z",
   "event": "IAE 2956",
   "venue": "Tobin Expo Center, New Babbage, microTech",
-  "active_day": 10,
+  "active_day": 11,
   "active_makers": [
-    "Best in Show"
+    "Finale \u2014 every IAE vehicle"
   ],
-  "active_window_end_utc": "2026-11-23T16:00:00Z",
-  "finale": false,
+  "active_window_end_utc": "2026-11-27T20:00:00Z",
+  "finale": true,
   "off_season": false,
-  "total_rentable": 4,
-  "hours_left": 118,
+  "total_rentable": 284,
+  "hours_left": 94,
   "ships": [
     {
-      "name": "Ironclad Assault",
-      "company": "Drake Interplanetary",
-      "crew": "9",
-      "scu": 1440,
+      "name": "Arrow",
+      "company": "Anvil Aerospace",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military",
+        "starter"
+      ],
+      "buy_auec": 1984500,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 77,
+      "rent_auec": null,
+      "verdict": "The cheap light fighter. Fast and fragile \u2014 the ship you learn combat in, not the one you win in.",
+      "stats": {
+        "name": "Anvil Arrow",
+        "manufacturer": {
+          "UUID": "b922abdb-0634-4358-9eee-60118f3cf3a7",
+          "Code": "ANVL",
+          "Name": "Anvil Aerospace"
+        },
+        "role": "Light Fighter",
+        "career": "Combat",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 0,
+        "shield_hp": 3168,
+        "shield_regen": 602,
+        "dps": 1494.4,
+        "alpha": 102.6,
+        "missiles": 6,
+        "guns": [
+          {
+            "name": "YellowJacket GT-210 Gatling",
+            "dps": 201.6
+          },
+          {
+            "name": "YellowJacket GT-210 Gatling",
+            "dps": 201.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          }
+        ],
+        "qt_range_km": 32223416,
+        "qt_speed_kms": 161411,
+        "qt_spool_s": 4.4,
+        "claim_min": 5.3,
+        "mass_kg": 35564,
+        "length_m": 17.25,
+        "width_m": 12.25,
+        "height_m": 4.5,
+        "h2_fuel": 1600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Unmatched design, blazing top speed, and ultra-responsive maneuverability make the Arrow the most agile scrapper in its class. With a robust weapons package that provides firepower to spare, this is truly the classic light fighter, updated for the next generation of combat."
+      }
+    },
+    {
+      "name": "Aurora Mk II",
+      "company": "Roberts Space Industries",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "starter"
+      ],
+      "buy_auec": 904932,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 45,
+      "rent_auec": 22623,
+      "verdict": "The free loaner you already have. Don't rent it, don't buy it. Fly it until you know what you want.",
+      "stats": {
+        "name": "RSI Aurora Mk II",
+        "manufacturer": {
+          "UUID": "093e6eba-93fa-4dad-b3dd-38966934e34e",
+          "Code": "RSI",
+          "Name": "Roberts Space Industries"
+        },
+        "role": "Starter / Light Fighter",
+        "career": "Multi-Role",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 2,
+        "shield_hp": 6000,
+        "shield_regen": 1140,
+        "dps": 1312.4,
+        "alpha": 104.8,
+        "missiles": 8,
+        "guns": [
+          {
+            "name": "CF-227 Badger Repeater",
+            "dps": 328.1
+          },
+          {
+            "name": "CF-227 Badger Repeater",
+            "dps": 328.1
+          },
+          {
+            "name": "CF-227 Badger Repeater",
+            "dps": 328.1
+          },
+          {
+            "name": "CF-227 Badger Repeater",
+            "dps": 328.1
+          }
+        ],
+        "qt_range_km": 98749177,
+        "qt_speed_kms": 199273,
+        "qt_spool_s": 5.1,
+        "claim_min": 5.8,
+        "mass_kg": 69688,
+        "length_m": 27.7,
+        "width_m": 27.4,
+        "height_m": 8,
+        "h2_fuel": 1500,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "A new take of the classic ship, Roberts Space Industries has reimagined the tried-and-true Aurora from the struts up. Introducing the Aurora Mk II. Everything from the ship's performance, usability, to its styling has been overhauled with a new generation of pilots in mind. Plus, this latest version introduces a new trick for the Aurora series - swappable modules. Rather than locking pilots into a single career path, these modules allow for straightforward operational specialization from the comfort of your hangar. Whether you're a first-time shipowner, or a long-time pilot ready for an upgrade to your daily flyer, the Aurora Mk II is waiting for you."
+      }
+    },
+    {
+      "name": "Avenger Titan",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 8,
       "roles": [
         "cargo",
-        "refuel",
-        "repair"
+        "starter"
       ],
-      "buy_auec": 42880200,
-      "buy_where": "Buy and Fly Orbituary",
-      "pledge_usd": 684,
-      "rent_auec": null,
-      "verdict": "Drake's armored hauler. Best in Show finalist \u2014 cargo with guns.",
+      "buy_auec": 1290370,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 62,
+      "rent_auec": 27165,
+      "verdict": "The default answer for a first ship. 8 SCU, one seat, guns enough to take a starter bounty. Fly it free, then buy it in-game \u2014 it's the cheapest real ship you can own.",
       "stats": {
-        "name": "Drake Ironclad Assault",
+        "name": "Aegis Avenger Titan",
+        "manufacturer": {
+          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
+          "Code": "AEGS",
+          "Name": "Aegis Dynamics"
+        },
+        "role": "Light Freight",
+        "career": "Transporter",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 8,
+        "shield_hp": 4320,
+        "shield_regen": 820,
+        "dps": 2359.6,
+        "alpha": 500.7,
+        "missiles": 4,
+        "guns": [
+          {
+            "name": "Revenant Gatling",
+            "dps": 1266
+          },
+          {
+            "name": "Omnisky IX Cannon",
+            "dps": 546.8
+          },
+          {
+            "name": "Omnisky IX Cannon",
+            "dps": 546.8
+          }
+        ],
+        "qt_range_km": 61224490,
+        "qt_speed_kms": 189309,
+        "qt_spool_s": 4.6,
+        "claim_min": 4.0,
+        "mass_kg": 55706,
+        "length_m": 20,
+        "width_m": 15,
+        "height_m": 6.5,
+        "h2_fuel": 1600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Lacking the Prisoner Cells of the Stalker or the EMP Generator of the Warlock, the Titan's hold is free to carry cargo. Couple that available space with the Avenger's tried and true combat abilities and you've got a light cargo hauler that's more than capable of handling itself in a fight."
+      }
+    },
+    {
+      "name": "Cutlass Black",
+      "company": "Drake Interplanetary",
+      "crew": "3",
+      "scu": 46,
+      "roles": [
+        "military",
+        "starter"
+      ],
+      "buy_auec": 2010960,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 114,
+      "rent_auec": 50274,
+      "verdict": "The do-everything mid-game ship: 46 SCU, turret, room for a friend. If you only ever buy one ship in-game, this is the argument.",
+      "stats": {
+        "name": "Drake Cutlass Black",
         "manufacturer": {
           "UUID": "6116471c-891d-4830-8968-650b6deafc00",
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
-        "role": "Heavy Dropship",
-        "career": "Combat",
-        "crew": 7,
-        "seats": 8,
-        "cargo_scu": 1440,
-        "shield_hp": 144000,
-        "shield_regen": 13680,
-        "dps": null,
-        "alpha": null,
-        "missiles": 10,
-        "guns": [],
-        "qt_range_km": 540890269,
-        "qt_speed_kms": 532469,
-        "qt_spool_s": 9.3,
-        "claim_min": 18,
-        "mass_kg": 981281,
-        "length_m": 117,
-        "width_m": 50,
-        "height_m": 25,
-        "h2_fuel": 37600,
+        "role": "Light Freight / Medium Fighter",
+        "career": "Multi-Role",
+        "crew": 3,
+        "seats": 3,
+        "cargo_scu": 46,
+        "shield_hp": 7200,
+        "shield_regen": 1368,
+        "dps": 2797.8,
+        "alpha": 151.4,
+        "missiles": 16,
+        "guns": [
+          {
+            "name": "Mantis GT-220 Gatling",
+            "dps": 853.3
+          },
+          {
+            "name": "Mantis GT-220 Gatling",
+            "dps": 853.3
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          }
+        ],
+        "qt_range_km": 422018349,
+        "qt_speed_kms": 238314,
+        "qt_spool_s": 6.9,
+        "claim_min": 10.0,
+        "mass_kg": 253527,
+        "length_m": 37.5,
+        "width_m": 26.5,
+        "height_m": 11.5,
+        "h2_fuel": 7800,
         "is_spaceship": true,
         "is_vehicle": false,
         "is_power_suit": false,
-        "description": "When the special delivery you have to make is a full-blown incursion, you need the Drake Ironclad Assault. Not only can it fit multiple ground vehicles into its hold, it has turrets along its underside to clear the way for landing, and even a fabrication bay for emergency repairs."
+        "description": "Drake Interplanetary claims that the Cutlass Black is a low-cost, easy-to-maintain solution for local in-system militia units. The larger-than-average cargo hold, RIO seat and dedicated tractor mount are, the company literature insists, for facilitating search and rescue operations."
       }
     },
     {
-      "name": "M80",
-      "company": "Origin Jumpworks",
+      "name": "Intrepid",
+      "company": "Crusader Industries",
+      "crew": "1",
+      "scu": 8,
+      "roles": [
+        "cargo",
+        "starter"
+      ],
+      "buy_auec": 1173060,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 59,
+      "rent_auec": null,
+      "verdict": "Crusader's starter. Small cargo, solo, cheap. Fine first ship, nothing special.",
+      "stats": {
+        "name": "Crusader Intrepid",
+        "manufacturer": {
+          "UUID": "63685f47-b0cc-4ebe-8f16-72793a5cd6e0",
+          "Code": "CRUS",
+          "Name": "Crusader Industries"
+        },
+        "role": "Starter / Light Freight",
+        "career": "Starter",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 8,
+        "shield_hp": 2160,
+        "shield_regen": 432,
+        "dps": 817.9,
+        "alpha": 65.4,
+        "missiles": 2,
+        "guns": [
+          {
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
+          }
+        ],
+        "qt_range_km": 153061224,
+        "qt_speed_kms": 263040,
+        "qt_spool_s": 4.8,
+        "claim_min": 5.7,
+        "mass_kg": 80541,
+        "length_m": 23.07,
+        "width_m": 20.18,
+        "height_m": 6.13,
+        "h2_fuel": 1500,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "For those eager to meet their future head on, the renowned ship engineers at Crusader Industries proudly present the Intrepid. A bold ship ready to tackle any number of jobs and conquer numerous challenges, the Intrepid features efficient cargo space and comfortable living quarters to make the most of your solo journey across the stars."
+      }
+    },
+    {
+      "name": "MOLE",
+      "company": "Argo Astronautics",
+      "crew": "5",
+      "scu": 32,
+      "roles": [
+        "mining"
+      ],
+      "buy_auec": 8483740,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 325,
+      "rent_auec": 223256,
+      "verdict": "Three-person mining. More ore per run, but you need crew. Solo it and you're paying for seats you aren't using.",
+      "stats": {
+        "name": "Argo MOLE",
+        "manufacturer": {
+          "UUID": "9e1f5a35-edcc-4d19-bede-08e2730043c5",
+          "Code": "ARGO",
+          "Name": "Argo Astronautics"
+        },
+        "role": "Medium Mining",
+        "career": "Industrial",
+        "crew": 4,
+        "seats": 2,
+        "cargo_scu": 32,
+        "shield_hp": 100000,
+        "shield_regen": 19000,
+        "dps": 656.2,
+        "alpha": 52.4,
+        "missiles": null,
+        "guns": [
+          {
+            "name": "CF-227 Badger Repeater",
+            "dps": 328.1
+          },
+          {
+            "name": "CF-227 Badger Repeater",
+            "dps": 328.1
+          }
+        ],
+        "qt_range_km": 1048492792,
+        "qt_speed_kms": 303537,
+        "qt_spool_s": 7.2,
+        "claim_min": 13.5,
+        "mass_kg": 883088,
+        "length_m": 45,
+        "width_m": 26,
+        "height_m": 15,
+        "h2_fuel": 11000,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Argo's iconic multi-operator laser extractor, more commonly referred to as the MOLE, lets you work faster and more effectively than ever before, thanks to its patented trilateral mining system. Three independently controlled articulated extraction stations allow for maximum power and near-limitless versatility. The MOLE lives by the adage \"many hands make for light work\"."
+      }
+    },
+    {
+      "name": "Prospector",
+      "company": "Musashi Industrial and Starflight Concern",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "mining"
+      ],
+      "buy_auec": 2783020,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 160,
+      "rent_auec": 69575,
+      "verdict": "Solo mining. The most reliable money-maker for a new player. Rent it, mine one haul, sell it, and you'll understand the economy.",
+      "stats": {
+        "name": "MISC Prospector",
+        "manufacturer": {
+          "UUID": "b28a5c61-63a4-478b-8047-5fba545d5b8a",
+          "Code": "MISC",
+          "Name": "Musashi Industrial and Starflight Concern"
+        },
+        "role": "Light Mining",
+        "career": "Industrial",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 0,
+        "shield_hp": 4320,
+        "shield_regen": 546.67,
+        "dps": 437.4,
+        "alpha": 35,
+        "missiles": null,
+        "guns": [
+          {
+            "name": "CF-117 Bulldog Repeater",
+            "dps": 218.7
+          },
+          {
+            "name": "CF-117 Bulldog Repeater",
+            "dps": 218.7
+          }
+        ],
+        "qt_range_km": 155172414,
+        "qt_speed_kms": 219200,
+        "qt_spool_s": 5.3,
+        "claim_min": 9,
+        "mass_kg": 142387,
+        "length_m": 26.5,
+        "width_m": 16.5,
+        "height_m": 8,
+        "h2_fuel": 5300,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "For years, the Prospector has been the universe's preferred mining vessel for solo operators. Featuring MISC's sleek design sensibility and a bevy of upgraded high-tech mining tools, the 2947 Prospector perfectly balances form and functionality."
+      }
+    },
+    {
+      "name": "Reclaimer",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 420,
+      "roles": [
+        "salvage"
+      ],
+      "buy_auec": 30164400,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 413,
+      "rent_auec": null,
+      "verdict": "The big salvage ship: 420 SCU, claw, drones. This is the highest-earning solo industrial loop in the game, and it's slow. Rent it free and run one wreck before you commit.",
+      "stats": {
+        "name": "Aegis Reclaimer",
+        "manufacturer": {
+          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
+          "Code": "AEGS",
+          "Name": "Aegis Dynamics"
+        },
+        "role": "Heavy Salvage",
+        "career": "Industrial",
+        "crew": 5,
+        "seats": 12,
+        "cargo_scu": 420,
+        "shield_hp": 194400,
+        "shield_regen": 14256,
+        "dps": null,
+        "alpha": null,
+        "missiles": null,
+        "guns": [],
+        "qt_range_km": 564182195,
+        "qt_speed_kms": 532469,
+        "qt_spool_s": 9.3,
+        "claim_min": 30.7,
+        "mass_kg": 9798032,
+        "length_m": 160,
+        "width_m": 120,
+        "height_m": 55,
+        "h2_fuel": 57600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "The Aegis Reclaimer is an industrial salvage ship. Equipped with a reinforced cargo bay, a long-range jump drive and launch pods for unmanned drones, the Reclaimer is an ideal ship for taking advantage of deep space wrecks. Tractor beams, floodlights, scanner options and docking ports round out the tools on this capable, utilitarian spacecraft."
+      }
+    },
+    {
+      "name": "ROC",
+      "company": "Greycat Industrial",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "mining",
+        "ground_vehicle"
+      ],
+      "buy_auec": 98753,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 57,
+      "rent_auec": 2468,
+      "verdict": "Ground mining vehicle. Fits in a Cutlass; a genuinely good solo money loop.",
+      "stats": {
+        "name": "Greycat ROC",
+        "manufacturer": {
+          "UUID": "819545f4-18af-49a6-814e-ca4fd08f56e5",
+          "Code": "GRIN",
+          "Name": "Greycat Industrial"
+        },
+        "role": "Light Mining",
+        "career": "Industrial",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 0,
+        "shield_hp": 0,
+        "shield_regen": null,
+        "dps": null,
+        "alpha": null,
+        "missiles": null,
+        "guns": [],
+        "qt_range_km": null,
+        "qt_speed_kms": null,
+        "qt_spool_s": null,
+        "claim_min": 3.5,
+        "mass_kg": 23028,
+        "length_m": 6,
+        "width_m": 3.9,
+        "height_m": 3.5,
+        "h2_fuel": 0,
+        "is_spaceship": false,
+        "is_vehicle": true,
+        "is_power_suit": false,
+        "description": "By focusing on the essentials of terrestrial-based mining, Greycat Industrial designed their hardworking, no-nonsense ROC (Remote Ore Collector) to complement the miners who use it. From its precision gimbaled mining arm to its all-terrain wheels, this solo-operated vehicle shows how important it is to have the right tool for the job."
+      }
+    },
+    {
+      "name": "Vulture",
+      "company": "Drake Interplanetary",
+      "crew": "1",
+      "scu": 12,
+      "roles": [
+        "salvage"
+      ],
+      "buy_auec": 2513700,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 181,
+      "rent_auec": 69457,
+      "verdict": "Small salvage. Solo, cheap to run, and the honest entry point to the salvage loop \u2014 this is the one to try before the Reclaimer.",
+      "stats": {
+        "name": "Drake Vulture",
+        "manufacturer": {
+          "UUID": "6116471c-891d-4830-8968-650b6deafc00",
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "role": "Light Salvage",
+        "career": "Industrial",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 12,
+        "shield_hp": 4320,
+        "shield_regen": 546.67,
+        "dps": 437.4,
+        "alpha": 35,
+        "missiles": null,
+        "guns": [
+          {
+            "name": "CF-117 Bulldog Repeater",
+            "dps": 218.7
+          },
+          {
+            "name": "CF-117 Bulldog Repeater",
+            "dps": 218.7
+          }
+        ],
+        "qt_range_km": 155172414,
+        "qt_speed_kms": 219200,
+        "qt_spool_s": 5.3,
+        "claim_min": 9,
+        "mass_kg": 189009,
+        "length_m": 34,
+        "width_m": 16,
+        "height_m": 9,
+        "h2_fuel": 4800,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Answer to no one, cut out the middle man, and throw caution to the wind. Rip wrecks like a pro and carve out your own place in the great big empty behind the stick of this rough, rugged salvage machine from Drake Interplanetary."
+      }
+    },
+    {
+      "name": "C1 Spirit",
+      "company": "Crusader Industries",
+      "crew": "2",
+      "scu": 64,
+      "roles": [
+        "cargo"
+      ],
+      "buy_auec": 3118500,
+      "buy_where": "New Deal Crusader",
+      "pledge_usd": 129,
+      "rent_auec": 62370,
+      "verdict": "Crusader's mid cargo runner. Fast, 64 SCU, soloable. A legitimate alternative to a Freelancer.",
+      "stats": {
+        "name": "Crusader C1 Spirit",
+        "manufacturer": {
+          "UUID": "63685f47-b0cc-4ebe-8f16-72793a5cd6e0",
+          "Code": "CRUS",
+          "Name": "Crusader Industries"
+        },
+        "role": "Light Freight",
+        "career": "Transporter",
+        "crew": 2,
+        "seats": 2,
+        "cargo_scu": 64,
+        "shield_hp": 10560,
+        "shield_regen": 2006,
+        "dps": 2734.4,
+        "alpha": 1640.8,
+        "missiles": 4,
+        "guns": [
+          {
+            "name": "M5A Cannon",
+            "dps": 683.6
+          },
+          {
+            "name": "M5A Cannon",
+            "dps": 683.6
+          },
+          {
+            "name": "M5A Cannon",
+            "dps": 683.6
+          },
+          {
+            "name": "M5A Cannon",
+            "dps": 683.6
+          }
+        ],
+        "qt_range_km": 257754478,
+        "qt_speed_kms": 223514,
+        "qt_spool_s": 6,
+        "claim_min": 6.8,
+        "mass_kg": 328813,
+        "length_m": 47.5,
+        "width_m": 44,
+        "height_m": 10,
+        "h2_fuel": 7300,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Crusader Industries brings its usual commitment to excellence directly to the civilian market with the C1 Spirit, a mid-size multi-purpose starship built for cargo transport and delivery but packing enough versatility to tackle multiple roles and unpredictable jobs."
+      }
+    },
+    {
+      "name": "Cutter",
+      "company": "Drake Interplanetary",
+      "crew": "1",
+      "scu": 4,
+      "roles": [
+        "cargo"
+      ],
+      "buy_auec": 603288,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 46,
+      "rent_auec": 9050,
+      "verdict": "Drake starter. Rugged, cheap, no frills \u2014 a legitimate first ship.",
+      "stats": {
+        "name": "Drake Cutter",
+        "manufacturer": {
+          "UUID": "6116471c-891d-4830-8968-650b6deafc00",
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "role": "Starter / Pathfinder",
+        "career": "Exploration",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 4,
+        "shield_hp": 2160,
+        "shield_regen": 432,
+        "dps": 656.2,
+        "alpha": 52.4,
+        "missiles": 4,
+        "guns": [
+          {
+            "name": "CF-227 Badger Repeater",
+            "dps": 328.1
+          },
+          {
+            "name": "CF-227 Badger Repeater",
+            "dps": 328.1
+          }
+        ],
+        "qt_range_km": 136054422,
+        "qt_speed_kms": 263040,
+        "qt_spool_s": 4.8,
+        "claim_min": 3.4,
+        "mass_kg": 89914,
+        "length_m": 20,
+        "width_m": 16,
+        "height_m": 6,
+        "h2_fuel": 1600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Designed for hard-working folks of all stripes, the Cutter packs 4 SCU of cargo room and plenty of wallop into a rough and tumble, compact frame. It's a ship that truly embodies the spirit of Drake: that no matter who you are or what you do, you can reach the stars."
+      }
+    },
+    {
+      "name": "Freelancer MAX",
+      "company": "Musashi Industrial and Starflight Concern",
+      "crew": "1",
+      "scu": 120,
+      "roles": [
+        "cargo"
+      ],
+      "buy_auec": 4039880,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 155,
+      "rent_auec": 80797,
+      "verdict": "120 SCU on a solo hull. The best pure hauler you can buy in-game at the low end.",
+      "stats": {
+        "name": "MISC Freelancer MAX",
+        "manufacturer": {
+          "UUID": "b28a5c61-63a4-478b-8047-5fba545d5b8a",
+          "Code": "MISC",
+          "Name": "Musashi Industrial and Starflight Concern"
+        },
+        "role": "Medium Freight",
+        "career": "Transporter",
+        "crew": 4,
+        "seats": 9,
+        "cargo_scu": 120,
+        "shield_hp": 20000,
+        "shield_regen": 2533.33,
+        "dps": 2187.2,
+        "alpha": 874.8,
+        "missiles": 8,
+        "guns": [
+          {
+            "name": "Omnisky IX Cannon",
+            "dps": 546.8
+          },
+          {
+            "name": "Omnisky IX Cannon",
+            "dps": 546.8
+          },
+          {
+            "name": "Omnisky IX Cannon",
+            "dps": 546.8
+          },
+          {
+            "name": "Omnisky IX Cannon",
+            "dps": 546.8
+          }
+        ],
+        "qt_range_km": 587155963,
+        "qt_speed_kms": 238314,
+        "qt_spool_s": 6.9,
+        "claim_min": 16.5,
+        "mass_kg": 370665,
+        "length_m": 38,
+        "width_m": 34,
+        "height_m": 9.5,
+        "h2_fuel": 8000,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Freelancer variant with additional cargo capacity at the expense of weapons. The Freelancer MAX variant sacrifices weaponry for an increased cargo capacity making it ideal for equipment or raw materials transport."
+      }
+    },
+    {
+      "name": "Hull B",
+      "company": "Musashi Industrial and Starflight Concern",
+      "crew": "1,2",
+      "scu": 512,
+      "roles": [
+        "cargo"
+      ],
+      "buy_auec": 7541100,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 234,
+      "rent_auec": null,
+      "verdict": "Mid hauler. More capacity, still soloable.",
+      "stats": {
+        "name": "MISC Hull B",
+        "manufacturer": {
+          "UUID": "b28a5c61-63a4-478b-8047-5fba545d5b8a",
+          "Code": "MISC",
+          "Name": "Musashi Industrial and Starflight Concern"
+        },
+        "role": "Medium Freight",
+        "career": "Transporter",
+        "crew": 2,
+        "seats": 2,
+        "cargo_scu": 512,
+        "shield_hp": 14400,
+        "shield_regen": 1440,
+        "dps": 2182.4,
+        "alpha": 174.8,
+        "missiles": 8,
+        "guns": [
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          }
+        ],
+        "qt_range_km": 1541284404,
+        "qt_speed_kms": 301029,
+        "qt_spool_s": 8,
+        "claim_min": 11.7,
+        "mass_kg": 508792,
+        "length_m": 71,
+        "width_m": 16.7,
+        "height_m": 10.7,
+        "h2_fuel": 8000,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "The MISC Hull B is a rugged option for pilots seeking a dedicated cargo transport. While not as large as some of the other Hull-series models, the Hull B's smaller profile provides greater flexibility and more access options."
+      }
+    },
+    {
+      "name": "Nomad",
+      "company": "Consolidated Outland",
+      "crew": "1",
+      "scu": 24,
+      "roles": [
+        "cargo"
+      ],
+      "buy_auec": 1436400,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 83,
+      "rent_auec": 28728,
+      "verdict": "Starter-plus: 24 SCU, a tractor beam, and a livable cabin. The step between a starter and a Cutlass.",
+      "stats": {
+        "name": "C.O. Nomad",
+        "manufacturer": {
+          "UUID": "ec227ef3-fb08-4897-abdb-579eb4e87c25",
+          "Code": "CNOU",
+          "Name": "Consolidated Outland"
+        },
+        "role": "Starter / Light Freight",
+        "career": "Transporter",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 24,
+        "shield_hp": 4320,
+        "shield_regen": 546.67,
+        "dps": 1636.8,
+        "alpha": 131.1,
+        "missiles": 8,
+        "guns": [
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          }
+        ],
+        "qt_range_km": 102040816,
+        "qt_speed_kms": 189309,
+        "qt_spool_s": 4.6,
+        "claim_min": 4.0,
+        "mass_kg": 231436,
+        "length_m": 27,
+        "width_m": 19,
+        "height_m": 10,
+        "h2_fuel": 1600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "With the versatility of a medium-sized multi-purpose freighter packed into a stylish, compact frame, the Consolidated Outland Nomad is the model of self-sufficiency, the spirit of the open sky, and the perfect solution for anyone yearning to start a brand-new adventure."
+      }
+    },
+    {
+      "name": "RAFT",
+      "company": "Argo Astronautics",
+      "crew": "2",
+      "scu": 192,
+      "roles": [
+        "cargo"
+      ],
+      "buy_auec": 3366560,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 196,
+      "rent_auec": 67331,
+      "verdict": "Argo's cargo hauler. 192 SCU, soloable, industrial. A real alternative to a Freelancer MAX.",
+      "stats": {
+        "name": "Argo RAFT",
+        "manufacturer": {
+          "UUID": "9e1f5a35-edcc-4d19-bede-08e2730043c5",
+          "Code": "ARGO",
+          "Name": "Argo Astronautics"
+        },
+        "role": "Medium Freight",
+        "career": "Transporter",
+        "crew": 2,
+        "seats": 3,
+        "cargo_scu": 192,
+        "shield_hp": 14400,
+        "shield_regen": 1824,
+        "dps": null,
+        "alpha": null,
+        "missiles": null,
+        "guns": [],
+        "qt_range_km": 1100917431,
+        "qt_speed_kms": 275943,
+        "qt_spool_s": 8,
+        "claim_min": 14,
+        "mass_kg": 668067,
+        "length_m": 39.5,
+        "width_m": 23,
+        "height_m": 12,
+        "h2_fuel": 8000,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "The Argo RAFT features a hefty 192 SCU cargo hold, and is capable of carrying standardized 32 SCU cargo containers. Perfect for entry-level haulers and old pros alike, the RAFT is an ideal solution for reliable local freight transport."
+      }
+    },
+    {
+      "name": "Syulen",
+      "company": "Gatac Manufacture",
+      "crew": "1",
+      "scu": 6,
+      "roles": [
+        "cargo"
+      ],
+      "buy_auec": 2082500,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 72,
+      "rent_auec": null,
+      "verdict": "Gatac's alien starter. Genuinely different design; worth flying once.",
+      "stats": {
+        "name": "Gatac Syulen",
+        "manufacturer": {
+          "UUID": "31907472-a884-4ebc-86db-cd4f7797e514",
+          "Code": "GAMA",
+          "Name": "Gatac Manufacture"
+        },
+        "role": "Starter / Pathfinder",
+        "career": "Multi-Role",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 6,
+        "shield_hp": 4320,
+        "shield_regen": 864,
+        "dps": 1636.8,
+        "alpha": 131.1,
+        "missiles": 12,
+        "guns": [
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          }
+        ],
+        "qt_range_km": 153061224,
+        "qt_speed_kms": 263040,
+        "qt_spool_s": 4.8,
+        "claim_min": 3.0,
+        "mass_kg": 93599,
+        "length_m": 28,
+        "width_m": 25,
+        "height_m": 16,
+        "h2_fuel": 2000,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "The Syulen cargo vessel has been artfully crafted by the renowned House Gatac to be well suited for both Human and Xi'an pilots. With a refined agile frame, the Syulen lends itself to ferrying important deliveries across the universe, or as the ideal ship for those making their transport career debut."
+      }
+    },
+    {
+      "name": "Zeus Mk II CL",
+      "company": "Roberts Space Industries",
+      "crew": "3",
+      "scu": 128,
+      "roles": [
+        "cargo"
+      ],
+      "buy_auec": 6463800,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 181,
+      "rent_auec": null,
+      "verdict": "RSI's mid cargo ship. Soloable, good capacity. A legitimate alternative to a Freelancer.",
+      "stats": {
+        "name": "RSI Zeus Mk II CL",
+        "manufacturer": {
+          "UUID": "093e6eba-93fa-4dad-b3dd-38966934e34e",
+          "Code": "RSI",
+          "Name": "Roberts Space Industries"
+        },
+        "role": "Medium Freight",
+        "career": "Transporter",
+        "crew": 3,
+        "seats": 9,
+        "cargo_scu": 128,
+        "shield_hp": 14400,
+        "shield_regen": 2112,
+        "dps": 2730.6,
+        "alpha": 743.2,
+        "missiles": 8,
+        "guns": [
+          {
+            "name": "Omnisky XII Cannon",
+            "dps": 819.7
+          },
+          {
+            "name": "Omnisky XII Cannon",
+            "dps": 819.7
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          }
+        ],
+        "qt_range_km": 762540212,
+        "qt_speed_kms": 326114,
+        "qt_spool_s": 6.2,
+        "claim_min": 10.7,
+        "mass_kg": 305132,
+        "length_m": 46,
+        "width_m": 35,
+        "height_m": 9,
+        "h2_fuel": 7300,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Ready to ferry a whole new generation of travelers across the universe, Roberts Space Industries is proud to introduce a starship eight centuries in the making - the all-new Zeus Mk II spacecraft. Paying homage to the classic design that launched Humanity to the stars in 2140, the Zeus Mk II has been updated to exceed modern standards while retaining the heart of this beloved spacefaring icon. With a focus on commerce, the Zeus Mk II CL edition features additional cargo space and a tractor beam ideal for handling large volumes of cargo."
+      }
+    },
+    {
+      "name": "Buccaneer",
+      "company": "Drake Interplanetary",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 1580040,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 114,
+      "rent_auec": 39501,
+      "verdict": "Drake's cheap fighter. Fast, fragile, hits hard. A good 'learn to fight' hull.",
+      "stats": {
+        "name": "Drake Buccaneer",
+        "manufacturer": {
+          "UUID": "6116471c-891d-4830-8968-650b6deafc00",
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "role": "Light Fighter",
+        "career": "Combat",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 0,
+        "shield_hp": 2160,
+        "shield_regen": 410,
+        "dps": 2760.4,
+        "alpha": 165.9,
+        "missiles": 4,
+        "guns": [
+          {
+            "name": "YellowJacket GT-210 Gatling",
+            "dps": 201.6
+          },
+          {
+            "name": "YellowJacket GT-210 Gatling",
+            "dps": 201.6
+          },
+          {
+            "name": "Revenant Gatling",
+            "dps": 1266
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          }
+        ],
+        "qt_range_km": 65530799,
+        "qt_speed_kms": 209236,
+        "qt_spool_s": 4.9,
+        "claim_min": 5.4,
+        "mass_kg": 43853,
+        "length_m": 16.75,
+        "width_m": 15.25,
+        "height_m": 5.5,
+        "h2_fuel": 1600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "The Buccaneer has been designed from the ground up to fly and fight the way you live. No leather interiors or hyperpillows here: the Bucc is a scrapper designed to maneuver and fight above its weight class. This rough-and-tumble frontier fighter can be maintained in the worst of conditions in order to keep real, working space crews alive."
+      }
+    },
+    {
+      "name": "Defender",
+      "company": "Banu Souli",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 6237000,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 236,
+      "rent_auec": 155925,
+      "verdict": "Banu multi-crew fighter with interior space. Unusual and capable; needs a second seat to shine.",
+      "stats": {
+        "name": "Banu Defender",
+        "manufacturer": {
+          "UUID": "2b5ba252-e826-4356-ac0d-8d88007ea386",
+          "Code": "BANU",
+          "Name": "Banu Souli"
+        },
+        "role": "Light Fighter",
+        "career": "Combat",
+        "crew": 2,
+        "seats": 2,
+        "cargo_scu": 0,
+        "shield_hp": 7680,
+        "shield_regen": 1459,
+        "dps": 1620,
+        "alpha": 4050,
+        "missiles": 6,
+        "guns": [
+          {
+            "name": "Singe Cannon (S3)",
+            "dps": 405
+          },
+          {
+            "name": "Singe Cannon (S3)",
+            "dps": 405
+          },
+          {
+            "name": "Singe Cannon (S3)",
+            "dps": 405
+          },
+          {
+            "name": "Singe Cannon (S3)",
+            "dps": 405
+          }
+        ],
+        "qt_range_km": 59076262,
+        "qt_speed_kms": 161411,
+        "qt_spool_s": 4.4,
+        "claim_min": 13.6,
+        "mass_kg": 130707,
+        "length_m": 24.5,
+        "width_m": 24.5,
+        "height_m": 5,
+        "h2_fuel": 4000,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Meet the Banu Defender, a multi-crew fighter whose patchwork design highlights technology from a variety of species. Featuring modest accommodations for its crew and easy access to components, the Defender gets its name from the role it serves: the first line of defense against enemy attacks. That's why the Defender makes the ideal companion to the Merchantman: one to do the heavy hauling and the other to perform the deadly dogfighting."
+      }
+    },
+    {
+      "name": "Eclipse",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military",
+        "stealth"
+      ],
+      "buy_auec": 7541100,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 321,
+      "rent_auec": null,
+      "verdict": "Torpedo bomber. One pass, one kill, then you leave. Slow to turn and useless in a dogfight; judge it on a single bounty, not a furball.",
+      "stats": {
+        "name": "Aegis Eclipse",
+        "manufacturer": {
+          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
+          "Code": "AEGS",
+          "Name": "Aegis Dynamics"
+        },
+        "role": "Stealth Bomber",
+        "career": "Combat",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 0,
+        "shield_hp": 4488,
+        "shield_regen": 898,
+        "dps": 656.2,
+        "alpha": 52.4,
+        "missiles": 3,
+        "guns": [
+          {
+            "name": "CF-227 Badger Repeater",
+            "dps": 328.1
+          },
+          {
+            "name": "CF-227 Badger Repeater",
+            "dps": 328.1
+          }
+        ],
+        "qt_range_km": 54021609,
+        "qt_speed_kms": 167389,
+        "qt_spool_s": 4.9,
+        "claim_min": 16.5,
+        "mass_kg": 58598,
+        "length_m": 24.5,
+        "width_m": 24.5,
+        "height_m": 5,
+        "h2_fuel": 1200,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "The Aegis Eclipse is a bomber designed to get in and strike before it's ever even spotted. After extensive service with the UEE, this high-tech military equipment made its civilian market debut in 2947."
+      }
+    },
+    {
+      "name": "F7C Hornet Mk II",
+      "company": "Anvil Aerospace",
       "crew": "1",
       "scu": 2,
       "roles": [
-        "cargo",
         "military"
       ],
-      "buy_auec": 7938000,
-      "buy_where": "Astro Armada",
-      "pledge_usd": 275,
+      "buy_auec": 4650340,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 181,
       "rent_auec": null,
-      "verdict": "Origin's new mid-size. Best in Show finalist \u2014 fast, expensive, and stylish. Judge it on looks, because the stats won't win you over.",
+      "verdict": "Medium fighter, the military standard. More armor than an Arrow, less agility.",
       "stats": {
-        "name": "Origin M80",
+        "name": "Anvil F7C Hornet Mk II",
         "manufacturer": {
-          "UUID": "1e47a9ec-a3f0-431d-be0e-377712e1ed84",
-          "Code": "ORIG",
-          "Name": "Origin Jumpworks"
+          "UUID": "b922abdb-0634-4358-9eee-60118f3cf3a7",
+          "Code": "ANVL",
+          "Name": "Anvil Aerospace"
         },
-        "role": "Heavy Fighter",
+        "role": "Medium Fighter",
         "career": "Combat",
         "crew": 1,
         "seats": 1,
         "cargo_scu": 2,
-        "shield_hp": 20000,
-        "shield_regen": 3800,
-        "dps": 4090.6,
-        "alpha": 327.2,
-        "missiles": 20,
+        "shield_hp": 6336,
+        "shield_regen": 1204,
+        "dps": 2532,
+        "alpha": 126.6,
+        "missiles": 8,
+        "guns": [
+          {
+            "name": "Revenant Gatling",
+            "dps": 1266
+          },
+          {
+            "name": "Revenant Gatling",
+            "dps": 1266
+          }
+        ],
+        "qt_range_km": 98749177,
+        "qt_speed_kms": 199273,
+        "qt_spool_s": 5.1,
+        "claim_min": 11.3,
+        "mass_kg": 72841,
+        "length_m": 22.5,
+        "width_m": 22,
+        "height_m": 6.5,
+        "h2_fuel": 3800,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Straight from the front lines to your personal hangar, the re-engineered F7C Hornet Mk II takes the latest battlefield upgrades and makes them available to private pilots across the empire. The fighter features an improved power system utilized by an overhauled weapon and missile package"
+      }
+    },
+    {
+      "name": "Gladius",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 2262330,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 93,
+      "rent_auec": null,
+      "verdict": "The PvP benchmark. Light fighter, agile, no cargo. If combat is your loop, this is the ship you measure every other fighter against.",
+      "stats": {
+        "name": "Aegis Gladius",
+        "manufacturer": {
+          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
+          "Code": "AEGS",
+          "Name": "Aegis Dynamics"
+        },
+        "role": "Light Fighter",
+        "career": "Combat",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 0,
+        "shield_hp": 6336,
+        "shield_regen": 1204,
+        "dps": 1944.5,
+        "alpha": 119.4,
+        "missiles": 6,
+        "guns": [
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "Mantis GT-220 Gatling",
+            "dps": 853.3
+          }
+        ],
+        "qt_range_km": 32223416,
+        "qt_speed_kms": 161411,
+        "qt_spool_s": 4.4,
+        "claim_min": 5.8,
+        "mass_kg": 55646,
+        "length_m": 21,
+        "width_m": 17.5,
+        "height_m": 5.5,
+        "h2_fuel": 1600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "The Gladius is an older design which has been updated over the years to keep up with modern technology. In military circles, the Gladius is beloved for its performance and its simplicity. A fast, light fighter with a laser-focus on dogfighting, the Gladius is an ideal interceptor or escort ship."
+      }
+    },
+    {
+      "name": "Hurricane",
+      "company": "Anvil Aerospace",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 5556600,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 225,
+      "rent_auec": null,
+      "verdict": "Two-seat fighter: pilot guns plus a turret. Strong with a gunner, mediocre alone.",
+      "stats": {
+        "name": "Anvil Hurricane",
+        "manufacturer": {
+          "UUID": "b922abdb-0634-4358-9eee-60118f3cf3a7",
+          "Code": "ANVL",
+          "Name": "Anvil Aerospace"
+        },
+        "role": "Heavy Fighter",
+        "career": "Combat",
+        "crew": 2,
+        "seats": 2,
+        "cargo_scu": 0,
+        "shield_hp": 10560,
+        "shield_regen": 2006,
+        "dps": 1635.8,
+        "alpha": 130.8,
+        "missiles": 4,
         "guns": [
           {
             "name": "CF-447 Rhino Repeater",
@@ -99,75 +1382,377 @@
           {
             "name": "CF-447 Rhino Repeater",
             "dps": 817.9
-          },
-          {
-            "name": "CF-557 Galdereen Repeater",
-            "dps": 1227.4
-          },
-          {
-            "name": "CF-557 Galdereen Repeater",
-            "dps": 1227.4
           }
         ],
-        "qt_range_km": 387172797,
-        "qt_speed_kms": 263400,
-        "qt_spool_s": 7.3,
-        "claim_min": 11.7,
-        "mass_kg": 150669,
-        "length_m": 11.5,
-        "width_m": 11,
-        "height_m": 3.5,
-        "h2_fuel": 7200,
+        "qt_range_km": 91836735,
+        "qt_speed_kms": 189309,
+        "qt_spool_s": 4.6,
+        "claim_min": 8.6,
+        "mass_kg": 95017,
+        "length_m": 24,
+        "width_m": 18.5,
+        "height_m": 6.5,
+        "h2_fuel": 7800,
         "is_spaceship": true,
         "is_vehicle": false,
         "is_power_suit": false,
-        "description": "Embrace elegance without compromising defense with the M80. Featuring Origin's famous sleek and sophisticated design, the ship's hull slyly hides an aggressive weapons systems that can be unfurled and unleashed on assailants at a moment's notice."
+        "description": "Big things do come in small packages: the Hurricane is a fighting spacecraft that packs a deadly punch into a slight fuselage. The spacecraft compensates for its lack of creature comforts with its powerful armament: six guns capable of blasting their way through nearly anything. Hurricane pilots have yet to find an enemy shield they can't knock down."
       }
     },
     {
-      "name": "Perseus",
-      "company": "Roberts Space Industries",
-      "crew": "7",
-      "scu": 96,
+      "name": "Javelin",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
       "roles": [
         "military"
       ],
-      "buy_auec": 39690000,
-      "buy_where": "Astro Armada",
-      "pledge_usd": 723,
+      "buy_auec": null,
+      "buy_where": null,
+      "pledge_usd": 2892,
       "rent_auec": null,
-      "verdict": "Best in Show winner. Heavy gunship; the community voted it the ship of the year.",
+      "verdict": "Destroyer. The biggest thing most players will ever stand on. Wave-limited; treat it as a field trip.",
+      "stats": null
+    },
+    {
+      "name": "Khartu-al",
+      "company": "Aopoa",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 7229250,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 187,
+      "rent_auec": null,
+      "verdict": "Alien light fighter. Fast, twitchy, no cargo. A taste of Xi'an engineering.",
       "stats": {
-        "name": "RSI Perseus",
+        "name": "Aopoa Khartu-al",
         "manufacturer": {
-          "UUID": "093e6eba-93fa-4dad-b3dd-38966934e34e",
-          "Code": "RSI",
-          "Name": "Roberts Space Industries"
+          "UUID": "70ac7035-10a0-4bbb-90b0-9bddf047b504",
+          "Code": "XNAA",
+          "Name": "Aopoa"
         },
-        "role": "Heavy Gunship",
+        "role": "Light Fighter",
         "career": "Combat",
-        "crew": 6,
-        "seats": 6,
-        "cargo_scu": 96,
-        "shield_hp": 211200,
-        "shield_regen": 40128,
-        "dps": null,
-        "alpha": null,
-        "missiles": 20,
-        "guns": [],
-        "qt_range_km": 161817587,
-        "qt_speed_kms": 392091,
-        "qt_spool_s": 7.7,
-        "claim_min": 38,
-        "mass_kg": 4178080,
-        "length_m": 100,
-        "width_m": 50,
-        "height_m": 25,
-        "h2_fuel": 54600,
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 0,
+        "shield_hp": 6336,
+        "shield_regen": 1268,
+        "dps": 1635.8,
+        "alpha": 130.8,
+        "missiles": null,
+        "guns": [
+          {
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
+          },
+          {
+            "name": "CF-447 Rhino Repeater",
+            "dps": 817.9
+          }
+        ],
+        "qt_range_km": 65832785,
+        "qt_speed_kms": 199273,
+        "qt_spool_s": 5.1,
+        "claim_min": 5.1,
+        "mass_kg": 75550,
+        "length_m": 32,
+        "width_m": 13.5,
+        "height_m": 8.75,
+        "h2_fuel": 1600,
         "is_spaceship": true,
         "is_vehicle": false,
         "is_power_suit": false,
-        "description": "When RSI set out to make the definitive modern statement in persuasive prevention, they looked into their own past, to the historic gunships designated Perseus. Capable of shredding sub-capital class goliaths, the mere presence of a Perseus gunship in a blockade or patrol squad is enough to make your most aggressive enemies think twice before engaging, just like its vintage namesake."
+        "description": "The Xi'an Aopoa corporation manufactures an export model of the Qhire Khartu, the Khartu-al, for sale to human civilians as a dedicated scout/explorer. The export model features the same Xi'an maneuvering rig, but control surfaces modified for Human use and a more limited armament."
+      }
+    },
+    {
+      "name": "Sabre",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 4273290,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 187,
+      "rent_auec": null,
+      "verdict": "Stealth fighter. Lower signature, harder to spot on radar \u2014 good for ambush, worse in a straight brawl than the Gladius.",
+      "stats": {
+        "name": "Aegis Sabre",
+        "manufacturer": {
+          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
+          "Code": "AEGS",
+          "Name": "Aegis Dynamics"
+        },
+        "role": "Stealth Fighter",
+        "career": "Combat",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 0,
+        "shield_hp": 4488,
+        "shield_regen": 852,
+        "dps": 2182.4,
+        "alpha": 174.8,
+        "missiles": 4,
+        "guns": [
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          }
+        ],
+        "qt_range_km": 54021609,
+        "qt_speed_kms": 167389,
+        "qt_spool_s": 4.9,
+        "claim_min": 9.4,
+        "mass_kg": 90414,
+        "length_m": 24.5,
+        "width_m": 24.5,
+        "height_m": 5,
+        "h2_fuel": 2600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Part of Aegis Dynamics' Phase Two of new ship models, the Sabre was designed as a space superiority fighter for those situations where you need to leave a lighter footprint. Designed to be a rapid responder, the Sabre is more than capable of establishing battlefield dominance for any number of combat scenarios."
+      }
+    },
+    {
+      "name": "San'tok.y\u0101i",
+      "company": "Aopoa",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 9355500,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 257,
+      "rent_auec": null,
+      "verdict": "Aopoa heavy fighter. Alien, agile, expensive.",
+      "stats": {
+        "name": "Aopoa San'tok.y\u0101i",
+        "manufacturer": {
+          "UUID": "70ac7035-10a0-4bbb-90b0-9bddf047b504",
+          "Code": "XNAA",
+          "Name": "Aopoa"
+        },
+        "role": "Medium Fighter",
+        "career": "Combat",
+        "crew": 1,
+        "seats": 1,
+        "cargo_scu": 0,
+        "shield_hp": 10560,
+        "shield_regen": 2006,
+        "dps": 2050,
+        "alpha": 164,
+        "missiles": 8,
+        "guns": [
+          {
+            "name": "Yeng\u2019tu Repeater",
+            "dps": 512.5
+          },
+          {
+            "name": "Yeng\u2019tu Repeater",
+            "dps": 512.5
+          },
+          {
+            "name": "Yeng\u2019tu Repeater",
+            "dps": 512.5
+          },
+          {
+            "name": "Yeng\u2019tu Repeater",
+            "dps": 512.5
+          }
+        ],
+        "qt_range_km": 48335124,
+        "qt_speed_kms": 161411,
+        "qt_spool_s": 4.4,
+        "claim_min": 7.5,
+        "mass_kg": 95404,
+        "length_m": 24,
+        "width_m": 23,
+        "height_m": 23,
+        "h2_fuel": 3800,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Harnessing the power of next-generation Xi'an flight systems, upgraded dual-vector thrusters, and a daunting weapons package, Aopoa has crafted a fighter that retains the nimble dexterity and tight handling the brand is known for."
+      }
+    },
+    {
+      "name": "Vanguard Warden",
+      "company": "Aegis Dynamics",
+      "crew": "1",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 7354900,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 278,
+      "rent_auec": null,
+      "verdict": "Long-range heavy fighter with interior space. Expensive, tanky, and forgiving \u2014 a good 'I fly alone a lot' combat pick.",
+      "stats": {
+        "name": "Aegis Vanguard Warden",
+        "manufacturer": {
+          "UUID": "cf4a74bf-eb2c-462a-9b78-f7f2724c31d2",
+          "Code": "AEGS",
+          "Name": "Aegis Dynamics"
+        },
+        "role": "Heavy Fighter",
+        "career": "Combat",
+        "crew": 2,
+        "seats": 5,
+        "cargo_scu": 0,
+        "shield_hp": 21120,
+        "shield_regen": 4012,
+        "dps": 3403.3,
+        "alpha": 2042,
+        "missiles": 12,
+        "guns": [
+          {
+            "name": "Deadbolt V Cannon",
+            "dps": 1583.3
+          },
+          {
+            "name": "MVSA Cannon",
+            "dps": 455
+          },
+          {
+            "name": "MVSA Cannon",
+            "dps": 455
+          },
+          {
+            "name": "MVSA Cannon",
+            "dps": 455
+          },
+          {
+            "name": "MVSA Cannon",
+            "dps": 455
+          }
+        ],
+        "qt_range_km": 265572187,
+        "qt_speed_kms": 203194,
+        "qt_spool_s": 6.6,
+        "claim_min": 18.2,
+        "mass_kg": 256316,
+        "length_m": 48,
+        "width_m": 40,
+        "height_m": 9.5,
+        "h2_fuel": 7800,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "A hard-charging bulldog of a fighter which features extensive forward-mounted weaponry designed to tear through the shields and armor of other spacecraft. So-named because their multiple-jump range allows them to form the vanguard of any military expedition, Vanguards have seen extensive service against the Vanduul."
+      }
+    },
+    {
+      "name": "890 Jump",
+      "company": "Origin Jumpworks",
+      "crew": "1",
+      "scu": 388,
+      "roles": [
+        "passenger"
+      ],
+      "buy_auec": 62088400,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 890,
+      "rent_auec": null,
+      "verdict": "The yacht. Not a tool, a statement. Rent it once to walk around it, then go back to earning.",
+      "stats": {
+        "name": "Origin 890 Jump",
+        "manufacturer": {
+          "UUID": "1e47a9ec-a3f0-431d-be0e-377712e1ed84",
+          "Code": "ORIG",
+          "Name": "Origin Jumpworks"
+        },
+        "role": "Luxury Touring",
+        "career": "Exploration",
+        "crew": 8,
+        "seats": 8,
+        "cargo_scu": 388,
+        "shield_hp": 720000,
+        "shield_regen": 52800,
+        "dps": null,
+        "alpha": null,
+        "missiles": 40,
+        "guns": [],
+        "qt_range_km": 539967374,
+        "qt_speed_kms": 1262910,
+        "qt_spool_s": 9.9,
+        "claim_min": 67.5,
+        "mass_kg": 44347377,
+        "length_m": 210,
+        "width_m": 80,
+        "height_m": 45,
+        "h2_fuel": 58800,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "With an elegant, sleek exterior that belies its spacious interior, the 890 Jump is a true engineering marvel; crafted to impress from every angle by combining a unique, innovative design with the finest materials and the most advanced technology. The result is a vessel that is in a class all of its own, a masterpiece worthy of the name Origin."
+      }
+    },
+    {
+      "name": "Carrack",
+      "company": "Anvil Aerospace",
+      "crew": "6",
+      "scu": 456,
+      "roles": [
+        "exploration",
+        "repair"
+      ],
+      "buy_auec": 34398000,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 643,
+      "rent_auec": null,
+      "verdict": "Exploration flagship with a med bay, hangar and rover. Not a money-maker \u2014 it's a home base. Rent it to see what the endgame feels like.",
+      "stats": {
+        "name": "Anvil Carrack",
+        "manufacturer": {
+          "UUID": "b922abdb-0634-4358-9eee-60118f3cf3a7",
+          "Code": "ANVL",
+          "Name": "Anvil Aerospace"
+        },
+        "role": "Expedition",
+        "career": "Exploration",
+        "crew": 6,
+        "seats": 12,
+        "cargo_scu": 456,
+        "shield_hp": 144000,
+        "shield_regen": 28800,
+        "dps": null,
+        "alpha": null,
+        "missiles": null,
+        "guns": [],
+        "qt_range_km": 540890269,
+        "qt_speed_kms": 532469,
+        "qt_spool_s": 9.3,
+        "claim_min": 48.3,
+        "mass_kg": 4419660,
+        "length_m": 126,
+        "width_m": 74,
+        "height_m": 30,
+        "h2_fuel": 40600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "Adventure calls and Anvil Aerospace answers with the Carrack. Built to endure extreme conditions in both space and atmosphere, this self-sustaining explorer has more than earned its long-standing status as the go-to pathfinder for both military and civilian service."
       }
     },
     {
@@ -248,65 +1833,285 @@
         "is_power_suit": false,
         "description": "Heed the call of uncharted space and harness the spirit of exploration with the Drake Corsair. Utilizing a unique asymmetrical hull design, this versatile explorer can go wherever the winds of adventure may steer you."
       }
+    },
+    {
+      "name": "Idris-P",
+      "company": "Aegis Dynamics",
+      "crew": "8,28",
+      "scu": 1374,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": null,
+      "buy_where": null,
+      "pledge_usd": 1607,
+      "rent_auec": null,
+      "verdict": "Frigate. Stock-limited in waves \u2014 if you want to see one fly, be at the terminal on time.",
+      "stats": null
+    },
+    {
+      "name": "Mercury Star Runner",
+      "company": "Crusader Industries",
+      "crew": "2,3",
+      "scu": 114,
+      "roles": [
+        "datarunner"
+      ],
+      "buy_auec": 12285000,
+      "buy_where": "New Deal Crusader",
+      "pledge_usd": 278,
+      "rent_auec": null,
+      "verdict": "Fast data-runner with cargo. Soloable, quick, good-looking. A popular all-rounder.",
+      "stats": {
+        "name": "Crusader Mercury Star Runner",
+        "manufacturer": {
+          "UUID": "63685f47-b0cc-4ebe-8f16-72793a5cd6e0",
+          "Code": "CRUS",
+          "Name": "Crusader Industries"
+        },
+        "role": "Medium Freight",
+        "career": "Transporter",
+        "crew": 3,
+        "seats": 5,
+        "cargo_scu": 114,
+        "shield_hp": 72000,
+        "shield_regen": 13680,
+        "dps": 1091.2,
+        "alpha": 87.4,
+        "missiles": 6,
+        "guns": [
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          }
+        ],
+        "qt_range_km": 1238532110,
+        "qt_speed_kms": 275943,
+        "qt_spool_s": 8,
+        "claim_min": 21,
+        "mass_kg": 727814,
+        "length_m": 55,
+        "width_m": 51,
+        "height_m": 19,
+        "h2_fuel": 16000,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "If you need it there fast and unscathed, the Mercury checks all the boxes expected of a dependable courier vessel and then some. Built with the same engineering and design principles that have made Crusader Industries the go-to manufacturer for galactic transport on any scale, the Mercury Star Runner will let you stay ahead of schedule, trouble, and the competition."
+      }
+    },
+    {
+      "name": "Perseus",
+      "company": "Roberts Space Industries",
+      "crew": "7",
+      "scu": 96,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 39690000,
+      "buy_where": "Astro Armada",
+      "pledge_usd": 723,
+      "rent_auec": null,
+      "verdict": "Best in Show winner. Heavy gunship; the community voted it the ship of the year.",
+      "stats": {
+        "name": "RSI Perseus",
+        "manufacturer": {
+          "UUID": "093e6eba-93fa-4dad-b3dd-38966934e34e",
+          "Code": "RSI",
+          "Name": "Roberts Space Industries"
+        },
+        "role": "Heavy Gunship",
+        "career": "Combat",
+        "crew": 6,
+        "seats": 6,
+        "cargo_scu": 96,
+        "shield_hp": 211200,
+        "shield_regen": 40128,
+        "dps": null,
+        "alpha": null,
+        "missiles": 20,
+        "guns": [],
+        "qt_range_km": 161817587,
+        "qt_speed_kms": 392091,
+        "qt_spool_s": 7.7,
+        "claim_min": 38,
+        "mass_kg": 4178080,
+        "length_m": 100,
+        "width_m": 50,
+        "height_m": 25,
+        "h2_fuel": 54600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "When RSI set out to make the definitive modern statement in persuasive prevention, they looked into their own past, to the historic gunships designated Perseus. Capable of shredding sub-capital class goliaths, the mere presence of a Perseus gunship in a blockade or patrol squad is enough to make your most aggressive enemies think twice before engaging, just like its vintage namesake."
+      }
+    },
+    {
+      "name": "Polaris",
+      "company": "Roberts Space Industries",
+      "crew": "6,12",
+      "scu": 576,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": null,
+      "buy_where": null,
+      "pledge_usd": 1044,
+      "rent_auec": null,
+      "verdict": "Capital torpedo boat. Needs a crew and a reason. Rent it for the spectacle.",
+      "stats": {
+        "name": "RSI Polaris",
+        "manufacturer": {
+          "UUID": "093e6eba-93fa-4dad-b3dd-38966934e34e",
+          "Code": "RSI",
+          "Name": "Roberts Space Industries"
+        },
+        "role": "Corvette",
+        "career": "Combat",
+        "crew": 12,
+        "seats": 12,
+        "cargo_scu": 576,
+        "shield_hp": 648000,
+        "shield_regen": 47520,
+        "dps": null,
+        "alpha": null,
+        "missiles": 56,
+        "guns": [],
+        "qt_range_km": 435589255,
+        "qt_speed_kms": 629281,
+        "qt_spool_s": 7.3,
+        "claim_min": 75.8,
+        "mass_kg": 11113607,
+        "length_m": 181,
+        "width_m": 87,
+        "height_m": 40,
+        "h2_fuel": 58800,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "The Polaris is a nimble corvette-class capital ship that packs a powerful punch with a full armament of turrets and torpedoes. Intended for use as both a naval patrol ship and to serve as the flagship of militia operations, Polaris has the capacity to perform search and rescue operations, light strike missions and general security patrols. The Polaris includes the facilities to repair, rearm and refuel a single fighter, light bomber or support ship."
+      }
+    },
+    {
+      "name": "Scorpius",
+      "company": "Roberts Space Industries",
+      "crew": "2",
+      "scu": 0,
+      "roles": [
+        "military"
+      ],
+      "buy_auec": 5171040,
+      "buy_where": "New Deal Lorville",
+      "pledge_usd": 255,
+      "rent_auec": null,
+      "verdict": "RSI's two-seat fighter. Strong with a gunner, mediocre alone.",
+      "stats": {
+        "name": "RSI Scorpius",
+        "manufacturer": {
+          "UUID": "093e6eba-93fa-4dad-b3dd-38966934e34e",
+          "Code": "RSI",
+          "Name": "Roberts Space Industries"
+        },
+        "role": "Heavy Fighter",
+        "career": "Combat",
+        "crew": 2,
+        "seats": 2,
+        "cargo_scu": 0,
+        "shield_hp": 10560,
+        "shield_regen": 2006,
+        "dps": 2182.4,
+        "alpha": 174.8,
+        "missiles": 16,
+        "guns": [
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          },
+          {
+            "name": "CF-337 Panther Repeater",
+            "dps": 545.6
+          }
+        ],
+        "qt_range_km": 98749177,
+        "qt_speed_kms": 199273,
+        "qt_spool_s": 5.1,
+        "claim_min": 7.6,
+        "mass_kg": 105088,
+        "length_m": 32,
+        "width_m": 24,
+        "height_m": 13,
+        "h2_fuel": 8600,
+        "is_spaceship": true,
+        "is_vehicle": false,
+        "is_power_suit": false,
+        "description": "With an adaptable bi-wing configuration and revolutionary rail-mounted remote turret, the Scorpius offers unprecedented fire coverage, allowing for both defensive and assault-minded applications."
+      }
     }
   ],
   "still_rentable": [
     {
-      "name": "Avenger Stalker",
-      "buy_auec": 1508220
+      "name": "Nox",
+      "buy_auec": 722925
     },
     {
-      "name": "Avenger Titan",
-      "buy_auec": 1290370
+      "name": "Blade",
+      "buy_auec": 7796250
     },
     {
-      "name": "Avenger Titan Renegade",
-      "buy_auec": 1759590
+      "name": "Glaive",
+      "buy_auec": null
     },
     {
-      "name": "Avenger Warlock",
-      "buy_auec": 2136640
+      "name": "Prowler",
+      "buy_auec": 18711000
     },
     {
-      "name": "Eclipse",
-      "buy_auec": 7541100
+      "name": "Prowler Utility",
+      "buy_auec": 16839000
     },
     {
-      "name": "Gladius",
-      "buy_auec": 2262330
+      "name": "Stinger",
+      "buy_auec": 8930250
     },
     {
-      "name": "Gladius Valiant",
-      "buy_auec": 2765070
+      "name": "Talon",
+      "buy_auec": 3260250
     },
     {
-      "name": "Hammerhead",
-      "buy_auec": 34466600
+      "name": "Talon Shrike",
+      "buy_auec": 3260250
     },
     {
-      "name": "Reclaimer",
-      "buy_auec": 30164400
+      "name": "Railen",
+      "buy_auec": null
     },
     {
-      "name": "Redeemer",
-      "buy_auec": 9803430
+      "name": "Tyilui",
+      "buy_auec": 9436330
     },
     {
-      "name": "Retaliator",
-      "buy_auec": 7541100
+      "name": "Ironclad Assault",
+      "buy_auec": 42880200
     },
     {
-      "name": "Sabre",
-      "buy_auec": 4273290
+      "name": "M80",
+      "buy_auec": 7938000
     }
   ],
-  "next_day": {
-    "day": 11,
-    "makers": [
-      "Finale \u2014 every IAE vehicle"
-    ]
-  },
-  "best_in_show": true,
+  "next_day": null,
+  "best_in_show": false,
   "stock_limited": [],
   "referral": {
     "code": "STAR-HRKX-L6ND",
