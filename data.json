@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-23T21:00:22Z",
+  "generated_utc": "2026-11-24T21:00:22Z",
   "event": "IAE 2956",
   "venue": "Tobin Expo Center, New Babbage, microTech",
   "active_day": 11,
@@ -9,8 +9,8 @@
   "active_window_end_utc": "2026-11-27T20:00:00Z",
   "finale": true,
   "off_season": false,
-  "total_rentable": 284,
-  "hours_left": 94,
+  "total_rentable": 285,
+  "hours_left": 70,
   "ships": [
     {
       "name": "Arrow",
@@ -2061,46 +2061,6 @@
     }
   ],
   "still_rentable": [
-    {
-      "name": "Nox",
-      "buy_auec": 722925
-    },
-    {
-      "name": "Blade",
-      "buy_auec": 7796250
-    },
-    {
-      "name": "Glaive",
-      "buy_auec": null
-    },
-    {
-      "name": "Prowler",
-      "buy_auec": 18711000
-    },
-    {
-      "name": "Prowler Utility",
-      "buy_auec": 16839000
-    },
-    {
-      "name": "Stinger",
-      "buy_auec": 8930250
-    },
-    {
-      "name": "Talon",
-      "buy_auec": 3260250
-    },
-    {
-      "name": "Talon Shrike",
-      "buy_auec": 3260250
-    },
-    {
-      "name": "Railen",
-      "buy_auec": null
-    },
-    {
-      "name": "Tyilui",
-      "buy_auec": 9436330
-    },
     {
       "name": "Ironclad Assault",
       "buy_auec": 42880200
